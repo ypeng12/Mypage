@@ -4,261 +4,280 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yuliang Peng | Portfolio</title>
+    <title>Yuliang Peng | Software Engineer</title>
     <meta name="description" content="Portfolio of Yuliang Peng, a Software Engineer and Machine Learning Researcher.">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
 <body>
-    <div class="layout-wrapper">
-        <!-- Sidebar -->
-        <aside class="sidebar">
-            <div class="sidebar-content">
-                <div class="profile-section">
-                    <img src="WechatIMG279.jpg" alt="Yuliang Peng" class="profile-pic">
-                    <h1 class="name">Yuliang Peng</h1>
-                    <p class="title">Software Engineer &<br>ML Researcher</p>
-                    <p class="bio">MS in Machine Learning at UMD. passionate about AI systems, distributed computing,
-                        and building scalable applications.</p>
-                </div>
 
-                <nav class="nav">
-                    <ul class="nav-list">
-                        <li><a href="#projects" class="nav-link active">Projects</a></li>
-                        <li><a href="#experience" class="nav-link">Experience</a></li>
-                        <li><a href="#education" class="nav-link">Education</a></li>
-                        <li><a href="#skills" class="nav-link">Skills</a></li>
-                        <li><a href="#contact" class="nav-link">Contact</a></li>
-                    </ul>
-                </nav>
-
-                <div class="social-links">
-                    <a href="https://github.com/ypeng12" target="_blank" aria-label="GitHub"><i
-                            class="fab fa-github"></i></a>
-                    <a href="https://linkedin.com/in/ypeng12" target="_blank" aria-label="LinkedIn"><i
-                            class="fab fa-linkedin"></i></a>
-                    <a href="mailto:pengyuliang31@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
-                </div>
-
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="container navbar-container">
+            <a href="#" class="logo">YP.</a>
+            <nav class="nav-menu">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <a href="YuliangPeng.pdf" target="_blank" class="nav-btn">Resume</a>
                 <button class="theme-toggle" aria-label="Toggle Dark Mode">
                     <i class="fas fa-moon"></i>
                 </button>
+            </nav>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
             </div>
-        </aside>
+        </div>
+    </header>
 
-        <!-- Main Content -->
-        <main class="main-content">
+    <!-- Hero Section -->
+    <section id="about" class="hero">
+        <div class="container hero-container">
+            <div class="hero-image-wrapper">
+                <img src="WechatIMG279.jpg" alt="Yuliang Peng" class="hero-img">
+            </div>
+            <h1 class="hero-title">Hi, I'm <span class="highlight">Yuliang Peng.</span></h1>
+            <p class="hero-subtitle">Actively Seeking Software Engineer & Machine Learning Engineer Roles</p>
+            <p class="hero-bio">
+                M.S. in Machine Learning at <a href="https://umd.edu" target="_blank" class="text-link">University of
+                    Maryland</a>.
+                Passionate about building scalable infrastructure, distributed systems, and exploring the mathematics of
+                AI.
+            </p>
 
-            <!-- Projects Section -->
-            <section id="projects" class="section projects-section">
-                <h2 class="section-title">Selected Projects</h2>
-                <div class="projects-grid">
-                    <!-- Project 1 -->
-                    <article class="project-card featured">
-                        <div class="project-content">
-                            <div class="project-header">
-                                <h3>Tabit - AI Chrome Extension</h3>
-                                <div class="project-links">
-                                    <a href="https://github.com/Yucklys/TabIt/tree/ypeng12" target="_blank"><i
-                                            class="fab fa-github"></i></a>
-                                </div>
-                            </div>
-                            <p class="project-desc">A smart browser extension for tab management using local AI.
-                                Features session persistence, history-based organization, and hierarchical clustering
-                                for 100+ tabs.</p>
-                            <div class="tech-stack">
-                                <span>React</span>
-                                <span>Vite</span>
-                                <span>Web Workers</span>
-                                <span>Manifest V3</span>
-                            </div>
+            <div class="social-links">
+                <a href="YuliangPeng.pdf" target="_blank" class="social-btn primary-btn"><i class="fas fa-file-alt"></i>
+                    Resume</a>
+                <a href="https://github.com/ypeng12" target="_blank" class="social-btn"><i class="fab fa-github"></i>
+                    GitHub</a>
+                <a href="https://linkedin.com/in/ypeng12" target="_blank" class="social-btn"><i
+                        class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href="mailto:pengyuliang31@gmail.com" class="social-btn"><i class="fas fa-envelope"></i> Email</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+
+                <div class="timeline-item">
+                    <div class="line-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Research Assistant</h3>
+                            <span class="company">University of Maryland, College Park</span>
+                            <span class="date">Nov 2025 - Present</span>
                         </div>
-                    </article>
-
-                    <!-- Project 2 -->
-                    <article class="project-card">
-                        <div class="project-content">
-                            <div class="project-header">
-                                <h3>Product Matching Tool</h3>
-                                <div class="project-links">
-                                    <a href="https://github.com/ypeng12/Image-Based-Product-Matching-Tool"
-                                        target="_blank"><i class="fab fa-github"></i></a>
-                                </div>
-                            </div>
-                            <p class="project-desc">Internal tool using perceptual hashing and SSIM to match product
-                                images across e-commerce platforms. Automated verification pipeline reducing manual work
-                                by 80%.</p>
-                            <div class="tech-stack">
-                                <span>Python</span>
-                                <span>Selenium</span>
-                                <span>Scikit-image</span>
-                                <span>ML</span>
-                            </div>
-                        </div>
-                    </article>
-
-                    <!-- Placeholder Project 3 -->
-                    <article class="project-card">
-                        <div class="project-content">
-                            <div class="project-header">
-                                <h3>Neural Network from Scratch</h3>
-                                <div class="project-links">
-                                    <a href="https://github.com/ypeng12/Neural-Network-Implementation-from-Scratch"
-                                        target="_blank"><i class="fab fa-github"></i></a>
-                                </div>
-                            </div>
-                            <p class="project-desc">Research project implementing core deep learning algorithms
-                                (backpropagation, optimizers) without external ML libraries. Focused on understanding
-                                the mathematics of AI.</p>
-                            <div class="tech-stack">
-                                <span>Python</span>
-                                <span>NumPy</span>
-                                <span>Deep Learning</span>
-                                <span>Research Project</span>
-                            </div>
-                        </div>
-                    </article>
-
-                    <!-- Project 4: Terpiez-Go -->
-                    <article class="project-card">
-                        <div class="project-content">
-                            <div class="project-header">
-                                <h3>Terpiez AR Game</h3>
-                                <div class="project-links">
-                                    <a href="https://github.com/ypeng12/Terpiez-Go" target="_blank"><i
-                                            class="fab fa-github"></i></a>
-                                </div>
-                            </div>
-                            <p class="project-desc">AR mobile game for capturing virtual creatures on campus. Features
-                                real-time location tracking, persistent player data with Redis, and interactive map
-                                interface.</p>
-                            <div class="tech-stack">
-                                <span>Flutter</span>
-                                <span>Dart</span>
-                                <span>Redis</span>
-                                <span>Google Maps API</span>
-                            </div>
-                        </div>
-                    </article>
-
-                    <!-- Project 5: AI Game Python -->
-                    <article class="project-card">
-                        <div class="project-content">
-                            <div class="project-header">
-                                <h3>AI Game Agents</h3>
-                                <div class="project-links">
-                                    <a href="https://github.com/ypeng12/AI_Game_python" target="_blank"><i
-                                            class="fab fa-github"></i></a>
-                                </div>
-                            </div>
-                            <p class="project-desc">Implementation of advanced AI algorithms for Pacman agents,
-                                including Search (A*, Minimax), Reinforcement Learning (Q-Learning), and Probabilistic
-                                Reasoning (Particle Filtering).</p>
-                            <div class="tech-stack">
-                                <span>Python</span>
-                                <span>AI/ML</span>
-                                <span>Reinforcement Learning</span>
-                            </div>
-                        </div>
-                    </article>
-                </div>
-            </section>
-
-            <!-- Experience Section -->
-            <section id="experience" class="section experience-section">
-                <h2 class="section-title">Experience</h2>
-                <div class="experience-list">
-                    <div class="experience-item">
-                        <div class="exp-header">
-                            <span class="exp-role">Research Assistant</span>
-                            <span class="exp-company">@ UMD</span>
-                            <span class="exp-date">Nov 2025 - Present</span>
-                        </div>
-                        <p class="exp-summary">Optimizing ML inference for event cameras using CUDA and analyzing
-                            aviation network resilience.</p>
-                    </div>
-
-                    <div class="experience-item">
-                        <div class="exp-header">
-                            <span class="exp-role">Software Engineer</span>
-                            <span class="exp-company">@ ModeSens</span>
-                            <span class="exp-date">Jun 2025 - Sep 2025</span>
-                        </div>
-                        <p class="exp-summary">Built distributed crawling systems and NLP pipelines, boosting search
-                            precision by 23% and product coverage by 15%.</p>
-                    </div>
-
-                    <div class="experience-item">
-                        <div class="exp-header">
-                            <span class="exp-role">Software Engineer</span>
-                            <span class="exp-company">@ Bank of China</span>
-                            <span class="exp-date">Jul 2024 - May 2025</span>
-                        </div>
-                        <p class="exp-summary">Led reliability efforts for enterprise systems and implemented secure
-                            cryptographic authorization frameworks.</p>
-                    </div>
-
-                    <div class="experience-item">
-                        <div class="exp-header">
-                            <span class="exp-role">Software Engineer Intern</span>
-                            <span class="exp-company">@ Air China</span>
-                            <span class="exp-date">May 2023 - Aug 2023</span>
-                        </div>
-                        <p class="exp-summary">Automated system backups with Unix scripts and revamped login systems
-                            with mobile QR scanning.</p>
+                        <ul class="resume-list">
+                            <li>Developed GPU-accelerated spatiotemporal embeddings for high-rate event camera streams,
+                                enabling efficient ML inference with optimized CUDA-based parallelization.</li>
+                            <li>Conducted data-driven analysis of aviation network resilience using network-level
+                                modeling on Delta system outage data.</li>
+                            <li>Applied NLP and sentiment analysis to TripAdvisor low-altitude travel reviews to extract
+                                passenger perception dimensions.</li>
+                        </ul>
                     </div>
                 </div>
-            </section>
 
-            <!-- Education Section -->
-            <section id="education" class="section">
-                <h2 class="section-title">Education</h2>
-                <div class="education-grid">
-                    <div class="edu-item">
-                        <h3>M.S. Machine Learning</h3>
-                        <p>University of Maryland</p>
-                        <span class="edu-year">Exp. 2027</span>
-                    </div>
-                    <div class="edu-item">
-                        <h3>B.S. Computer Science</h3>
-                        <p>University of Maryland</p>
-                        <span class="edu-year">2024</span>
+                <div class="timeline-item">
+                    <div class="line-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Software Engineer</h3>
+                            <span class="company">ModeSens (Remote)</span>
+                            <span class="date">Jun 2025 - Sep 2025</span>
+                        </div>
+                        <ul class="resume-list">
+                            <li>Built a distributed e-commerce crawling system using asynchronous pipelines and
+                                serverless triggers, improving product coverage by 15%.</li>
+                            <li>Developed an NLP-based search-term normalization and translation pipeline to align user
+                                queries with merchant catalogs, improving search precision by 23%.</li>
+                            <li>Implemented an image-based product matching workflow that compares user-uploaded images
+                                against internal product catalogs to support visual search and recommendations.</li>
+                        </ul>
                     </div>
                 </div>
-            </section>
 
-            <!-- Skills Section -->
-            <section id="skills" class="section">
-                <h2 class="section-title">Tech Stack</h2>
-                <div class="skills-wrapper">
-                    <div class="skill-group">
-                        <h3>Languages</h3>
-                        <div class="tags">
-                            <span>C++</span><span>Python</span><span>CUDA</span><span>JavaScript</span><span>Java</span><span>SQL</span>
+                <div class="timeline-item">
+                    <div class="line-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Software Engineer</h3>
+                            <span class="company">Bank of China, USA</span>
+                            <span class="date">Jul 2024 - May 2025</span>
                         </div>
-                    </div>
-                    <div class="skill-group">
-                        <h3>Tools & Frameworks</h3>
-                        <div class="tags">
-                            <span>AWS</span><span>Docker</span><span>Redis</span><span>React</span><span>Flask</span><span>PyTorch</span>
-                        </div>
+                        <ul class="resume-list">
+                            <li>Led bug bash and reliability efforts for internal enterprise systems, resolving 70+
+                                high-impact issues and reducing productivity-blocking tickets by 30%.</li>
+                            <li>Implemented a secure client authorization framework using cryptographic signatures and
+                                the Chain of Responsibility pattern, adopted by 15+ internal teams.</li>
+                            <li>Built AWS-based data pipelines (EC2, S3, RDS) for real-time ingestion and storage of
+                                financial transaction data, improving data reliability and operational efficiency.</li>
+                        </ul>
                     </div>
                 </div>
-            </section>
 
-            <!-- Contact Section -->
-            <section id="contact" class="section footer-section">
-                <h2 class="section-title">Get in Touch</h2>
-                <p>Always open to discussing new opportunities and interesting problems.</p>
-                <a href="mailto:pengyuliang31@gmail.com" class="btn-email">pengyuliang31@gmail.com</a>
-                <p class="copyright">&copy; 2026 Yuliang Peng.</p>
-            </section>
-        </main>
-    </div>
+                <div class="timeline-item">
+                    <div class="line-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Software Engineer Intern</h3>
+                            <span class="company">Air China</span>
+                            <span class="date">May 2023 - Aug 2023</span>
+                        </div>
+                        <ul class="resume-list">
+                            <li>Developed Unix shell scripts to automate system backups across Linux environments,
+                                reducing manual workload by 40%.</li>
+                            <li>Revamped the secure login system with mobile QR code scanning, streamlining user
+                                identification (adopted in 2024).</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section bg-alt">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1: Tabit -->
+                <article class="project-card">
+                    <div class="project-content">
+                        <div class="project-top">
+                            <h3>Tabit - AI Chrome Extension</h3>
+                            <a href="https://github.com/Yucklys/TabIt/tree/ypeng12" target="_blank" class="icon-link"><i
+                                    class="fab fa-github"></i></a>
+                        </div>
+                        <p class="project-desc">A smart browser extension for tab management using local AI. Features
+                            session persistence, history-based organization, and hierarchical clustering for 100+ tabs.
+                        </p>
+                        <div class="tech-stack">
+                            <span>React</span>
+                            <span>Vite</span>
+                            <span>Web Workers</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 2: Terpiez -->
+                <article class="project-card">
+                    <div class="project-content">
+                        <div class="project-top">
+                            <h3>Terpiez AR Game</h3>
+                            <a href="https://github.com/ypeng12/Terpiez-Go" target="_blank" class="icon-link"><i
+                                    class="fab fa-github"></i></a>
+                        </div>
+                        <p class="project-desc">AR mobile game for capturing virtual creatures. Features real-time
+                            location tracking, persistent player data with Redis, and interactive maps.</p>
+                        <div class="tech-stack">
+                            <span>Flutter</span>
+                            <span>Dart</span>
+                            <span>Redis</span>
+                            <span>Google Maps</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 3: AI Game -->
+                <article class="project-card">
+                    <div class="project-content">
+                        <div class="project-top">
+                            <h3>AI Game Agents</h3>
+                            <a href="https://github.com/ypeng12/AI_Game_python" target="_blank" class="icon-link"><i
+                                    class="fab fa-github"></i></a>
+                        </div>
+                        <p class="project-desc">Advanced AI algorithms for Pacman agents: A* Search, Minimax,
+                            Q-Learning, and Particle Filtering.</p>
+                        <div class="tech-stack">
+                            <span>Python</span>
+                            <span>Reinforcement Learning</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 4: Neural Network -->
+                <article class="project-card">
+                    <div class="project-content">
+                        <div class="project-top">
+                            <h3>Neural Network from Scratch</h3>
+                            <a href="https://github.com/ypeng12/Neural-Network-Implementation-from-Scratch"
+                                target="_blank" class="icon-link"><i class="fab fa-github"></i></a>
+                        </div>
+                        <p class="project-desc">Implementation of core deep learning algorithms (backprop, optimizers)
+                            without ML libraries to understand AI math.</p>
+                        <div class="tech-stack">
+                            <span>Python</span>
+                            <span>NumPy</span>
+                            <span>Math</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 5: Product Matching -->
+                <article class="project-card">
+                    <div class="project-content">
+                        <div class="project-top">
+                            <h3>Product Matching Tool</h3>
+                            <a href="https://github.com/ypeng12/Image-Based-Product-Matching-Tool" target="_blank"
+                                class="icon-link"><i class="fab fa-github"></i></a>
+                        </div>
+                        <p class="project-desc">Internal tool using perceptual hashing and SSIM to match product images
+                            across e-commerce platforms.</p>
+                        <div class="tech-stack">
+                            <span>Python</span>
+                            <span>CV</span>
+                            <span>Scikit-image</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-compact">
+                <div class="skill-row">
+                    <span class="skill-label">Languages:</span>
+                    <span class="skill-list">C++, Python, CUDA, C, Java, Dart, JavaScript, Unix Shell, SQL</span>
+                </div>
+                <div class="skill-row">
+                    <span class="skill-label">Frameworks & Tools:</span>
+                    <span class="skill-list">AWS, Docker, Redis, NumPy, Pandas, Flask, Spring Boot, Vue.js, Flutter,
+                        Git, Sentry</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <div class="container center-text">
+            <h2>Get In Touch</h2>
+            <p>Always open to interesting conversations.</p>
+            <div class="footer-links">
+                <a href="mailto:pengyuliang31@gmail.com" class="footer-btn">pengyuliang31@gmail.com</a>
+                <a href="tel:240-886-9716" class="footer-btn">240-886-9716</a>
+            </div>
+            <p class="copyright">&copy; 2026 Yuliang Peng</p>
+        </div>
+    </footer>
 
     <script src="script.js"></script>
 </body>
