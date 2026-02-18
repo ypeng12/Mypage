@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ypeng12.github.io/Mypage/sitemap.xml
