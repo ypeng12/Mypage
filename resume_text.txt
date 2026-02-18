@@ -1,0 +1,149 @@
+Yuliang  Peng  pengyuliang31@gmail.com |  github.com/ypeng12 |  linkedin.com/in/ypeng12 |240-886-9716     EDUCATION  
+ 
+University  of  Maryland,  College  Park                                                                                                 ●  Bachelor  of  Science  in  Computer  Science     (Dean’s  List)                                                   Graduated  :  May  2024     ●  Master  of  Science  in  Machine  Learning                                                                               Expected  Graduation:  May  2027                      ●  Relevant  Courses:  Machine  Learning,  Computer  Vision,  Robotics,  Deep  Learning,  Data  Structures  and  Algorithms     WORK  EXPERIENCE  /   RESEARCH  EXPERIENCE   
+ 
+ University  of  Maryland,  College  Park     Research  Assistant        Maryland,  USA           Nov  2025  -  Present   ●  Developed  GPU-accelerated  spatiotemporal  embeddings  for  high-rate  event  camera  streams,  enabling  efficient  ML   
+inference
+ 
+with
+ 
+optimized
+ 
+CUDA-based
+ 
+parallelization.
+ ●  Conducted  data-driven  analysis  of  aviation  network  resilience  using  network-level  modeling  on  Delta  system  outage  data.  ●  Applied  NLP  and  sentiment  analysis  to  TripAdvisor  low-altitude  travel  reviews  to  extract  passenger  perception  dimensions    ModeSens      Software  Engineer     Full-Time        Remote,  USA              Jun  2025  -  Sep  2025   ●  Built  a  distributed  e-commerce  crawling  system  using  asynchronous  pipelines  and  serverless  triggers,  improving  product  
+coverage
+ 
+by
+ 
+15%.
+ ●  Developed  an  NLP-based  search-term  normalization  and  translation  pipeline  to  align  user  queries  with  merchant  catalogs,  
+improving
+ 
+search
+ 
+precision
+ 
+by
+ 
+23%.
+ ●  Implemented  an  image-based  product  matching  workflow  that  compares  user-uploaded  images  against  internal  product  
+catalogs
+ 
+to
+ 
+support
+ 
+visual
+ 
+search
+ 
+and
+ 
+recommendations.
+    Bank  of  China,  USA     Software  Engineer   Full-Time      Los  Angeles,  USA          July  2024  -  May  2025   ●  Led  bug  bash  and  reliability  efforts  for  internal  enterprise  systems,  resolving  70+  high-impact  issues  and  reducing  
+productivity-blocking
+ 
+tickets
+ 
+by
+ 
+30%.
+ ●  Implemented  a  secure  client  authorization  framework  using  cryptographic  signatures  and  the  Chain  of  Responsibility  
+pattern,
+ 
+adopted
+ 
+by
+ 
+15+
+ 
+internal
+ 
+teams.
+ ●  Built  AWS-based  data  pipelines  (EC2,  S3,  RDS)  for  real-time  ingestion  and  storage  of  financial  transaction  data,  
+improving
+ 
+data
+ 
+reliability
+ 
+and
+ 
+operational
+ 
+efficiency.
+  Air  China    Software  Engineer    Intern       Sichuan,China         May  2023  -  August  2023   ●  Developed  Unix  shell  scripts  to  automate  system  backups  across  Linux  environments,  reducing  manual  workload  by  40%.  ●  Revamped  the  secure  login  system  with  mobile  QR  code  scanning,  streamlining  user  identification.  (adopted  in  2024)   PROJECTS   Tabit  -  AI-Powered  Chrome  Extension   |   Google  Chrome  Extension  Hackathon   |  Github  Code  ●  Developed  a  Chrome  extension  using  React,  Vite,  and  Manifest  V3  to  support  tab  batching,  session  persistence,  and  
+history-based
+ 
+tab
+ 
+organization.
+ ●  Implemented  tab  grouping  based  on  similarity  scoring  and  hierarchical  clustering,  with  Web  Worker–based  parallel  
+processing
+ 
+to
+ 
+handle
+ 
+100+
+ 
+open
+ 
+tabs.
+ ●  Built  a  lightweight  memory  mechanism  to  summarize  and  reuse  users’  historical  tab  sessions,  along  with  a  reminder  feature  
+to
+ 
+surface
+ 
+previously
+ 
+saved
+ 
+contexts.
+  Image-Based  Product  Matching  Tool  |  Machine  Learning   |  Github  Code   ●  Designed  and  implemented  an  internal  image  similarity  tool  using  perceptual  hash  (imagehash)  and  SSIM  (scikit-image)  to  
+compare
+ 
+product
+ 
+cover
+ 
+images
+ 
+with
+ 
+availability
+ 
+images,
+ 
+supporting
+ 
+visual
+ 
+product
+ 
+matching
+ 
+and
+ 
+content
+ 
+validation.
+ ●  Automated  image  extraction  and  analysis  pipeline  using  Selenium  and  Python,  reducing  manual  matching  workload  by  
+80%
+ 
+and
+ 
+increasing
+ 
+recommendation
+ 
+accuracy
+ 
+by
+ 
+25%.
+  SKILLS   Programming  Languages:  C++,  CUDA,  Python,  C,  Java,  Dart,  JavaScript,  Unix  Shell,  SQL  Tools  /  Frameworks:  AWS,  Docker,  Redis,  NumPy,  Pandas,  Flask,  Spring  Boot,  Vue.js,  Flutter,  Git,  Sentry  
+
+
