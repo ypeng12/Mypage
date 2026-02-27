@@ -208,7 +208,7 @@ ul {
 .hero-bio {
     font-size: 1rem;
     color: var(--text-secondary);
-    max-width: 600px;
+    max-width: 650px;
     margin: 0 auto 2rem;
     line-height: 1.6;
 }
