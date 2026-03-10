@@ -94,6 +94,9 @@
             <div class="hero-image-wrapper">
                 <img src="WechatIMG279.jpg" alt="Yuliang Peng" class="hero-img">
             </div>
+            <div class="featured-badge pulse">
+                <i class="fas fa-rocket"></i> New: TabIt AI Released
+            </div>
             <h1 class="hero-title">Hi, I'm <span class="highlight">Yuliang Peng.</span></h1>
             <p class="hero-subtitle">Actively Seeking Software Engineer & Machine Learning Engineer Roles</p>
             <p class="hero-bio">
@@ -230,21 +233,26 @@
             <h2 class="section-title">Projects</h2>
             <div class="projects-grid">
                 <!-- Project 1: Tabit -->
-                <article class="project-card">
+                <article class="project-card featured-project">
+                    <div class="project-image-wrapper">
+                        <img src="tabit_mockup.png" alt="TabIt AI Interface" class="project-img">
+                    </div>
                     <div class="project-content">
                         <div class="project-top">
-                            <h3>Tabit - AI Chrome Extension</h3>
+                            <h3>TabIt - AI Tab Manager</h3>
                             <div style="display: flex; gap: 0.5rem;">
-                                <a href="https://chromewebstore.google.com/detail/tabit/balfedbffogihlkfffhngojhmjpjfpcf?hl=en-US&utm_source=ext_sidebar" target="_blank" class="icon-link"><i class="fab fa-chrome"></i></a>
-                                <a href="https://github.com/Yucklys/TabIt/tree/ypeng12" target="_blank" class="icon-link"><i class="fab fa-github"></i></a>
+                                <a href="https://chromewebstore.google.com/detail/tabit/balfedbffogihlkfffhngojhmjpjfpcf" target="_blank" class="icon-link" title="Chrome Web Store"><i class="fab fa-chrome"></i></a>
+                                <a href="https://github.com/Yucklys/TabIt" target="_blank" class="icon-link" title="GitHub"><i class="fab fa-github"></i></a>
+                                <a href="https://yucklys.github.io/TabIt/" target="_blank" class="icon-link" title="Documentation"><i class="fas fa-book"></i></a>
                             </div>
                         </div>
-                        <p class="project-desc">A smart browser extension for tab management using local AI. Features
-                            session persistence, history-based organization, and hierarchical clustering for 100+ tabs.
+                        <p class="project-desc">Smart browser extension using <strong>Local AI (TF-IDF & Leiden Clustering)</strong> for automatic tab management. Features real-time organization, hierarchical clustering for 100+ tabs, and strict privacy by running entirely on-device.
                         </p>
                         <div class="tech-stack">
                             <span>React</span>
                             <span>Vite</span>
+                            <span>TF-IDF</span>
+                            <span>Leiden Algorithm</span>
                             <span>Web Workers</span>
                         </div>
                     </div>
