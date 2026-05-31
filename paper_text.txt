@@ -1,0 +1,1547 @@
+--- Page 1 ---
+International cargo charter operations and preighter performances in the 
+context of COVID-19: a case of China
+Chuntao Wu
+a , *
+, Xiaohe He
+a
+, Yuliang Peng
+b
+a
+School of Tourism, Sichuan University, No. 2 South Section, Yihuan Road, Chengdu, Sichuan, 610064, PR China
+b
+College of Computer, Mathematical, and Natural Sciences (CMNS), University of Maryland, College Park, MD, 20742, USA
+1. Introduction
+Air transport services are commonly classified as either scheduled or 
+non-scheduled. ICAO (2022) classifies non-scheduled (revenue) cargo 
+flights as cargo charter and defines them as “ cargo charter flights, 
+including those chartered for resale by freight forwarders, consolidators, 
+shippers' associations, express/small-package/courier services, and 
+similar charterers, as well as those operated for the charterer's own use 
+rather than for resale ” . Cargo charters have long played a critical role in 
+transporting urgent, specialized, high-value, or outsized shipments on 
+international routes ( Morrell and Klein, 2018 ), accounting for 6 – 7% of 
+global air cargo traffic during the 2010s ( Boeing, 2022 ). During the 
+COVID-19 pandemic, the share of nonscheduled cargo increased to 14% 
+in 2020 and 15% in 2021 ( Boeing, 2024 ), driven by several factors 
+especially the suspension of scheduled passenger flights (and the asso -
+ciated loss of belly capacity), a sharp increase in urgent shipments, and 
+the operation of “ preighters ” (all-cargo operations using aircraft nor -
+mally designed for passenger transport) ( ICAO, 2022 ). By 2023, the 
+non-scheduled share remained elevated at 13% ( Boeing, 2024 ), 
+reflecting the importance of charter operations in the post-COVID 
+period. Yet scholarly understanding of this segment remains limited. 
+To the best of the authors' knowledge, no academic study has yet 
+examined international cargo charter operations.
+China represents an ideal case for examining the formation and 
+transformation processes of a large-scale international cargo charter 
+market, particularly within a comparatively less regulated, market- 
+oriented policy environment, and in the context of the COVID-19 
+pandemic. Cargo charter markets are unevenly distributed across 
+countries. For example, in 2019, charter service accounted for 16% of all 
+air freight to and from the United States,
+1
+whereas its share in China's 
+international cargo market was below 1%.
+2
+The Civil Aviation Admin -
+istration of China (CAAC) had imposed strict limits on international non- 
+scheduled services to protect scheduled flights ( Wu et al., 2018 ) and 
+emphasized equal treatment in approving charter permits for foreign 
+carriers ( CAAC, 2006 ). Following the outbreak of COVID-19, the CAAC 
+strictly enforced the “ Five-One ” policy to limit international passenger 
+flights but issued a series of notices and flexible policy measures to 
+facilitate international air cargo transport ( ICAO, 2021 ). In particular, 
+on April 3, 2020, it launched the Notice on Launching a Review and 
+Approval of the “ Green Channel ” for International Air Cargo Transport 
+During the Period of Epidemic Prevention and Control ( CAAC, 2020 ) to 
+promote the smooth and efficient review and approval of the interna -
+tional cargo flight plan. With respect to non-scheduled cargo flights, 
+CAAC (2020) adopted a set of deregulation policies and relaxation 
+measures, conditionally allowing Chinese and foreign airlines to operate 
+non-scheduled cargo flights on routes already served by scheduled ser -
+vices (scheduled routes), relaxing documentation requirements for 
+foreign airlines in applying for flight operating permits, and supporting 
+qualified third-country carriers to operate international cargo charters 
+to China. Against the background of widespread suspension of scheduled 
+passenger services, and in the context of other policy support and market 
+demand, the non-scheduled international cargo flights to and from 
+* Corresponding author.
+E-mail address: chuntao@scu.edu.cn (C. Wu). 
+1
+In terms of freight ton, according to the U.S. International Air Passenger and Freight Statistics Reports (T-100 segment data).
+2
+In terms of flight movements, estimated by the authors. The number of cargo charter flights is based on the lists of CAAC approvals for international non- 
+scheduled flights, which classify non-scheduled flights into temporary extra flights and charter flights. Following ICAO (2022) and CAAC (2019) , this study 
+regards all non-scheduled cargo flights as cargo charter flights. In 2019, Chinese airports handled a total of 996,000 international flight movements, including both 
+passenger and cargo flights as well as scheduled and non-scheduled services. In China's international air cargo market, belly-hold cargo accounted for 48.6% of total 
+freight volume, while dedicated freighters accounted for 51.4%. These figures indicate that the market share of cargo charter services was well below 1%.
+Contents lists available at ScienceDirect
+Transport Policy
+journal homepag e: www.else vier.com/loc ate/tranp ol
+https://doi.org/10.1016/j.tranpol.2026.104173
+Received 6 October 2025; Received in revised form 17 April 2026; Accepted 20 April 2026  
+Transport Policy 184 (2026) 104173 
+Available online 21 April 2026 
+0967-070X/© 2026 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies. 
+--- Page 2 ---
+China surged from about 6000 in 2019 to more than 80,000 in 2021,
+3
+accounting for over 30% of all international cargo flights operated be -
+tween China and rest of world in that year.
+4
+In addition, roughly three-quarters of the charters operated by Chi -
+nese flag carrier used preighter aircraft, and the CAAC publicly released 
+relevant data, creating a rare empirical opportunity and a strong ratio -
+nale for evaluating preighter performance on international routes. Pre -
+ighters, also referred to as passenger-to-cargo (P2C) or temporary 
+passenger-to-freighter (P2F) aircraft, accounted for approximately 
+10% of global international available cargo tonne-kilometres (ACTKs) in 
+2020 and 15% in 2021 ( IATA, 2025 ). In the spring of 2020, when 
+COVID-19 led to a global suspension of passenger flights, many airlines 
+converted passenger aircraft to carry cargo, and aviation authorities 
+issued temporary regulatory exemptions to enable preighter operations. 
+Although preighters have attracted increasing attention in recent years, 
+empirical evidence on their performance remains limited, highlighting a 
+notable gap in the literature, particularly in the context of China. On 
+routes between China and the rest of the world, the share of preighters 
+was substantially higher than the global average, reaching 33% of in -
+ternational cargo flights in 2021,
+5
+whereas dedicated full-cargo flight 
+(freighter) accounted for 67%. Therefore, evaluating the efficiency of 
+preighter operations in China is particularly important.
+Whilst cargo charter is still one of the untouched research area, 
+passenger charters have attracted researchers’ attention from various 
+aspects. Over the last two decades, aviation deregulation always led to 
+an increase in scheduled flights, particularly those provided by low-cost 
+carriers (LCCs) and a decline in charter flights in many parts of the world 
+( Dobruszkes et al., 2016 ). Accordingly, many researchers explored the 
+extent to which LCCs could replace charter carriers (CCs), the substi -
+tution of charter flights by scheduled flights, the impacts of scheduled 
+service availability on charter demand, or the effect of charter operation 
+deregulation. However, global passenger charter traffic increased 
+constantly in the 2010s, despite increased scheduled service availability 
+and LCC expansion. It is assumed that the tourism elements, through the 
+activities of charterers (tour operators), could maintain the stability of 
+charter demand and therefore enhance the resilience of the air charter 
+transport system (e.g., Castillo-Manzano et al., 2017 ; Wu et al., 2023 ). 
+Nevertheless, these propositions have yet to be tested within a theo -
+retical framework, leaving open the question of whether systematic 
+patterns driven by charterers can be identified.
+With the above in mind, this paper takes China as the study area to 
+investigate the evolution and transformation of international cargo 
+charter operations during 2020–2021, with a specific focus on preighter 
+charters operated by Chinese carriers. The main datasets were extracted 
+from CAAC approval lists for international non-scheduled flights, while 
+additional information was collected through document analysis and 
+personal communications. Descriptive statistics, geographic 
+visualization, and route network analysis are the primary methods 
+employed. In addition to real (actual) network analysis approaches, we 
+tentatively selected complex network indicators to quantify the perfor -
+mance and reconfiguration trends of preighter charter networks. 
+Furthermore, we reviewed CAAC's international charter policies and 
+analyzed the changes in charter demand and route networks. We also 
+examined the role of charterers (freight forwarders) in organizing 
+charter flights and optimizing city-centered routes, aiming to identify 
+the characteristics of the charter market and to reveal the mechanisms 
+underlying the resilience of the air charter transport system.
+This study makes four contributions to related literature. First, it 
+advances the international air cargo research by analyzing the emer -
+gence and transformation of a large-scale cargo charter market under a 
+less regulated and more market-oriented environment, while also eval -
+uating the performance of preighter operations. Second, it contributes to 
+the literature on charter services by providing empirical evidence from 
+the cargo market. To the best of our knowledge, it is the first paper 
+focused on international cargo charter services. Methodologically, we 
+interpret the mechanisms underlying the resilience of air charter 
+transport systems by linking operational flexibility to charterer activ -
+ities. Third, we introduce methods used in previous research on in -
+tegrators to assess the evolutionary patterns and efficiency of networks 
+built by cargo charter flights. Like charter operations, operational flex -
+ibility is a defining characteristic of integrators, and the lack of 
+comprehensive databases has constrained empirical research on in -
+tegrators (e.g., Bowen, 2012 ; Malighetti et al., 2019 ). Thereby, we build 
+a framework to investigate the evolutionary patterns and performance 
+of charter flights. We also fill a research gap in the structural and dy -
+namic analysis of highly flexible transport networks, such as those 
+formed by integrators' flights and cargo charter flights. Fourth, this 
+study contributes to the literature on China's air cargo transport from the 
+perspective of both charter flights and preighter operations.
+From a practical perspective, our findings enhance understanding of 
+the resilience and recovery capacity of air cargo networks in response to 
+external shocks such as the COVID-19 pandemic. The results provide 
+guidance for airlines regarding fleet selection and acquisition strategies, 
+and offer implications for aircraft manufacturers on design optimization, 
+including the incorporation of convertible cargo capabilities in future 
+aircraft. In addition, the study offers evidence-based insights for poli -
+cymakers to support the development of targeted regulations that 
+strengthen market resilience and crisis-response capacity. Given that 
+China represents the largest air cargo market in Asia, these findings also 
+carry important implications for air cargo policy and industry devel -
+opment across the broader region.
+2. Related studies and methodologies
+Three kinds of literature relate to our work: international air cargo 
+transport, passenger charter operations, and integrators. Prior research 
+on international air cargo transport can be grouped into four categories: 
+(i) analyses of factors influencing airport choice from the perspective of 
+airlines or freighters (e.g., Gardiner et al., 2005 ; Chu, 2014 ); (ii) eval -
+uations of the performance of international cargo hubs or markets along 
+with driving factors (e.g., Chakraborty et al., 2020 ; Alexander and 
+Merkert, 2021 ); (iii) analyses of the evolutionary patterns and network 
+structures of major integrators (e.g., Bowen, 2012 ; Malighetti et al., 
+2019 ), the topological properties of the global air cargo transport 
+network (ACTN) ( Bombelli et al., 2020 ), and the reliability of interna -
+tional air-cargo networks ( Yu et al., 2020 ); and (iv) assessments of the 
+impacts of COVID-19 and airline performance under pandemic pressure. 
+These studies often adopted complex network methods. For example, 
+Bombelli (2020) examined how COVID-19 affected the global capacity 
+of three integrators (FedEx, UPS, and DHL) as well as other cargo air -
+lines, finding that the integrators escaped the early months of the 
+pandemic thanks to the resilience of their networks. Deng et al. (2025)
+analyzed how China's international scheduled freighter network (CISFN) 
+3
+In terms of flight movements, the data were estimated by the authors based 
+on the lists of CAAC approvals for international non-scheduled flights. These 
+lists classify non-scheduled flights into temporary extra flights and charter 
+flights. Following ICAO (2022) and CAAC (2019) , this study regards all 
+non-scheduled cargo flights as cargo charter flights.
+4
+The CAAC reported that about 207,000 international cargo flights (include 
+both scheduled and non-scheduled flights) were operated in 2021, implying 
+that charter flights could account for up to 39% of total operations without 
+adjusting for cancellation rates. In the same year, the annual planned (avail -
+able) volume of international scheduled cargo flights is estimated at approxi -
+mately 283,000 flights is according to scheduled flight timetable. The CAAC 
+does not differentiate between scheduled and charter flights in its internal data 
+on international flight operations. If the execution rate of international sched -
+uled cargo flights were similar with that of the domestic scheduled cargo 
+market such as below 50% ( Zhang et al., 2025 ), charter share still exceeded 
+32%.
+5
+The CAAC officially reported that totally 69,000 preighter flights were 
+operated to and from China in 2021.
+C. Wu et al.                                                                                                                                                                                                                                      Transport Policy 184 (2026) 104173 
+2 
+--- Page 3 ---
+adapted during the pandemic, finding that it densified its hub-and-spoke 
+structure to meet demand at major hub cities. They argued that this 
+hub-and-spoke configuration improved the overall robustness and 
+resilience of China's international freighter network, but did not explain 
+how those city-level networks were established or the driving factors.
+International passenger charter operations have attracted re -
+searchers' attention from various perspectives. Unlike scheduled flights 
+that are regulated primarily based on bilateral agreements between 
+States, international charter flights are generally authorized based on 
+national regulation ( ICAO, 2022 ). The national aviation authorities al -
+ways limit charter operations to protect scheduled services in the 
+context of routes ( Wu et al., 2018 ). In addition to the changes in the 
+tourism market and the development of LCCs, aviation deregulation 
+often led to an increase in scheduled services particularly provided by 
+LCCs and a decline in charter flights ( Dobruszkes et al., 2016 ). 
+Numerous researchers have explored the extent to which LCCs could 
+replace CCs or the impacts of increases in scheduled flights on charter 
+demand. A few of which found that, in some markets, scheduled flights 
+could not replace charter flights and LCCs could neither crowd out nor 
+substitute for CCs, probably due to charterers (tour operators) selecting 
+alternative carriers and routes following the launching of scheduled 
+flights ( Wu and Hayashi, 2013 ) or long-term cooperation among CCs, 
+tour operators, and destination stakeholders (Rodríguez & O'Connell, 
+2018). Castillo-Manzano et al. (2017) further found that the charter 
+transport system was unsensitivity to adverse events that may occur in 
+the scheduled transport system, such as terrorist attacks or air accidents, 
+supporting by the complexity of the tourism market. It was also 
+concluded that tour operators could offset the negative impacts of 
+increased in scheduled flights ( Wu et al., 2023 ). Nevertheless, these 
+assertions have yet to be examined systematically from a theoretical 
+perspective. It remains unclear whether there are typical patterns of 
+resilience development or whether developmental pathways are shaped 
+by the charterers.
+Charter flights are operated based on the demand of clients (char -
+terers) rather than following fixed departure times or routes ( ICAO, 
+2022 ), enjoying greater operational flexibility than scheduled flights. 
+Meanwhile, charter flights are typically missing from widely used 
+aviation databases, which has limited the studies on passenger charters 
+( Wu et al., 2018 ). Similar to charters, operational flexibility is a defining 
+feature of integrators, and the absence of databases has constrained 
+studies on integrators (e.g., Bowen, 2012 ; Malighetti et al., 2019 ). To 
+address the operational flexibility, Bowen (2012) utilized several 
+graph-theory indicators to investigate evolutionary patterns and 
+network structures of U.S. integrators, finding that integrators' networks 
+display the importance of time in providing shippers with time flexi -
+bility. Recently, Malighetti et al. (2019) built a framework to analyze 
+how four major integrators restructured their networks after obtaining 
+traffic rights in China, using graphical methods and complex network 
+metrics. Bombelli (2020) investigated the topological characteristics of 
+integrators' networks and found that integrators escaped the early 
+months of the pandemic largely unscathed, thanks to the robustness of 
+their network configurations. As cited above, prior studies employed 
+graphical analyses and complex network indicators to examine the 
+evolutionary patterns, flexibility, efficiency, and robustness of in -
+tegrators’ flight networks, providing methods for our study.
+Flexibility enables a transport system to adapt to crises or new con -
+ditions: higher flexibility implies greater robustness to disruptive events 
+( Scott et al., 2006 ). Linking route flexibility to charterers' activities, this 
+paper explores the evolution and change patterns of the cargo charter 
+network and seeks to explain the mechanisms underlying the resilience 
+of air charter transport systems. In the context of transport networks ( Gu 
+et al., 2020 ), resilience refers to the ability to resist, absorb, adapt to, 
+and recover from the negative impacts of perturbations; flexibility is 
+closely related to resilience. The key difference is that resilience studies 
+typically consider supply-side changes in addition to demand-side 
+changes. In air transport, flexibility and robustness are complemen -
+tary: a robust network can enhance the flexibility of airline operations 
+( Malighetti et al., 2019 ). In this study, the term ‘resilience’ refers to the 
+ability of the charter transport system to adapt to new policies, adverse 
+events, market changes, and increases in scheduled flights.
+3. Data and methods
+3.1. Data source and processing
+Data limitations have constrained research on air charters ( Wu et al., 
+2018 ), since non-scheduled flights are typically excluded from widely 
+used databases such as OAG and do not appear in airline reservation 
+systems or published schedules. The data used in this study were 
+extracted from CAAC approvals for non-scheduled international flights. 
+Each approval takes the form of a list. The CAAC issued two lists each 
+month: one for Chinese-flag carriers and another for foreign carriers. In 
+the list for Chinese-flag carriers, flight volumes refer to operated flight 
+frequencies (actual flight operations). In the list for foreign carriers, 
+flight volumes refer to approved flight frequencies (planned flight data 
+according to operating permits issued by the CAAC).
+The lists classify non-scheduled flights into two categories: tempo -
+rary extra flights and charter flights. Following ICAO (2022) and CAAC 
+(2019) , we regard all non-scheduled cargo flights as cargo charter 
+flights. This classification is also consistent with CAAC (2020) , which 
+applies the same administrative procedures and regulatory requirements 
+to both extra and charter flights. In 2020 and 2021, the approval lists 
+subdivided cargo flights into three groups: (i) passenger-to-cargo (P2C) 
+flights operated by Chinese flag carrier, (ii) full cargo (FC) flights 
+operated by Chinese flag carrier, and (iii) cargo flights operated by 
+foreign airlines. Accordingly, we classify the P2C flights operated by 
+Chinese airlines as “preighter charter”, full-cargo flights operated by 
+Chinese airlines as “freighter charters”, and the flights operated by 
+foreign airlines as “mixed charters”.
+The list includes information on the airline, route, operating period, 
+application type, and flight volume. We classified the datasets by de -
+parture and arrival cities, number of flights, and application types. 
+Specifically, we define each departure or arrival city as a “navigable 
+city” and treat each as a node. For cities served by multiple airports, all 
+airports were consolidated into a single node; for example, Shanghai 
+Pudong and Shanghai Hongqiao were grouped as the node “Shanghai.” 
+Consequently, approximately 5% of charters operated by Chinese-flag 
+airlines and 9% of those operated by foreign airlines involved two de -
+parture or arrival airports in 2020. The shares declined to 1% and 3% in 
+2021, respectively. For such flights, we selected the city with the shorter 
+distance. For instance, Wuhan/Beijing–Montreal was treated as Bei -
+jing–Montreal, and Shanghai–Addis Ababa/Cape Town as Shang -
+hai–Addis Ababa. Following the CAAC's statistical standards and prior 
+studies on passenger charter, we calculated the flight volumes on a one- 
+way basis: each takeoff or landing counted as a single movement (one 
+flight represents one aircraft movement).
+It should be acknowledged that the dataset is subject to several 
+limitations, including the unavailability of actual operational data for 
+foreign airlines and the omission of aircraft-type information for these 
+operators. Despite these constraints, the dataset is sufficient for the 
+purposes of this study, as it provides comprehensive actual operational 
+data for charters operated by Chinese airlines and allows preighter and 
+freighter charters to be distinguished for performance analysis. More -
+over, evaluating performance differences between Chinese and foreign 
+airlines lies beyond the scope of this paper. Furthermore, the CAAC has 
+incorporated foreign airlines' monthly charter execution rates into the 
+C. Wu et al.                                                                                                                                                                                                                                      Transport Policy 184 (2026) 104173 
+3 
+--- Page 4 ---
+operating permit approval process, whereby an execution rate below 
+90% may be considered a negative factor in evaluating an airline's 
+permit applications for the relevant or subsequent month ( CAAC, 2019 ). 
+This threshold is substantially higher than the CAAC's policy target for 
+scheduled international cargo flights (60%). Assuming that the execu -
+tion rate of international scheduled cargo flights was comparable to that 
+of domestic scheduled cargo flights (i.e., below 50%) ( Zhang et al., 
+2025 ), the total number of international cargo charter flights operated 
+by both Chinese and foreign airlines can be conservatively estimated to 
+have surpassed 6500 in each of 2020 and 2021. This implies that the 
+execution rate of cargo charters operated by foreign airlines was 
+generally high.
+3.2. Major methods
+To begin, we conducted a document analysis to track changes in 
+CAAC charter policies, with attention to the effectiveness of these pol -
+icies. We then applied descriptive statistics and geospatial visualization 
+to examine the spatial distribution and evolutionary patterns of nodes 
+(airports), edges (routes), and the overall network structure. Clients 
+(charterers, e.g., tour operators or freight forwarders) typically pay 
+charter carriers (airlines) round-trip fees in advance, regardless of 
+whether sufficient passenger/cargo can be collected to fill the cabin. 
+This business model suggests that classifying the direction of charter 
+flows is unnecessary, making an undirected graph more appropriate 
+than a directed one. Subsequently, we conducted a case study to eluci -
+date the role of charterers (freight forwarders). In August 2022, we 
+interviewed senior staff and experts from cargo agents and airlines to 
+gather market information; these are cited as “ personal communica -
+tions ” ( Walcott and Fan, 2017 ).
+In the case study, we emphasize the role of charterers (freight for -
+warders) in flight organization, freight consolidation, and city-centered 
+route network optimization. This emphasis is motivated by several 
+considerations. First, in terms of airline – client relationships, it is the 
+client (charterer) who assumes commercial responsibility and risk for 
+charter operations ( ICAO, 2022 ). Accordingly, charterers determine 
+departure cities and select airlines, rather than airlines making these 
+decisions themselves. Second, air cargo charter transport within China 
+was supported by surface transport, following the outbreak of COVID-19 
+( Deng et al., 2022 ). In practice, truck-to-air transfer systems were 
+established to support charter operations. So, charterers (freight for -
+warders) assumed a central coordinating role in this integrated transport 
+mode: they were responsible for airport selection, consolidating cargo 
+from dispersed locations, and transporting it to selected airports in a 
+flexible, timely, and reliable manner. This coordinating role implies that 
+the charterers (freight forwarders) played a pivotal role in building and 
+optimizing charter routes, and that their operational decisions can 
+significantly shape route network configurations at the city level. Third, 
+we aim to interpret the mechanisms underlying the resilience of air 
+charter services by linking charterers ’ activities to freight forwarder-led 
+city-level route (re)construction. Chengdu was selected as the study area 
+to illustrate the extensive geographical coverage of charter flight 
+catchment areas supported by a nationwide truck-to-air cargo charter 
+transit system. As the largest international cargo gateway in western 
+China, Chengdu provides a representative context for examining the 
+spatial extent of both the truck-to-air cargo transit system and the 
+associated charter flight catchment areas.
+In addition to analyzing the observed (real) network, we used com -
+plex network indicators to quantify changes in network performance 
+and reconfiguration trends in preighter charter networks. Several 
+studies have employed graph theory and complex network metrics to 
+examine air cargo transport networks. In particular, Malighetti et al. 
+(2019) and Bombelli (2020) introduced five node-specific indicators to 
+evaluate the configurations, topology, or robustness of networks built by 
+global integrators DHL, FedEx, UPS, and TNT. Besides node-specific 
+indicators, Bombelli et al. (2020) further introduced one edge-specific 
+indicator (edge betweenness centrality) to characterize topological 
+and robustness features of the global air cargo transport network. In this 
+study, we likewise apply edge betweenness centrality to identify critical 
+edges in the network formed by preighter charters. This allows us to 
+capture structural evolution in terms of both nodes and edges. By doing 
+so, we fill a research gap in the structural and dynamic analysis of highly 
+flexible transport networks, such as those formed by integrators ’ flights 
+and cargo charter flights. The following complex indicators were used. 
+(1) Average degree 〈 k 〉
+The degree of a node k
+i 
+is the number of edges incident upon it. For a 
+point-to-point air network, higher k values correspond to greater resil -
+ience ( Liao et al., 2022 ). Average degree 〈 k 〉 is calculated as the mean of 
+all individual node degrees across the network, see Eq. (1) . 
+K =
+1
+N
+∑
+n
+i = 1
+k
+i
+(1) 
+(2) Average path length ( L )
+This indicator measures the overall accessibility of a network. For an 
+air transport network, lower values of L are associated with greater ef -
+ficiency, see Eq. (2) . 
+L =
+1
+n ( n   1 )
+/
+2
+∑
+i > j
+d
+ij
+(2) 
+(3) Node betweenness centrality (NBC)
+Often referred to simply as betweenness centrality, this indicator 
+quantifies the extent to which a node acts as a bridge or connector within 
+a network. It is calculated as the proportion of all shortest paths between 
+any two nodes in the network that pass through the given node, see Eq. 
+(3) . 
+NBC
+i
+=
+2
+( n   1 )( n   2 )
+∑
+n
+i = 1 , i ∕= k
+∑
+n
+j ∕= k
+δ
+k
+ij
+δ
+ij
+(3) 
+Where δ
+ij 
+denotes the total number of shortest paths d
+ij 
+from node v
+i 
+to 
+node v
+j
+. The significance of a node with high betweenness centrality lies 
+in its role as a critical intermediary. 
+(4) Edge betweenness centrality (EBC)
+It is defined by the number of geodesics (shortest paths) going 
+through an edge, reflecting the importance of each edge in a network, 
+see Eq. (4) . 
+EBC
+i
+=
+2
+n ( n   1 )
+∑
+n
+i ∈ v
+∑
+n
+j ∈ v
+δ
+e
+ij
+δ
+ij
+(4) 
+When i ∕= j , δ
+ij 
+denotes the total number of shortest paths d
+ij 
+from node v
+i 
+to node v
+j
+, δ
+e
+ij 
+denotes the total number of shortest paths d
+ij 
+from node v
+i 
+to node v
+j
+,which go through edge e ∈ E .
+In this study, we calculated the average degree ( k ) and average path 
+length (L ) for passenger-to-cargo (P2C) and full-cargo (FC) charters 
+operated by Chinese airlines, as well as all (mixed) charters operated by 
+foreign airlines. This enables a comparative analysis of the evolutionary 
+patterns across these networks, with a particular focus on P2C charter 
+(preighter) operations. Furthermore, node and edge betweenness 
+C. Wu et al.                                                                                                                                                                                                                                      Transport Policy 184 (2026) 104173 
+4 
+--- Page 5 ---
+centrality are employed to capture the structural evolution and network 
+reconfiguration of preighter charters operated based on actual opera -
+tional data.
+On a related note, we estimated the average degree and average path 
+length of the network formed by foreign charter flights, although data 
+completeness cannot be fully guaranteed. This introduces a potential 
+mismatch between planned flight volumes and actual operations. From a 
+network science perspective, measurement error is an inherent issue in 
+empirical network construction and extends beyond simple missing data 
+( Wang et al., 2012 ). Even high-resolution operational datasets cannot 
+fully eliminate data ambiguity; for instance, Sun et al. (2022) note that it 
+is not possible to distinguish preighters in real-time flight datasets. 
+However, the data incompleteness may significantly affect the metrics 
+such as centrality ( Martin and Niemeyer, 2020 ), whereas simpler 
+structural metrics tend to be comparatively more robust ( Wang et al., 
+2012 ).
+The impact of data imperfections also depends on network topology. 
+Scale-free networks, for example, exhibit strong tolerance to random 
+failures. According to Albert et al. (2000) , such networks follow a 
+power-law degree distribution ( k ) ~ k
+γ
+, and their inhomogeneous con -
+nectivity implies that most removed nodes are low-degree nodes, which 
+have limited impact on overall connectivity. Consistent with this 
+mechanism, Albert et al. (2000) found that the network diameter re -
+mains largely unchanged even when a non-negligible fraction of nodes 
+(e.g., around 5%) are randomly removed, indicating that the global 
+connectivity structure is preserved under random perturbations. More -
+over, the network does not undergo abrupt fragmentation under random 
+failures; instead, the giant connected component (GCC) persists even at 
+relatively high levels of node removal, further demonstrating the 
+inherent structural stability of such networks. Empirical evidence 
+further suggests that many real-world networks exhibit power-law ex -
+ponents within the range 2 < γ < 3, under which such robustness is 
+particularly pronounced.
+This mechanism is also supported by empirical evidence in air 
+transport networks. For example, airline route networks exhibit relative 
+robustness to random node failures, with the size of the GCC decreasing 
+by only 5 – 10% when approximately 5% of nodes are randomly removed 
+( Lordan et al., 2016 ). Similar to passenger flight networks, air cargo 
+transport networks exhibit both small-world and scale-free properties 
+( Bombelli et al., 2020 ; Li et al., 2022 ). It has been observed that the 
+average path length of China's domestic air cargo network remains 
+relatively stable over time despite network expansion and structural 
+evolution ( Li et al., 2022 ). These findings indicate that international 
+charter networks provide a certain degree of tolerance to random data 
+incompleteness.
+Taken together, above studies provide both theoretical and empirical 
+support for the choices of this study. In particular, foreign charter op -
+erations are characterized by relatively high execution rates. For 
+instance, CAAC (2019) requires foreign airlines to maintain execution 
+rates typically exceeding 90%, indicating that the majority of planned 
+flights were effectively operated. In addition, during the COVID-19 
+period, elevated charter premiums and increased marginal returns 
+further reduced the likelihood of widespread cancellations. Under these 
+conditions, discrepancies between planned and actual operations can be 
+reasonably approximated as random perturbations rather than system -
+atic removals. Consistent with the theoretical assumption of random 
+failures in scale-free networks, the charter network is unlikely to expe -
+rience structural fragmentation. While minor deviations may still exist, 
+their impact on aggregate structural indicators is expected to be limited. 
+Therefore, the use of scheduled charter data does not materially affect 
+the estimation of key network indicators, such as average degree and 
+average path length. This supports the validity and interpretability of 
+the comparative analysis of network evolution across different charter 
+types.
+Using complex network theory, a growing body of literature has 
+analyzed China's air cargo network since the outbreak of COVID-19. 
+Although existing studies differ in terms of temporal scales and anal -
+ysis perspectives, they generally take scheduled cargo flight networks as 
+their primary research object. For example, Deng et al. (2022) evaluated 
+the topological properties and their change trends of the Chinese 
+scheduled freighter network (CSFN); Zhang et al. (2025) analyzed the 
+spatiotemporal evolution and robustness of China's Air Cargo Network 
+(CACN); and Deng et al. (2025) investigated the structural changes and 
+resilience demonstrated by China's international scheduled freight 
+network (CISFN). Using city-pair air freight transport data, Li et al. 
+(2022) modeled China's domestic air cargo network and identified its 
+structural characteristics and key socioeconomic drivers; He et al. 
+(2024) explored the spatiotemporal evolution and topological charac -
+teristics of China's domestic air cargo network before and during 
+COVID-19 and its relationship with regional economic factors. Unlike 
+existing studies that mainly focus on scheduled cargo flights, this study 
+takes cargo charter flights as its research object, with particular 
+emphasis on preighter operations.
+Our study is closely related to Zhang et al. (2025) in terms of network 
+construction and analytical methods, yet it differs substantially in 
+research scope and the operational characteristics of the air cargo sys -
+tem examined. Like Zhang et al. (2025) , we construct the network based 
+on monthly operational data and adopt an indicator presentation 
+approach used in previous studies, such as Liao et al. (2022) to illustrate 
+the time-varying fluctuations of network performance metrics. Howev -
+er, Zhang et al. (2025) investigated China's domestic scheduled air cargo 
+transport network, without distinguishing between aircraft types. By 
+contrast, this study concentrates on the international cargo charters and 
+further classifies aircraft into preighters and freighters, thereby 
+revealing the network performance and transformation patterns asso -
+ciated with preighter charters. Moreover, charter flights are strongly 
+demand-driven and characterized by operational flexibility. Their routes 
+are opened or withdrawn more frequently, resulting in greater structural 
+volatility and dynamic adjustments in the network. Therefore, this study 
+further introduces an edge-specific indicator, jointly examining network 
+dynamics from both “ node – route ” dimensions. To the best of our 
+knowledge, this is the first study to apply such an edge-specific indicator 
+to the analysis of China's air cargo route network.
+4. A review of charter policies and cargo charter traffic to and 
+from China
+The CAAC has historically restricted international charter operations 
+to protect scheduled services. In 1989, the State Council of the People's 
+Republic of China issued the Interim Provisions on the Administration of 
+Non-scheduled Flights in Civil Air Transportation, stipulating that non- 
+scheduled operations must not disrupt normal scheduled services. 
+Consequently, in 1990, the CAAC promulgated the Provisions on the 
+Administration of Non-scheduled Flights in Foreign Civil Air Trans -
+portation (CCAR-119TR-R), which stated that charter flights should not 
+operate on routes served by scheduled flights unless an exception ap -
+plies. In 2006, CCAR-119TR-R was replaced by the Detailed Rules for the 
+Business Permission for Non-scheduled Flights of Foreign Air Transport 
+Enterprises (CCAR-119TR-R1) ( CAAC, 2006 ), which regulate interna -
+tional charter operations with respect to documentation requirements, 
+application deadlines, operational restrictions, and penalties for viola -
+tions. The CCAR-119TR-R1 further affirms that the CAAC shall apply the 
+principle of reciprocity in licensing non-scheduled flights. It was even 
+reported that the CAAC suspended international cargo charters from 
+three major airports during the 2015 peak season, likely to protect 
+Chinese carriers ( Harris, 2015 ).
+The CAAC also adopted a range of measures to restrict Chinese air -
+lines. For example, the CAAC (2001) stated that Chinese carriers should 
+impose strict limits on international and Hong Kong/Macao 
+non-scheduled flight operations, as excessive charter activity had 
+become a key factor contributing to the sharp deterioration of the eco -
+nomic performance of their scheduled flights. Subsequently, the CAAC 
+C. Wu et al.                                                                                                                                                                                                                                      Transport Policy 184 (2026) 104173 
+5 
+--- Page 6 ---
+(2002) established an approval-based system under which Chinese-flag 
+airlines were required to apply to the CAAC for authorization before 
+arranging additional or charter flights. By the late 2000s, a series of 
+corruption cases related to the approval and operation of international 
+charter flights (e.g., the Capital Airport charter scandals and the China 
+Southern charter case) reinforced the CAAC's decision to impose strin -
+gent controls on international non-scheduled operations throughout the 
+2010s.
+After a prolonged period of strict regulation, the CAAC began to relax 
+controls on charter operations in the late 2010s. This shift originated in 
+2015, when the CAAC issued the Notice on Simplifying the Approval 
+Procedures for International Charter Flights Operated by Domestic 
+Airlines, which replaced the prior approval regime with a record-filing 
+system. Under this system, Chinese airlines are required to flight plans 
+for record filing in advance and to report actual operational data to the 
+CAAC on a monthly basis. However, the CAAC continues to require 
+foreign airlines to obtain flight operating permits in advance. To obtain a 
+permit, foreign airlines must complete slot coordination beforehand and 
+submit applications to the CAAC together with the required supporting 
+documentation and, where applicable, pay the air traffic rights 
+compensation fee in advance. Furthermore, the CAAC still regulated 
+charter operations on scheduled routes.
+Following the outbreak of COVID-19, the Chinese government 
+established the Joint Mechanism of the State Council on Prevention and 
+Control of COVID-19 (hereinafter, the Joint Mechanism) to make inte -
+grated arrangements for prevention and control efforts. In line with the 
+Joint Mechanism's requirements and related provisions, the CAAC 
+imposed strict limits on international passenger flights while adopting 
+measures to bolster air-cargo capacity, stabilize global supply chains, 
+and utilize ‘idle ’ aircraft ( ICAO, 2021 ). In April 2020, the CAAC issued 
+the notice on Review and Approval of the “ Green Channel ” for Inter -
+national Air Cargo Transport During the Period of Epidemic Prevention 
+and Control (hereinafter, the Green Channel) ( CAAC, 2020 ). The ‘Green 
+Channel ’ focused on facilitating scheduled cargo operations using 
+passenger-to-cargo aircraft and promoting non-scheduled cargo opera -
+tions. In particular, the Green Channel policy relaxed several application 
+restrictions for foreign airlines, permitted cargo charter operations on 
+routes already served by scheduled flights, and supported charter op -
+erations by third-country airlines ( Table 1 ).
+Subsequently, the CAAC issued the Operation Safety Bulletin on the 
+Transport of Cargo in the Passenger Cabin on April 21, officially giving 
+airlines the green light to preighter operations. On May 26, jointly 
+announced with the Ministry of Finance (MOF), the CAAC announced 
+subsidies for Chinese airlines to modify passenger aircraft to freighter 
+configurations, as well as financial incentives for both Chinese and 
+foreign airlines engaged in international cargo-only operations, whether 
+scheduled or charter. In 2021, the MOF expanded the scope of the Civil 
+Aviation Development Fund to support logistics systems, enabling local 
+governments to increase cargo subsidies. For example, the Guangzhou 
+Airport Economic Zone provided USD 13 million in international cargo- 
+route subsidies to nine airlines and eight freight forwarders in 2021, and 
+the number of international preighters departing Guangzhou rose by 
+more than 50% year over year.
+Table 2 shows that charter flights rose sharply to 75,000 in 2020 and 
+81,000 in 2021. Compared with Chinese carriers, foreign airlines 
+exhibited broader geographical coverage but experienced a decline in 
+flight volume. This pattern may be partly attributable to reductions in 
+preighter operations by some foreign airlines. As vaccination emerged as 
+a key measure for mitigating the risk of COVID-19 transmission, several 
+countries began to adopt air travel policies in the second half of 2021 
+that relied primarily on passenger vaccination rates. These policy shifts 
+were associated with a gradual recovery of international air passenger 
+traffic. In response, many foreign airlines started to reconvert freighters 
+back to passenger aircraft to accommodate rising passenger demand. 
+Aviation authorities, such as the Federal Aviation Administration and 
+the European Union Aviation Safety Agency, also began to phase out 
+preighter operations during this period. By contrast, the CAAC 
+continued to strictly restrict international passenger flights and further 
+strengthened support for Chinese airlines in utilizing preighters, 
+including through financial subsidies. It should be noted that evaluating 
+airline performance lies outside the scope of this paper, given significant 
+cross-country differences in regulatory environments and market con -
+ditions. For example, during the study period, most cargo charters be -
+tween China and the United States were operated by U.S. airlines.
+Table 2 also shows that, from 2020 to 2021, both Chinese and foreign 
+airlines experienced significant reductions in the number of routes 
+alongside increases in route density, indicating a substantial trans -
+formation of the overall charter flight network. Meanwhile, charter 
+volume increased by 7% year over year, despite a 28% rise in scheduled 
+cargo services over the same period ( Table 3 ). These trends raise 
+Table 1 
+CAAC (2020) relaxed controls international cargo charters.
+Previous limitations Deregulation measures
+1 Applicants (airlines) should 
+terminate a ground-handling agency 
+agreement between carriers and 
+service providers.
+The ground-handling agency 
+agreement could be replaced by a 
+ground-handling guarantee letter.
+2 Applicants (airlines) should provide 
+charter contracts when handling 
+application.
+The contract could be replaced by a 
+letter requesting assistance from 
+airlines produced by local government 
+or authorities.
+3 Applicants (airlines) must run slot 
+coordination in advance and operate 
+the flight as approved.
+Airlines could obtain nonscheduled 
+flight operation permits without going 
+through slot coordination in advance.
+4 No charter on route served by 
+scheduled flights.
+Nonscheduled (charter) flights on 
+routes with existing scheduled service 
+could be approved.
+5 Foreign airlines need to hold full 
+CCAR 129 certifications
+Conditionally support the operation of 
+cargo charter flights by a third-country 
+carrier
+Table 2 
+Changes in charter amount and rout density in terms of carriers.
+2020 2021 Variations
+Cargo charters operated by Chinese flag airlines
+Flight amount 35,996 42,220 17%
+No. of routes (edges) 441 313   29%
+Average flight per route (route density) 82 135 66%
+Cargo charters operated by foreign airlines
+Flight amount 39,258 38,456   2%
+No. of routes (edges) 901 628   30%
+Average flight per route (route density) 44 62 41%
+Table 3 
+The availability of scheduled cargo flights to and from China per week.
+Passenger 
+flight
+Cargo flights
+Freighter 
+aircraft
+Preighter 
+aircraft
+In 
+total
+Winter 2019/Spring 
+2020
+18,230 1968 0 1968
+Winter 2020/Spring 
+2021
+592 2780 1718 4498
+Winter 2021/Spring 
+2022
+408 3472 2292 5764
+Winter 2022/Spring 
+2023
+840 N/A N/A 6148
+Winter2023/Spring 
+2024
+6502 N/A N/A 3676
+Note:the CAAC issues scheduled flight timetables twice a year. One for Summer/ 
+Fall season (begins on the last Sunday of March), and another for Winter/Spring 
+(begins on the last Sunday of October). For consistency, we used data from the 
+Winter/Spring timetable to represent the availability of scheduled cargo flights.
+Data source: CAAC scheduled flight timetable.
+C. Wu et al.                                                                                                                                                                                                                                      Transport Policy 184 (2026) 104173 
+6 
+--- Page 7 ---
+concerns about the resilience of the air charter transport system in the 
+face of disruptive events, such as the rapid expansion of scheduled cargo 
+flight capacity. Among charter flights operated by Chinese airlines, the 
+share of preighter charters increased from 71% in 2020 to 78% in 2021. 
+Airlines operated preighters in three modes: (i) belly-hold only; (ii) belly 
+hold plus cabin without seat removal; and (iii) belly hold plus cabin with 
+seats removed. Although mode (iii) offers the greatest capacity among 
+these options, it still provides only about one-third of the cargo capacity 
+of a comparably sized freighter. Preighters are also less efficient than 
+freighters due to labor-intensive loading processes. These constraints 
+motivate our research questions: Which markets were primarily served 
+by preighters, and how did preighters perform?
+5. Evolution patterns and driving factors
+5.1. Spatial distributions
+Fig. 1 illustrates the spatial distribution of navigable cities (nodes) 
+serving as origins and destinations for cargo charters. Within China, 
+cities were more concentrated in the east than in the west, more in the 
+south than in the north, and clustered around the Yangtze River Delta 
+and Pearl River Delta. Outside China, many overseas cities disappeared 
+while new ones emerged in 2021. The cities that disappeared were 
+predominantly in South America and the Middle East, along the West 
+African coast, and on the northern coast of the Mediterranean, with is -
+land cities nearly vanishing altogether. Newly appeared cities were 
+concentrated along the Silk Road, the Strait of Malacca, and the west 
+coast of the Gulf of Guinea, indicating a shift in charter routes toward 
+inland hubs and major maritime gateways.
+Fig. 2 indicates that, within China, charters were highly concentrated 
+in the eastern coastal region, moderately represented in the central and 
+southwestern regions, and least frequent in the northern and western 
+regions. In 2021, there was a further concentration of flights to the 
+eastern region. Outside China, charter activity was concentrated in 
+Europe, North America, Northeast Asia, South Asia, the Middle East, and 
+Central Asia. Russia- and Central Asia – based airlines were leading 
+charter operators in Asia, operating a significant number of former So -
+viet military turboprop and jet airplanes on charter freight flights 
+( Boeing, 2022 ). Several Russian and Central Asian airports have 
+traditionally served as technical stopovers for these carriers; during the 
+pandemic, they also became important stopover or transit points for P2C 
+charters between China and Europe.
+Fig. 3 depicts the network formed by passenger-to-cargo charters 
+(P2C, preighter charters) and full-cargo charters (FC, freighter charters) 
+operated by Chinese-flag airlines, as well as mixed charters provided by 
+foreign airlines. In terms of charters operated by Chinese airlines, Fig. 3
+(a) and (b) show that preighter charters established and reinforced a 
+dual-hub structure in North America centered on Los Angeles and New 
+York. In Europe, the network evolved into a stable polycentric config -
+uration. The Asia-Pacific region was the primary destination for P2C 
+charters. Within Asia, network structures in Northeast and Southeast 
+Asia remained stable, while routes to Central Asia declined. Overall, the 
+preighter charters exhibited a highly concentrated and rapidly shifting 
+regional structure. By contrast, full-cargo charters reduced their 
+network coverage in Asia while retaining a relatively rigid network 
+structure in North America and Europe ( Fig. 3 (c) and (d)).
+In detail, the volume of preighter charters increased from approxi -
+mately 25,000 flights in 2020 to around 33,000 flights in 2021, largely 
+driven by growth on routes to Europe and North America ( Table 4 ). In 
+2020, roughly one-third of preighter operations were concentrated on 
+routes between China and other Asian cities, while Europe and North 
+America accounted for approximately 30% and 28% of the total, 
+respectively. By 2021, the share of flights to Europe rose to 41%, and 
+that of North America increased to 29%, whereas Asia's market position 
+declined to third place. The expansion of preighter charters serving 
+European and North American cities appears to be associated with a 
+sharp surge in freight rates. In some cases, charter prices on routes to 
+Europe and the United States reached USD 1.55 million and USD 2.17 
+million per flight, respectively, approximately three to four times higher 
+than pre-pandemic levels.
+With the increase in scheduled freighter, the number of freighter 
+charters declined by approximately 7%, from over 10,000 flights in 
+2020 to about 9300 flights in 2021. Despite this reduction, Asia main -
+tained a dominant market share in both years. The size and composition 
+of the Chinese freighter fleet appear to be closely associated with the 
+direction of charter operations. By the end of 2019, Chinese-flag airlines 
+operated a total of 173 freighters, of which only 50 were wide-body 
+aircraft suitable for long-haul routes (Li, 2020). This fleet structure 
+Fig. 1. Spatial distribution of all navigable cities (nodes) s: 2020 vs. 2021.
+C. Wu et al.                                                                                                                                                                                                                                      Transport Policy 184 (2026) 104173 
+7 
+--- Page 8 ---
+may have constrained the spatial pattern of charter flows, with over 70% 
+of freighter charters operating on routes to Asian cities, particularly on 
+short-haul routes to cities in Northeast and South Asia.
+At the regional level, Africa, North America, and Oceania were 
+predominantly served by preighters; in other words, Chinese-flag air -
+lines mainly operated preighters on routes to these regions ( Table 4 ). At 
+the city level. On city level, preighter charters were operated on 322 
+routes in 2020 and 235 routes in 2021, and freighter charters on 179 
+routes in 2020 and 109 routes in 2021 ( Table 5 ). The smaller reduction 
+for preighters indicates a more stable network. The number of over -
+lapping routes served by both aircraft types suggests that preighters 
+were deployed mainly on routes rarely served by freighters, especially in 
+2021. Notably, the share of overlapping routes fell from 22% to 10%, 
+indicating that freight forwarders reduced duplicate routes and that 
+route competition between aircraft types diminished.
+Fig. 3 (e) and (f) reveal that foreign airlines reached more islands and 
+long-haul destinations. In 2021, Europe experienced a reduction of 
+nodes, while no fundamental change occurred in the North American 
+market. In Africa, the charters created a regional aggregation network, 
+with a decrease in overall routes but an increase in traffic to Addis Ababa 
+and West African port cities. The geographical location of Addis Ababa 
+suggests that cargo charter was supported by air-to-air transport. For 
+example, Ethiopian Airlines ’ official page noted that Ethiopian Airlines 
+played a critical role in shipping COVID-19 vaccines from China and 
+distributing Chinese-made vaccines to other African countries and some 
+South American cities.
+It is worth noting that the number of key nodes (cities) within the 
+network formed by all foreign charter operations increased in 2021, 
+with Shanghai, Beijing, Guangzhou, Shenzhen, Tianjin, Chengdu, and 
+Zhengzhou emerging as major hubs ( Appendix 1 ). The geographical 
+distribution of these hubs, together with their operational performance, 
+indicates that air cargo transport was strongly supported by surface 
+transportation during the COVID-19 period ( Deng et al., 2022 ; He et al., 
+2024 ). In charter operations, Chinese freight forwarders (charterers) 
+assume a central coordinating role within this integrated air – truck 
+transport mode, particularly in linking dispersed production locations 
+with selected airports. This coordinating role, in turn, implies that the 
+freight forwarders play a pivotal role in building and optimizing charter 
+route networks under a less regulated, more market-oriented environ -
+ment. Section 5.3 therefore aims to empirically validate this role and 
+examine how freight forwarder – led coordination shapes city-level 
+network configurations.
+5.2. Changes in charter amounts and driving factors
+5.2.1. Monthly volume in terms of charter types
+Fig. 4 depicts the monthly frequency of different charters. In 2020, 
+cargo charter amount started to ascend in March, surged in April and 
+May, then declined steadily throughout the summer. In March, 
+numerous charters were inbound supply charters, carrying personal 
+protective equipment (PPE) and other medical supplies to China. 
+Outbound supply charters emerged at the end of March and peaked in 
+May, shipping masks, protective clothing, ventilators, and then test kits 
+overseas. The decline after June was likely due to the increase of 
+scheduled cargo flights (the FY2020 Summer and Autumn Scheduled 
+flight timetable went effect in June), the reduction in supply charters, 
+and the MOF and CAAC suspension of financial incentives for interna -
+tional cargo flights.
+Notably, the monthly change patterns suggest that increases in 
+scheduled cargo had negative effects on cargo charter traffic, but these 
+effects were uneven and temporary. Firstly, foreign charters increased in 
+September 2020 and remained constant thereafter. Secondly, the P2C 
+and FC charters declined in October 2020, April 2021, and October 
+2021, when the new timetable took effect, but all recovered in the 
+following months. Thirdly, the P2C charters escalated rapidly in 
+November and December 2020. This surge was driven by soaring air 
+freight rates, rising exports of rapid detection kits, growth in general 
+cargo and e-commerce shipments, and the traditional Q4 peak season 
+driven by Black Friday and Christmas shipments.
+In 2021, the charters displayed a more variable but sustained 
+Fig. 2. Spatial distribution of cities (nodes) with at least 500 charters: 2020 vs. 2021.
+C. Wu et al.                                                                                                                                                                                                                                      Transport Policy 184 (2026) 104173 
+8 
+--- Page 9 ---
+pattern, with four peak months in February, March, June, and 
+September. Several factors contributed to this volatility, including the 
+increase in scheduled cargo flights, the sharp rise in freight rates, the 
+growth of cross-border e-commerce shipments, and the distribution of 
+COVID-19 vaccines. We found a strong alignment between monthly P2C 
+charter volumes and the monthly export volumes of China-produced 
+COVID-19 vaccines ( Appendix 2 ).
+5.2.2. Major cities
+Table 6 shows that all top-ranked Chinese cities in 2020 experienced 
+a decline in charter flight volumes in 2021, except Beijing, Guangzhou, 
+and Kunming. This decline was likely influenced by the increase in 
+scheduled flights, though other factors also played a role. For example, 
+at Shanghai Pudong International Airport, the CAAC's ‘closed-loop 
+management ’ for frontline cargo-handling staff caused significant 
+manpower shortages, forcing the airport to prioritize scheduled flights 
+and thereby reducing charter operations in 2021.
+Fig. 3. Route networks in terms of charter types: 2020 vs. 2021.
+C. Wu et al.                                                                                                                                                                                                                                      Transport Policy 184 (2026) 104173 
+9 
+--- Page 10 ---
+The experiences of Beijing, Guangzhou, and Kunming further suggest 
+that additional city-level factors affected charter activity. For Beijing, 
+home to Beijing Capital International Airport, charter traffic was partly 
+driven by CAAC special measures and global anti-COVID-19 measures. 
+in March 2020, the CAAC required all international passenger flights 
+bound for Beijing to first land at one of twelve designated “ first-entry ” 
+airports. This policy indirectly increased charter traffic to and from 
+Beijing and nearby airports such as Zhengzhou. In 2021, China became 
+the world's largest exporter of COVID-19 vaccines, with Sinopharm and 
+Sinovac Biotech as the main manufacturers. Both companies established 
+headquarters and initial production facilities in Beijing. This geographic 
+concentration of vaccine manufacturing, combined with the airport's 
+cold-chain infrastructure, significantly boosted COVID-19 vaccine and 
+medical supply charters from Beijing in that year.
+Guangzhou's experience highlights the impact of airport customs 
+clearance capacity. To facilitate cargo charter and preighter operations, 
+Guangzhou Baiyun International Airport Customs created an expedited- 
+clearance model known as ‘Whole-Unit Load Device (ULD) Collection 
+and Rapid Sorting. ’ Under this model, cargo listed on the same Export 
+Customs Declaration Sheet was consolidated into a single ULD upon 
+Table 4 
+Market served by the passenger-to-cargo (P2C, preighter) in term of overseas cities by regions.
+Overseas city in terms of region In 2020 In 2021 2020-2021 changes
+Flight Amount Market Share
+a
+Flight Amount Market Share
+a
+Flight amount Market Share
+a
+Africa 54 96% 24 100%   30 4%
+Asia 8528 53% 8494 56%   34 4%
+Central Asia 224 68% 142 27%   82   41%
+Northeast Asia 1956 37% 2544 46% 588 9%
+South Asia 1682 35% 1042 29%   640   6%
+Europe 7584 76% 13572 87% 5988 11%
+North America 7116 93% 9572 93% 2456   1%
+Oceania 2192 99% 1254 100%   938 1%
+South America 0 N/A 0 N/A 0 N/A
+Total 25474 71% 32916 78% 7442 7%
+a
+Proportion of preighter among the charter operated by Chinese airlines (preighter + freighter).
+Table 5 
+Number of cargo charter routes served by preighter and freighter.
+In 2020 In 2021 2020-2021
+routes (edges) routes (edges) Changes
+Charters operated by Chinese flag 
+airlines
+441 313   29%
+1 Preighter charters 322 235   27%
+2 Freighter charters 179 109   39%
+No. of overlapping routes 90(22%) 31(10%)   59(-12%)
+Fig. 4. Monthly number of different cargo charter flights.
+Table 6 
+Top 10 Chinese and overseas cities (nodes) in terms of flight amount: 2020 vs. 2021.
+In 2020 In 2021
+Chinese cities Flight volume Overseas cities Flight volume Chinese cities Flight volume Overseas cities Flight volume
+1 Shanghai 21,278 Los Angeles 5166 Shanghai 13,368 Los Angeles 6322
+2 Guangzhou 7296 Moscow 4112 Beijing 11,244 London 4896
+3 Beijing 6568 Tokyo 3684 Guangzhou 9704 Seoul 3976
+4 Shenzhen 5694 Seoul 3562 Kunming 5116 Moscow 3932
+5 Zhengzhou 4204 Dhaka 3264 Shenzhen 4560 Yangon 3490
+6 Hangzhou 2954 London 2566 Zhengzhou 3908 Frankfurt 3370
+7 Chengdu 2908 Doha 2242 Hangzhou 3632 Dhaka 3208
+8 Kunming 2292 Osaka 2138 Wuhan 2458 Addis Ababa 2862
+9 Changsha 2274 Frankfurt 2038 Qingdao 2374 Tokyo 2840
+10 Chongqing 2206 Manila 1980 Xiamen 2312 Milan 2796
+Note: it does not necessarily correlate to the amount recorded by the respective airports.
+C. Wu et al.                                                                                                                                                                                                                                      Transport Policy 184 (2026) 104173 
+10 
+--- Page 11 ---
+arrival at the airport's export cargo sorting zone. Each ULD was linked to 
+a Master Air Waybill (MAWB), enabling unified processing for security, 
+inspection, and loading, while rapid sorting minimized secondary 
+handling within the cargo terminal. According to an official report, this 
+model reduced average clearance times from 24.38 to 12.53 h for im -
+ports and from 1.54 to 0.87 h for exports. With these innovations in 
+airport customs clearance capacity, combined with the cargo subsidies 
+offered by the airport authority to airlines and agents, the number of 
+international preighters departing from Guangzhou increased by more 
+than 50% year over year, while cargo charter flights grew by over 33% 
+in 2021.
+As the only airport in Southwest China designated by the General 
+Administration of Customs as an entry port for imported fresh fruit, 
+Kunming Changshui International Airport likely benefited from this 
+status. This growth may also have been driven by its strategic position as 
+the principal cargo hub serving South Asia, Southeast Asia, and the In -
+dian Ocean region. In 2021, the local government increased subsidies to 
+support the international cargo logistics system. Although the official 
+report did not disclose the precise subsidy amount, the subsidies clearly 
+played a pivotal role in shaping charter operations. This was partly re -
+flected in the statistic that 80% of Chinese-made PPE and vaccines 
+exported to Myanmar were shipped via charter flights between Kunming 
+and Yangon.
+Among the top 10 overseas cities, Los Angeles, Moscow, London, 
+Seoul, Frankfurt, Dhaka, Tokyo, and Milan were the top 10 cities for the 
+second year running. All nonstop scheduled passenger flights between 
+China and the United Kingdom were suspended in January 2021, as a 
+result, London moved up from sixth to second in that year. In Asia, Seoul 
+increased in both flight amount and rank, one city (Yangon) appeared, 
+and two cities (Doha and Osaka) disappeared. More than that, the Af -
+rican city of Addis Ababa ranked eighth in 2021, from where some 
+charters departed to the third destinations without unloading cargo 
+immediately. It is difficult to explain why Los Angeles and Seoul expe -
+rienced such large growth in 2021. One possible explanation is that 
+should be those two countries had already established more mature 
+charter operation models. For example, the share of charter operations 
+in U.S. – South Korea nonstop air freight traffic increased from 35% in 
+2019 to 50% in 2020.
+In summary, at the city level, charter operations were influenced not 
+only by scheduled flights but also by a range of additional factors, such 
+as airport operational efficiency, civil aviation and central government 
+policies, local measures and subsidies, global epidemic prevention reg -
+ulations, airport location, and market demand. Driven by profit incen -
+tive and constrained by these factors, freight forwarders leased aircraft 
+from airlines, which then operated flights under charter contracts. The 
+next section presents case studies that illustrate how freight forwarders 
+organize outbound charters, optimize operational efficiency, and 
+enhance the resilience of the air charter transport system.
+5.3. The role of freight forwarders
+Primarily, this section examines how charter flights are organized 
+and how city-centered route networks are optimized through this truck- 
+to-air transit system. After the outbreak of COVID-19, Chinese charterers 
+(freight forwarders) and their agents often consolidated cargo and 
+trucked it to charter departure airports, typically using container trucks. 
+Over time, multiple city- (airport-) centered trucking networks coa -
+lesced into a nationwide truck-to-air cargo transit system. Chengdu was 
+selected as the case study area because it ranks first in air cargo 
+throughput in western China, and the analysis aims to demonstrate the 
+spatial coverage of the trucking networks and charter catchment areas.
+Fig. 5 maps a network centered on Chengdu. This network connects 
+Chengdu with major airports and logistics hubs across China, extending 
+eastward to Shanghai, northward to Beijing, and southward to 
+Guangzhou. Supported by this system, the forwarders (charterers) 
+collect shipments from factories, warehouses, and logistics centers, 
+consolidate them in Chengdu, and dispatch them overseas via charters. 
+In practice, the charter catchment area extended to a 56-h trucking 
+radius. Theoretically, the coverage of this network changed dynami -
+cally, synchronizing with the consolidation strategies adopted by char -
+terers for each flight. To be more precise, each charter operation 
+contributes to greater flexibility of the whole truck-to-aircraft charter 
+cargo transit system. Flexibility enables a transport system to adapt to 
+crises or new conditions: higher flexibility means stronger robustness 
+against disruptive events ( Scott et al., 2006 ). In this way, we explained 
+the mechanisms underlying the resilience of air charter transport 
+Fig. 5. A truck route network with key information. Source: Feight forwarder.
+C. Wu et al.                                                                                                                                                                                                                                      Transport Policy 184 (2026) 104173 
+11 
+--- Page 12 ---
+systems in the context of charterer activities.
+Fig. 5 also lists the shipments carried by a Boeing 777-300 preighter. 
+A local factory needed to export lithium-battery products and entrusted 
+the task to a freight forwarder. Based on the factory's dispatch schedule 
+and final destination, the forwarder signed a charter agreement with an 
+airline and, after receiving the factory's advance payment, paid a deposit 
+to the airline. Because the Boeing 777-300's capacity far exceeded the 
+volume of the lithium-battery shipment, the forwarder distributed the 
+surplus space to its agents and other forwarders. Ultimately, the flight 
+carried 4.5 tons of cargo, comprising 1185 items across 38 MAWBs. By 
+volume, 73% were consolidation consignments (CONSOL), while only 
+25% consisted of lithium-ion batteries. This case demonstrates that 
+preighter charter operations rely on multi-party cooperation. To reduce 
+commercial risk, the freight forwarder redistributed excess capacity 
+among other forwarders and consolidated shipments from multiple 
+sources, thereby acting as a capacity broker among shippers, airlines, 
+and other agents.
+China's major cities (airports) are well connected by expressways, 
+which enables charterers to consolidate cargo from geographically 
+dispersed places to charter departure airports. The cargo collection 
+points can be regarded as spokes, while the charter departure airport 
+functions as the hub; together, they form an airport-centered hub-and- 
+spoke network. Supported by surface transportation, the freight for -
+warders can transport cargo not only from various spoke to airports but 
+also between airports. As such, the charterers could respond to abrupt 
+changes (e.g., shortages of airport loading staff, adjustments in epidemic 
+control measures, or fluctuations in infection rates) by selecting alter -
+native departure airports. They may also bypass the nearest airport by 
+transporting cargo to a more distant one or by leasing aircraft from a 
+specific airline, driving by various factors. Gradually, they established 
+specialized destination groups for each hub city (airport).
+Fig. 6 reveals how top 10 Chinese cities (ranked by charter volume in 
+2020) differ in their major destination. It could be generally observed 
+that each Chinese city is connected to a distinct set of major destinations, 
+with limited overlap across cities. A detailed analysis is conducted for 
+Shanghai, Zhengzhou, and Chengdu, which serve as leading logistics 
+hubs in China's eastern, central, and western regions, respectively. 
+Shanghai was connected to numerous destinations via charters (bright 
+yellow routes). The charters primarily connected Zhengzhou with 
+Russia, Central Asia, and EU cities, with Zhengzhou – Moscow and 
+Zhengzhou – Luxembourg as key routes (bright green routes). The 
+network centered on Chengdu (bright blue routes) was relatively sparse 
+and featured a large proportion of routes heading to Southeast Asian 
+cities. In 2021, this differentiation becomes more pronounced.
+Fig. 6 (b) illustrates that differences became more pronounced in 
+2021, suggesting that the forwarders reinforced the variability among 
+cities in terms of destination groups. This freight-forwarder-led city- 
+level route (re)construction approach enabled each city (major airport) 
+to present one or more distinct destination clusters, thereby reducing 
+route competition among cities and improving the overall performance 
+of the charter system. Regarding the factors that impacted freight for -
+warders ’ airport selection, this approach reduced the importance of 
+ground-transport distance. To a certain degree, the location of the 
+destination became a factor impacting airport selection by freight 
+forwarders.
+6. The performance of preighters
+6.1. Performance evolution
+As can be seen in Fig. 7 , preighter charters achieved better perfor -
+mance in 2021: k values increased and remained at a higher level 
+throughout the year, and L values declined with less fluctuation. Unlike 
+P2C's sharp optimization, the freighters kept a stable but limited per -
+formance. It is worth noting that preighters outperformed freighters in 
+both resilience and efficiency in 2021, as well as (mixed) foreign char -
+ters, particularly in terms of network efficiency. Compared with 
+freighter charters, preighter operations are characterized by higher 
+labor intensity and complex consolidation requirements, which demand 
+closer collaboration between freight forwarders, shippers, airlines, air -
+ports, and governmental authorities. For example, due to the manual 
+handling required for cabin loading, freight forwarder staff were 
+sometimes needed to load cargo or assist airlines in supervising the 
+process in some cases. It seems that deep cooperation enabled preighter 
+charters to outperform freighters.
+Fig. 6. Major charter destinations of the top 10 Chinese hubs: 2020 vs. 2021. 
+Note: the major destinations refer to cities served by 10 or more charter flights, represented by black dots in the figures.
+C. Wu et al.                                                                                                                                                                                                                                      Transport Policy 184 (2026) 104173 
+12 
+--- Page 13 ---
+6.2. Network reconfiguration trends
+Table 7 lists the top 10 nodes and edges within the network formed 
+by preighter charter flights. The NBC ranking reveals that the preighter 
+network shifted from a China-dominated structure to a more globally 
+dispersed configuration. In 2020, seven of the top 10 nodes were located 
+in China. By 2021, overseas cities increased to six. London and Los 
+Angeles consistently served as the most important overseas nodes. 
+Vancouver emerged as a new North American gateway, Paris appeared 
+as an EU anchor city, and Almaty became a key bridging hub between 
+China and Europe.
+EBC measures the importance of a route within an air freight network 
+by capturing its bridging function. In 2020, the majority of top-ranked 
+routes were linked to Shanghai; the top three edges were Urum -
+qi – London, Shanghai – Seoul, and Urumqi – Yekaterinburg; and five of the 
+top 10 edges connected with Asian cities. By 2021, the bridging pattern 
+underwent a marked reorientation: Guangzhou surged to the forefront 
+with four key bridges; the top three routes became Guangzhou – Almaty, 
+Urumqi – Almaty, and Guangzhou – London; and Central Asian routes 
+appeared for the first time.
+Both NBC and EBC results consistently demonstrate significant 
+structural reconfiguration of the preighter network. In terms of spatial 
+location, Guangzhou lies in South China, while Shanghai occupies a 
+strategic position on the eastern seaboard. In 2021, Guangzhou sur -
+passed Shanghai as the principal node within the network, with seven of 
+the ten most significant edges linked to it, indicating a geographical 
+reorientation of the network toward southern China. The reconfigura -
+tion also extended the network's reach: the number of long-haul routes 
+( ≥ 6000 km) doubled from three in 2020 to six in 2021, and the average 
+distance of the top ten edges increased from 4067 km to 6386 km. Thus, 
+the network transitioned from a China-concentrated structure in 2020 to 
+a southern-China – centered, globally dispersed, and long-haul-oriented 
+configuration in 2021.
+7. Conclusion and discussion
+Taking China as the study area, this paper examines the evolution of 
+international cargo charter operations during 2020 – 2021, focusing on 
+preighter operations and the role of freight forwarders. There are three 
+major results. First, aviation deregulation and the promotion of pre -
+ighters boosted cargo charter operations, which in turn enhanced 
+China's integration into global supply chains by providing flexible ca -
+pacity and routes. Other drivers included the surge in e-commerce de -
+mand, Chinese carriers' growing recognition of air cargo's strategic 
+importance, and new slot policies and financial subsidies ( Deng et al., 
+2022 ). Second, cargo charter operations underwent profound network 
+transformations during period 2020 to 2021. The results of descriptive 
+statistics show that charters became increasingly concentrated on routes 
+connected with major overseas hubs; geographic visualization reveals a 
+shift of charter routes toward overseas inland hubs and major maritime 
+gateways; and complex network indicators demonstrate a (re)organi -
+zation of the network formed by preighter charters from a 
+China-concentrated structure to a globally dispersed and 
+long-haul-oriented configuration. And third, freight forwarders assumed 
+the commercial risk for charter operations ( ICAO, 2022 ), acting not only 
+as capacity brokers but also as central players in route development and 
+network optimization.
+As one of the strategic measures adopted by airlines in response to 
+the COVID-19 crisis, preighter operations offered airlines a convenient 
+and cost-effective way to utilize their aircraft ( Zheng et al., 2024 ). It also 
+Fig. 7. Visual indication of average changes in the values of each indicator.
+Table 7 
+Top 10 nodes and edges within passenger-to-cargo (P2C) charter networks.
+In 2020 In 2021
+NBC EBC NBC EBC
+1 Shanghai Urumqi-London Guangzhou Guangzhou-Almaty
+2 Guangzhou Shanghai-Seoul Shanghai Urumqi-Almaty
+3 Chengdu Urumqi- 
+Yekaterinburg
+Beijing Guangzhou-London
+4 Beijing Shanghai-Islamabad London Guangzhou-Osaka
+5 London Shanghai-Osaka Chengdu Shanghai-London
+6 Seoul Shanghai-London Los Angeles Guangzhou-Los 
+Angeles
+7 Shenzhen Chengdu-London Paris Shanghai-Osaka
+8 Chongqing Shanghai-Yangon Almaty Guangzhou-Moscow
+9 Urumqi Shanghai-Ho Chi 
+Minh
+Vancouver Guangzhou-Paris
+10 Los Angeles Guangzhou-Seoul Osaka Chengdu-London
+C. Wu et al.                                                                                                                                                                                                                                      Transport Policy 184 (2026) 104173 
+13 
+--- Page 14 ---
+created opportunities for passenger-only airlines, particularly LCCs and 
+CCs, to start international cargo operations. The preighter model re -
+mains an influential factor in today's supply chain, which continues to 
+face challenges and uncertainties. Our results revealed that the pre -
+ighters primarily served routes rarely covered by freighters, experienced 
+route re-construction, and outperformed freighters in both resilience 
+and network efficiency. Furthermore, the charters reached more desti -
+nations than scheduled flights, thereby enhancing the resilience and 
+flexibility of China's air cargo system.
+In the context of COVID-19, charter operations in China heavily 
+depended on truck networks. Various city (airport)-centered truck net -
+works enabled freight forwarders to extend charter catchment areas to 
+56 h through truck-to-aircraft systems, a distance far exceeding the 
+general catchment area of air cargo, such as the 12-h radius ( Boonekamp 
+and Burghouwt, 2017 ). Meanwhile, the forwarders may select a more 
+distant airport instead of the geographically closest on, driving by 
+various factors, This freight-forwarder-led city-level route (re)con -
+struction approach enabled each city to present one or more distinct 
+destination clusters, thereby reducing route competition among cities. 
+Regarding the factors that impacted freight forwarders' airport selection, 
+this approach serves as a supplement to related research on airlines' 
+airport selection during COVID-19, such as Tanrıverdi et al. (2022) . As 
+in scheduled cargo service, local origin-destination demand, airport 
+road access, and airport/local government financial incentive are also 
+crucial factors affecting forwarders’ airport selection decisions ( Chu, 
+2014 ); and the presence of freight forwarders is the most critical factor 
+influencing airport choice for airlines serving major hubs ( Franziska 
+et al., 2016 ).
+Our study found that the increase in scheduled service did have 
+negative influences on cargo charter demand, but these negative in -
+fluences were uneven and not lasting. This resilience results from 
+charter operations being led by freight forwarders within a market- 
+driven, less regulated environment, allowing them to adapt to changes 
+effectively through route optimization and network transformation. 
+Meanwhile, cargo charter flights predominantly follow point-to-point 
+network patterns, and this architecture demonstrates greater resilience 
+to both targeted node and random edge removal compared with the hub- 
+and-spoke system ( Wuellner et al., 2010 ; Wong et al., 2020 ). During the 
+COVID-19–impacted period, Chinese international scheduled freighters 
+refined a hub-and-spoke network to meet surging cargo demand from 
+major hubs ( Deng et al., 2025 ), implying that charters played different 
+role. Furthermore, various city (airport)-centered truck route networks 
+formed a nationwide truck-to-aircraft charter cargo transit network. The 
+geographic coverage of each city (airport)-centered truck network 
+changed dynamically, synchronizing with the consolidation strategies 
+adopted by charterers for each flight. Therefore, each charter operation 
+would increase the flexibility of the whole charter network. In this way, 
+we explained the mechanisms underlying the resilience of the charter 
+transport system.
+Based on these findings, several policy implications can be drawn. 
+First, aviation authorities should recognize cargo charters as a structural 
+component of the air cargo system rather than as purely temporary or 
+exceptional arrangements. Integrating hub-and-spoke networks 
+(scheduled services) with point-to-point networks (cargo charters) could 
+enhance overall system efficiency, even in the post-COVID era. Second, 
+preighter operations represented a policy-enabled response to the 
+COVID-19 crisis and largely disappeared by mid-2023 after aviation 
+authorities phased out related regulatory exemptions (IATA, 2025). 
+Rather than fully phasing out preighter operations, aviation policy -
+makers could consider establishing conditional frameworks that allow 
+such services to be reactivated during periods of demand surges or 
+systemic disruption. Alternatively, preighter operations could be 
+incorporated into the cargo charter regulatory framework, thereby 
+supporting airlines’ long-term fleet planning. Third, the CAAC could 
+regulate charter traffic primarily through supervision rather than by 
+tightly limiting charter operations on routes already served by scheduled 
+flights. In addition, the CAAC should improve the statistical framework 
+for cargo charters by requiring all airlines to report actual charter flight 
+data.
+For industry practitioners, the findings highlight several recom -
+mendations. Airlines and airports should strengthen cooperation with 
+freight forwarders; aircraft manufacturers should place greater 
+emphasis on convertible cargo capabilities, such as quick-change 
+aircraft; and both LCCs and CCs should seek regulatory authorization 
+to operate passenger aircraft on cargo-only missions. Chinese integrators 
+also need to expand their fleets and network coverage. As of 2019, the 
+two leading firms, SF Airlines and YTO Cargo Airlines, operated a 
+combined total of only about 68–72 freighters, revealing a substantial 
+capacity gap compared with FedEx's 681 aircraft and UPS's 572 aircraft. 
+Under normal operating conditions, approximately half of China's in -
+ternational air cargo is transported in the belly holds of passenger 
+aircraft, with the remainder carried by dedicated freighters. Because 
+belly cargo is closely tied to passenger flight operations, cargo move -
+ments are embedded within passenger-driven flight networks, making it 
+difficult to separately identify and precisely characterize freight flows. 
+The pandemic-induced suspension of passenger flights created a natural 
+experiment in which cargo flows were dominated by freighters and 
+preighter operations. By integrating our finding with scheduled services, 
+all practitioners can more clearly identify freight volumes and flows, 
+providing valuable guidance for future fleet planning, network design, 
+and route selection.
+This study is subject to several limitations. First, the dataset for 
+charter flights operated by foreign airlines is derived from CAAC-issued 
+operating permits. Despite this constraint, the dataset as a whole is 
+adequate to support the analytical framework and to produce robust and 
+reliable findings. Second, the analysis centers on freight forwarders 
+while overlooking perspectives of other stakeholders, including airlines, 
+airports, and regulators. Third, cross-market differences are not exam -
+ined. Future research should examine the factors affecting charterers’ 
+airport selection and the interplay between charter and scheduled ser -
+vices. We view this paper as an initial step in the limited empirical 
+literature on the resilience of the air charter transport system, and the 
+same approaches could be applied to evaluate the performance of pas -
+senger charters.
+CRediT authorship contribution statement
+Chuntao Wu: Writing – review & editing, Writing – original draft, 
+Visualization, Supervision, Methodology, Formal analysis. Xiaohe He: 
+Visualization, Validation, Software, Data curation. Yuliang Peng: 
+Visualization, Validation, Software, Data curation.
+Funding information
+This research did not receive any specific grant from funding 
+agencies in the public, commercial, or not-for-profit sectors.
+Declarations of conflict interest
+None.
+C. Wu et al.                                                                                                                                                                                                                                      Transport Policy 184 (2026) 104173 
+14 
+--- Page 15 ---
+Appendix 1
+Visualization of key nodes and edges within network built by foreign charters.
+Appendix 2
+Overseas supply of COVID-19 vaccines by Chinese companies.
+Data source: UNICEF; may include locally produced doses.
+Data availability
+Data will be made available on request.
+References
+Albert, R., Jeong, H., Barab ´asi, A.-L., 2000. Error and attack tolerance of complex 
+networks. Nature 406 (6794), 378 – 382 .
+Alexander, D.W., Merkert, R., 2021. Applications of gravity models to evaluate and 
+forecast US international air freight markets post-GFC. Transp. Policy 104, 52 – 62 .
+Boeing, 2022. World Air Cargo Forecast 2022 – 2041. The Boeing Company .
+Boeing, 2024. World Air Cargo Forecast 2024 – 2043. The Boeing Company .
+Bombelli, A., 2020. Integrators' global networks: a topology analysis with insights into 
+the effect of the COVID-19 pandemic. J. Transport Geogr. 87, 102815 .
+Bombelli, A., Santos, B.F., Tavasszy, L., 2020. Analysis of the air cargo transport network 
+using a complex network theory perspective. Transport. Res. E Logist. Transport. 
+Rev. 138, 101959 .
+Boonekamp, T., Burghouwt, G., 2017. Measuring connectivity in the air freight industry. 
+J. Air Transport. Manag. 61, 81 – 94 .
+Bowen, J., 2012. A spatial analysis of FedEx and UPS: Hubs, spokes, and network 
+structure. J. Air Transport. Manag. 24, 419 – 431 .
+Castillo-Manzano, J.I., Castro Nu ˜no, M., L ´opez Valpuesta, L., Pedregal, D.J., 2017. 
+Measuring the LCC effect on charter airlines in the Spanish airport system. J. Air 
+Transport. Manag. 65, 110 – 117 .
+C. Wu et al.                                                                                                                                                                                                                                      Transport Policy 184 (2026) 104173 
+15 
+--- Page 16 ---
+Civil Aviation Administration of China (CAAC), 2001. Notice on Strengthening the 
+Administration of Additional Flights on International and Hong Kong/Macao 
+Scheduled Routes and Strictly Controlling Charter Flights .
+Civil Aviation Administration of China (CAAC), 2002. Notice on Strictly Controlling 
+Additional and Charter Flights on International and Hong Kong/Macao Routes .
+Civil Aviation Administration of China, 2006. Detailed Rules for the Business Permission 
+for Non-scheduled Flights of Foreign Air Transport Enterprises (CCAR-119TR-R1) .
+Civil Aviation Administration of China (CAAC), 2019. Notice on regulating international 
+charter flight operations (draft for comments) [in Chinese]. Available at: htt 
+ps://www.caac.gov.cn/HDJL/YJZJ/201908/t20190801_197895.html .
+Civil Aviation Administration of China (CAAC), 2020. Notice on Launching a Review and 
+Approval of “ Green Channel ” for International Air Cargo Transport During the 
+Period of Epidemic Prevention and Control .
+Chakraborty, S., Ghosh, S., Sarker, B., Chakraborty, S., 2020. An integrated performance 
+evaluation approach for the Indian international airports. J. Air Transport. Manag. 
+88, 101853 .
+Chu, H.C., 2014. Exploring preference heterogeneity of air freight forwarders in the 
+choices ocarriers and routes. J. Air Transport. Manag. 37, 45 – 52 .
+Deng, Y., Zhang, Y., Wang, K., 2022. An analysis of the Chinese scheduled preighters 
+network during the first year of the COVID-19 pandemic. J. Transport Geogr. 99, 
+103298 .
+Deng, Y., Zhang, Y., Wang, K., He, Y., 2025. Navigating through and beyond the COVID- 
+19 crisis: evaluating the resilience of Chinese international air freighter networks. 
+Transp. Policy 163 (000) .
+Dobruszkes, F., Mondou, V., Ghedira, A., 2016. Assessing the impacts of aviation 
+liberalisation on tourism: some methodological considerations derived from the 
+Moroccan and Tunisian cases. J. Transport Geogr. 50, 115 – 127 .
+Franziska, K., Roselinde, K., Peter, G., Eddy, V.V., Ann, V., 2016. The origin – destination 
+airport choice for all-cargo aircraft operations in Europe. Transport. Res. E Logist. 
+Transport. Rev. 87, 53 – 74 .
+Gardiner, J., Ison, S., Humphreys, I., 2005. Factors influencing cargo airlines' choice of 
+airport: an international survey. J. Air Transport. Manag. 11 (6), 393 – 399 .
+Gu, Y., Fu, X., Liu, Z., Xu, X., Chen, A., 2020. Performance of transportation networks 
+under perturbations: reliability, vulnerability, and resilience. Transport. Res. E 
+Logist. Transport. Rev. 133, 101809 .
+Harris, D., 2015. Peak season hit by Chinese charter ban. Air Cargo World 18. Accessed 
+January 2024. https://cargofacts.com/allposts/business/strategy/peak-season-hit 
+-by-chinese-charter-ban/ .
+He, H., Wu, H., Tsui, K.W.H., Wang, B., Fu, X., 2024. Spatiotemporal evolution of air 
+cargo networks and its impact on economic development: an analysis of China's 
+domestic market before and during the COVID-19 pandemic. J. Transport Geogr. 
+117, 103872 .
+International Air Transport Association (IATA, 2025. Global outlook for air transport: 
+protectionism on the rise. IATA Sustainability and Economics .
+International Civil Aviation Organization (ICAO), 2022. Eleventh Session of the Statistics 
+Division: Statistical Definition of Nonscheduled all-cargo .
+International Civil Aviation Organization (ICAO), 2021. China's policies on international 
+flights during the COVID-19 pandemic (HLCC 2021-WP/214, FAL/70). In: High- 
+Level Conference on COVID-19. Montr ´eal, Canada . 
+Li, H., Li, J., Zhao, X., Kuang, X., 2022. The morphological structure and influence factors 
+analysis of China's domestic civil aviation freight transport network. Transp. Policy 
+125, 207 – 217 .
+Liao, M.Z., Wu, C.T., Yan, H.M., 2022. Recovery of Chinese low-cost carriers after the 
+outbreak of the COVID-19 pandemic. J. Air Transport. Manag. 105, 102282 .
+Lordana, O., Sallan, J.M., Escorihuela, N., Gonzalez-Prieto, P., 2016. Robustness of 
+airline route networks. Physica A 445, 18 – 26 .
+Malighetti, P., Martini, G., Redondi, R., Scotti, D., 2019. Air transport networks of global 
+integrators in the more liberalized Asian air cargo industry. Transp. Policy 80, 
+12 – 23 .
+Martin, J., Niemeyer, D., 2020. On the impact of network size and average degree on the 
+robustness of centrality measures. Network Sci. 1 – 22 .
+Morrell, P.S., Klein, T., 2018. Moving Boxes by Air: the Economics of International Air 
+Cargo. Routledge .
+Scott, D., Novak, D.C., Aultman-Hall, L., Guo, F., 2006. Network robustness index: a new 
+method for identifying critical links and evaluating the performance of 
+transportation networks. J. Transport Geogr. 14, 215 – 227 .
+Sun, X., Wandelt, S., Zhang, A., 2022. How did COVID-19 impact air transportation? A 
+first peek through the lens of complex networks. J. Air Transport. Manag. 89, 
+101928 .
+Tanrıverdi, G., Ecer, F., Durak, M., 2022. Exploring factors affecting airport selection 
+during the COVID-19 pandemic from air cargo carriers' perspective through the 
+triangular fuzzy dombi-bonferroni BWM methodology. J. Air Transport. Manag. 102, 
+102302 .
+Walcott, S.M., Fan, Z., 2017. Comparison of major air freight network hubs in the U.S. 
+and China. J. Air Transport. Manag. 61, 64 – 72 .
+Wang, D.J., Shi, X., McFarland, D.A., Leskovec, J., 2012. Measurement error in network 
+data: a re-classification. Social Network 34, 396 – 409 .
+Wong, A., Tan, S., Chandramouleeswaran, K.R., Tran, H.T., Talley, W., 2020. Data-driven 
+analysis of resilience in airline networks. Transport. Res. E Logist. Transport. Rev. 
+143, 102098 .
+Wu, C., Hayashi, Y., 2013. Evolution of outbound charter operations in Japan post- 
+deregulation. Transp. Policy 30, 92 – 100 .
+Wu, C.T., Jiang, Q.Y., Yang, H.J., 2018. Changes in cross-strait aviation policies and their 
+impact on tourism flows since 2009. Transp. Policy 63, 61 – 72 .
+Wu, C.T., Xu, W.J., Tusi, K.W.H., 2023. Analyzing factors affecting charter flight service 
+demand: a case of Taiwan. J. Air Transport. Manag. 110, 102424 .
+Wuellner, D.R., Roy, S., D'Souza, R.M., 2010. Resilience and rewiring of the passenger 
+airline networks in the United States. Phys. Rev. 82 (5), 056101 .
+Yu, W., Yang, J., Yan, R., 2020. Measuring service reliability in international air-cargo 
+networks. Transport. Res. Pol. Pract. 132, 872 – 888 .
+Zhang, L., Yang, H., Bian, L., 2025. Complex network analysis of China's domestic air 
+cargo network based on actual flight data. Transp. Policy 168, 133 – 156 .
+Zheng, S., Wang, K., Jiang, C., 2024. Converting passenger aircraft into cargo planes 
+under volatile market demand. Transport. Res. Pol. Pract. 181, 104013 .
+C. Wu et al.                                                                                                                                                                                                                                      Transport Policy 184 (2026) 104173 
+16 

@@ -1,60 +1,66 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // Mobile Navigation Toggle
+    // 1. Mobile Navigation Toggle
     const hamburger = document.querySelector('.hamburger');
-    const navList = document.querySelector('.nav-list');
+    const navMenu = document.querySelector('.nav-menu');
     const navLinks = document.querySelectorAll('.nav-link');
 
-    hamburger.addEventListener('click', () => {
-        hamburger.classList.toggle('active');
-        navList.classList.toggle('active');
-    });
-
-    // Close mobile menu when a link is clicked
-    navLinks.forEach(link => {
-        link.addEventListener('click', () => {
-            hamburger.classList.remove('active');
-            navList.classList.remove('active');
+    if (hamburger && navMenu) {
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navMenu.classList.toggle('active');
         });
-    });
 
-    // Dark Mode Toggle
-    const themeToggle = document.querySelector('.theme-toggle');
-    const icon = themeToggle.querySelector('i');
-    
-    // Check for saved user preference, if any, on load
-    const currentTheme = localStorage.getItem('theme');
-    if (currentTheme) {
-        document.documentElement.setAttribute('data-theme', currentTheme);
-        if (currentTheme === 'dark') {
-            icon.classList.replace('fa-moon', 'fa-sun');
-        }
+        // Close mobile menu when a link is clicked
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                hamburger.classList.remove('active');
+                navMenu.classList.remove('active');
+            });
+        });
     }
 
-    themeToggle.addEventListener('click', () => {
-        let theme = document.documentElement.getAttribute('data-theme');
+    // 2. Dark/Light Theme Controller
+    const themeToggle = document.querySelector('.theme-toggle');
+    const icon = themeToggle ? themeToggle.querySelector('i') : null;
+    
+    if (themeToggle && icon) {
+        // Default to dark mode if no saved preference exists
+        const savedTheme = localStorage.getItem('theme') || 'dark';
+        document.documentElement.setAttribute('data-theme', savedTheme);
         
-        if (theme === 'dark') {
-            document.documentElement.setAttribute('data-theme', 'light');
-            localStorage.setItem('theme', 'light');
-            icon.classList.replace('fa-sun', 'fa-moon');
+        if (savedTheme === 'light') {
+            icon.className = 'fas fa-moon';
         } else {
-            document.documentElement.setAttribute('data-theme', 'dark');
-            localStorage.setItem('theme', 'dark');
-            icon.classList.replace('fa-moon', 'fa-sun');
+            icon.className = 'fas fa-sun';
         }
-    });
 
-    // Smooth Scrolling for Anchor Links (polyfill-like behavior for older browsers, though CSS scroll-behavior usually suffices)
+        themeToggle.addEventListener('click', () => {
+            const currentTheme = document.documentElement.getAttribute('data-theme');
+            let newTheme = 'dark';
+            
+            if (currentTheme === 'dark') {
+                newTheme = 'light';
+                icon.className = 'fas fa-moon';
+            } else {
+                newTheme = 'dark';
+                icon.className = 'fas fa-sun';
+            }
+            
+            document.documentElement.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+        });
+    }
+
+    // 3. Smooth Scrolling with Fixed Header Offset
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
-            e.preventDefault();
             const targetId = this.getAttribute('href');
             if (targetId === '#') return;
             
             const targetElement = document.querySelector(targetId);
             if (targetElement) {
-                // Account for fixed header offset
-                const headerOffset = 80;
+                e.preventDefault();
+                const headerOffset = 76; // Nav height
                 const elementPosition = targetElement.getBoundingClientRect().top;
                 const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
         
@@ -66,9 +72,47 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // Scroll Animation (Fade In) using Intersection Observer
+    // 4. collapsible Abstract Accordion for Research Paper
+    const abstractToggle = document.querySelector('.abstract-toggle-btn');
+    if (abstractToggle) {
+        abstractToggle.addEventListener('click', () => {
+            const isExpanded = abstractToggle.getAttribute('aria-expanded') === 'true';
+            abstractToggle.setAttribute('aria-expanded', !isExpanded);
+        });
+    }
+
+    // 5. Scrollspy for Active Navbar State
+    const sections = document.querySelectorAll('section[id]');
+    const navLinksList = document.querySelectorAll('.nav-link');
+    
+    function scrollSpy() {
+        let currentSection = 'about'; // Default fallback
+        const scrollPos = window.scrollY + 100; // Account for header offset
+        
+        sections.forEach(section => {
+            const top = section.offsetTop;
+            const height = section.offsetHeight;
+            if (scrollPos >= top && scrollPos < top + height) {
+                currentSection = section.getAttribute('id');
+            }
+        });
+        
+        navLinksList.forEach(link => {
+            link.classList.remove('active');
+            const href = link.getAttribute('href');
+            if (href === `#${currentSection}` || (currentSection === 'about' && href === '#')) {
+                link.classList.add('active');
+            }
+        });
+    }
+
+    window.addEventListener('scroll', scrollSpy);
+    scrollSpy(); // Initial call
+
+    // 6. Intersection Observer for Smooth Section Entry Animations
     const observerOptions = {
-        threshold: 0.1
+        threshold: 0.05,
+        rootMargin: "0px 0px -40px 0px"
     };
 
     const observer = new IntersectionObserver((entries) => {
@@ -80,9 +124,8 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }, observerOptions);
 
-    const sections = document.querySelectorAll('.section');
-    sections.forEach(section => {
-        section.classList.add('fade-in-section'); // Add class to initially hide
+    const fadeSections = document.querySelectorAll('.fade-in-section');
+    fadeSections.forEach(section => {
         observer.observe(section);
     });
 });

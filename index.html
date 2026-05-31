@@ -4,28 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yuliang Peng | Software Engineer</title>
+    <title>Yuliang Peng | Applied ML Researcher & Software Engineer</title>
     <meta name="description"
-        content="Official portfolio of Yuliang Peng, a Software Engineer and Machine Learning Researcher. Discover my work in distributed systems, AI, and scalable infrastructure.">
+        content="Official portfolio of Yuliang Peng, Applied ML Researcher & Software Engineer. Discover projects in GPU embeddings, LLM routing, and high-coverage crawlers.">
     <meta name="keywords"
-        content="Yuliang Peng, Software Engineer, Machine Learning, University of Maryland, Portfolio, AI Research, Distributed Systems">
+        content="Yuliang Peng, Software Engineer, Applied Machine Learning, CUDA, Event Camera, UMD, Air China, ModeSens, Bank of China">
     <meta name="author" content="Yuliang Peng">
     <link rel="canonical" href="https://ypeng12.github.io/Mypage/">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://ypeng12.github.io/Mypage/">
-    <meta property="og:title" content="Yuliang Peng | Software Engineer & ML Researcher">
+    <meta property="og:title" content="Yuliang Peng | Applied ML & Software Engineering">
     <meta property="og:description"
-        content="Portfolio of Yuliang Peng. Exploring the mathematics of AI and building scalable systems.">
+        content="Portfolio of Yuliang Peng. Bridging cutting-edge ML research with high-performance distributed systems.">
     <meta property="og:image" content="https://ypeng12.github.io/Mypage/WechatIMG279.jpg">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://ypeng12.github.io/Mypage/">
-    <meta property="twitter:title" content="Yuliang Peng | Software Engineer & ML Researcher">
+    <meta property="twitter:title" content="Yuliang Peng | Applied ML & Software Engineering">
     <meta property="twitter:description"
-        content="Portfolio of Yuliang Peng. Exploring the mathematics of AI and building scalable systems.">
+        content="Portfolio of Yuliang Peng. Bridging cutting-edge ML research with high-performance distributed systems.">
     <meta property="twitter:image" content="https://ypeng12.github.io/Mypage/WechatIMG279.jpg">
 
     <!-- JSON-LD Structured Data -->
@@ -43,14 +43,14 @@
           "https://github.com/ypeng12",
           "https://linkedin.com/in/ypeng12"
         ],
-        "jobTitle": "Software Engineer & Machine Learning Researcher",
+        "jobTitle": "Applied Machine Learning Researcher & Software Engineer",
         "worksFor": [
           {
             "@type": "Organization",
             "name": "University of Maryland"
           }
         ],
-        "description": "Software Engineer and Machine Learning Researcher specializing in distributed systems, AI, and scalable infrastructure."
+        "description": "M.S. Applied Machine Learning student and Software Engineer specializing in CUDA acceleration, serverless pipelines, and LLM orchestration."
       }
     }
     </script>
@@ -58,7 +58,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
@@ -68,14 +68,18 @@
     <!-- Navbar -->
     <header class="navbar">
         <div class="container navbar-container">
-            <a href="#" class="logo">YP.</a>
+            <a href="#" class="logo">
+                <span class="logo-accent">&lt;</span>YP<span class="logo-accent">. /&gt;</span>
+            </a>
             <nav class="nav-menu">
                 <a href="#about" class="nav-link">About</a>
-                <a href="#education" class="nav-link">Education</a>
                 <a href="#experience" class="nav-link">Experience</a>
                 <a href="#projects" class="nav-link">Projects</a>
+                <a href="#research" class="nav-link">Research & Pubs</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#skills" class="nav-link">Skills</a>
                 <a href="#contact" class="nav-link">Contact</a>
-                <a href="YuliangPeng.pdf" target="_blank" class="nav-btn">Resume</a>
+                <a href="Yuliang Resume 2026.pdf" target="_blank" class="nav-btn">Resume</a>
                 <button class="theme-toggle" aria-label="Toggle Dark Mode">
                     <i class="fas fa-moon"></i>
                 </button>
@@ -89,263 +93,394 @@
     </header>
 
     <!-- Hero Section -->
-    <section id="about" class="hero">
+    <section id="about" class="hero fade-in-section">
         <div class="container hero-container">
             <div class="hero-image-wrapper">
+                <div class="avatar-glow"></div>
                 <img src="WechatIMG279.jpg" alt="Yuliang Peng" class="hero-img">
             </div>
-            <a href="https://chromewebstore.google.com/detail/tabit/balfedbffogihlkfffhngojhmjpjfpcf" target="_blank" class="featured-badge pulse">
-                <i class="fas fa-rocket"></i> New: TabIt AI Released
+            
+            <a href="#research" class="featured-badge pulse">
+                <i class="fas fa-file-invoice"></i> Transport Policy (2026) Paper Published
             </a>
+            
             <h1 class="hero-title">Hi, I'm <span class="highlight">Yuliang Peng.</span></h1>
             <p class="hero-subtitle">Actively Seeking Software Engineer & Machine Learning Engineer Roles</p>
+            
             <p class="hero-bio">
-                Computer Science at <a href="https://umd.edu" target="_blank" class="text-link">University of
-                    Maryland</a>.
-                Passionate about building scalable infrastructure, distributed systems, and exploring the <span
-                    style="white-space: nowrap;">mathematics of AI.</span>
+                Computer Science at <a href="https://umd.edu" target="_blank" class="text-link">University of Maryland</a>. 
+                Passionate about building scalable infrastructure, distributed systems, and exploring the <span style="white-space: nowrap;">mathematics of AI.</span>
             </p>
 
             <div class="social-links">
-                <a href="YuliangPeng.pdf" target="_blank" class="social-btn primary-btn"><i class="fas fa-file-alt"></i>
-                    Resume</a>
-                <a href="https://github.com/ypeng12" target="_blank" class="social-btn"><i class="fab fa-github"></i>
-                    GitHub</a>
-                <a href="https://linkedin.com/in/ypeng12" target="_blank" class="social-btn"><i
-                        class="fab fa-linkedin"></i> LinkedIn</a>
-                <a href="mailto:pengyuliang31@gmail.com" class="social-btn"><i class="fas fa-envelope"></i> Email</a>
+                <a href="Yuliang Resume 2026.pdf" target="_blank" class="social-btn primary-btn"><i class="fas fa-file-pdf"></i> Resume (2026)</a>
+                <a href="https://github.com/ypeng12" target="_blank" class="social-btn"><i class="fab fa-github"></i> GitHub</a>
+                <a href="https://linkedin.com/in/ypeng12" target="_blank" class="social-btn"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href="mailto:ypeng12@umd.edu" class="social-btn"><i class="fas fa-envelope"></i> Email</a>
             </div>
         </div>
     </section>
 
-    <!-- Education Section -->
-    <section id="education" class="section bg-alt">
-        <div class="container">
-            <h2 class="section-title">Education</h2>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="line-dot"></div>
-                    <div class="timeline-content">
-                        <div class="timeline-header">
-                            <h3>University of Maryland, College Park</h3>
-                            <span class="company">M.S. Machine Learning &amp; B.S. Computer Science</span>
-                            <span class="date">Sep 2025 &mdash; Expected May 2027</span>
-                        </div>
-                        <ul class="resume-list">
-                            <li><strong>Master of Science in Machine Learning</strong> (Expected May 2027)</li>
-                            <li><strong>Bachelor of Science in Computer Science</strong> (May 2024) &middot; <em>Dean's
-                                    List</em></li>
-                            <li><strong>Relevant Courses:</strong> Machine Learning, Computer Vision, Robotics, Deep
-                                Learning, Data Structures and Algorithms</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <!-- Experience Section -->
-    <section id="experience" class="section">
+    <section id="experience" class="section fade-in-section">
         <div class="container">
-            <h2 class="section-title">Experience</h2>
-            <div class="timeline">
-
-                <div class="timeline-item">
-                    <div class="line-dot"></div>
-                    <div class="timeline-content">
-                        <div class="timeline-header">
-                            <h3>Research Assistant</h3>
-                            <span class="company">University of Maryland, College Park</span>
-                            <span class="date">Nov 2025 - Present</span>
-                        </div>
-                        <ul class="resume-list">
-                            <li>Developed GPU-accelerated spatiotemporal embeddings for high-rate event camera streams,
-                                enabling efficient ML inference with optimized CUDA-based parallelization.</li>
-                            <li>Conducted data-driven analysis of aviation network resilience using network-level
-                                modeling on Delta system outage data.</li>
-                            <li>Applied NLP and sentiment analysis to TripAdvisor low-altitude travel reviews to extract
-                                passenger perception dimensions.</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="line-dot"></div>
-                    <div class="timeline-content">
-                        <div class="timeline-header">
+            <div class="section-header">
+                <span class="section-tag font-mono">02. Industrial History</span>
+                <h2 class="section-title">Work Experience</h2>
+            </div>
+            
+            <div class="work-timeline">
+                <!-- ModeSens -->
+                <div class="work-item">
+                    <div class="timeline-marker"></div>
+                    <div class="work-content">
+                        <div class="work-header">
                             <h3>Software Engineer</h3>
-                            <span class="company">ModeSens (Remote)</span>
-                            <span class="date">Jun 2025 - Sep 2025</span>
+                            <span class="company"><a href="https://modesens.com" target="_blank">ModeSens</a></span>
+                            <span class="date font-mono">Apr 2025 &mdash; Sep 2025 | Remote</span>
                         </div>
-                        <ul class="resume-list">
-                            <li>Built a distributed e-commerce crawling system using asynchronous pipelines and serverless triggers, improving product coverage by 15%.</li>
-                            <li>Developed an NLP-based search-term normalization and translation pipeline to align user queries with merchant catalogs, improving search precision by 23%.</li>
-                            <li>Implemented an image-based product matching workflow that compares user-uploaded images against internal product catalogs to support visual search and recommendations.</li>
+                        <ul class="work-list">
+                            <li>Built backend ingestion services across <strong>30+ global retailers</strong> employing automated pipelines and serverless workflows.</li>
+                            <li>Engineered highly optimized production data pipelines with automated CI/CD releases, <strong>reducing failure rates by 20%</strong>.</li>
+                            <li>Designed scalable Python and AWS S3 workflows for rapid feature extraction and data standardization across real-time retail feeds.</li>
+                            <li>Developed an image-matching pipeline with perceptual hashing, SSIM, and Selenium, <strong>cutting manual inspection effort by 80%</strong> and boosting recommendation precision by 25%.</li>
                         </ul>
                     </div>
                 </div>
 
-                <div class="timeline-item">
-                    <div class="line-dot"></div>
-                    <div class="timeline-content">
-                        <div class="timeline-header">
+                <!-- Bank of China -->
+                <div class="work-item">
+                    <div class="timeline-marker"></div>
+                    <div class="work-content">
+                        <div class="work-header">
                             <h3>Software Engineer</h3>
                             <span class="company">Bank of China, USA</span>
-                            <span class="date">Jul 2024 - May 2025</span>
+                            <span class="date font-mono">Jul 2024 &mdash; Apr 2025 | Los Angeles</span>
                         </div>
-                        <ul class="resume-list">
-                            <li>Led bug bash and reliability efforts for internal enterprise systems, resolving 70+
-                                high-impact issues and reducing productivity-blocking tickets by 30%.</li>
-                            <li>Implemented a secure client authorization framework using cryptographic signatures and
-                                the Chain of Responsibility pattern, adopted by 15+ internal teams.</li>
-                            <li>Built AWS-based data pipelines (EC2, S3, RDS) for real-time ingestion and storage of
-                                financial transaction data, improving data reliability and operational efficiency.</li>
+                        <ul class="work-list">
+                            <li>Built secure, scalable backend services for critical financial transaction monitoring, backing large-scale audit, risk, and compliance operations.</li>
+                            <li>Designed high-capacity data ingestion pipelines for real-time transaction processing, enabling advanced fraud detection features.</li>
+                            <li>Addressed and resolved **70+ production-blocking issues**, strengthening system reliability and **slashing enterprise downtime by 20%**.</li>
                         </ul>
                     </div>
                 </div>
 
-                <div class="timeline-item">
-                    <div class="line-dot"></div>
-                    <div class="timeline-content">
-                        <div class="timeline-header">
+                <!-- Air China -->
+                <div class="work-item">
+                    <div class="timeline-marker"></div>
+                    <div class="work-content">
+                        <div class="work-header">
                             <h3>Software Engineer Intern</h3>
                             <span class="company">Air China</span>
-                            <span class="date">May 2023 - Aug 2023</span>
+                            <span class="date font-mono">Jul 2023 &mdash; Apr 2024 | Chengdu, China</span>
                         </div>
-                        <ul class="resume-list">
-                            <li>Developed Unix shell scripts to automate system backups across Linux environments,
-                                reducing manual workload by 40%.</li>
-                            <li>Revamped the secure login system with mobile QR code scanning, streamlining user
-                                identification (adopted in 2024).</li>
+                        <ul class="work-list">
+                            <li>Automated safety backups across standard Linux server arrays with custom shell scripting, **minimizing manual developer overhead by 25%**.</li>
+                            <li>Redesigned the internal client identification module with secure QR-code mobile authentication, adopted into production in 2024.</li>
                         </ul>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
 
     <!-- Projects Section -->
-    <section id="projects" class="section bg-alt">
+    <section id="projects" class="section fade-in-section">
         <div class="container">
-            <h2 class="section-title">Projects</h2>
-            <div class="projects-grid">
-                <!-- Project 1: Tabit -->
-                <article class="project-card featured-project">
-                    <div class="project-image-wrapper">
-                        <img src="tabit_real.png" alt="TabIt AI Interface" class="project-img">
+            <div class="section-header">
+                <span class="section-tag font-mono">03. Engineering Systems</span>
+                <h2 class="section-title">Featured Projects</h2>
+            </div>
+
+            <div class="projects-container">
+                <!-- ApplyPilot AI Card -->
+                <article class="project-featured-card">
+                    <div class="project-img-container">
+                        <div class="img-overlay"></div>
+                        <img src="applypilot_promo.png" alt="ApplyPilot AI" class="project-showcase-img">
                     </div>
-                    <div class="project-content">
-                        <div class="project-top">
-                            <h3>TabIt - AI Tab Manager</h3>
-                            <div style="display: flex; gap: 0.5rem;">
-                                <a href="https://chromewebstore.google.com/detail/tabit/balfedbffogihlkfffhngojhmjpjfpcf" target="_blank" class="icon-link" title="Chrome Web Store"><i class="fab fa-chrome"></i></a>
-                                <a href="https://github.com/Yucklys/TabIt" target="_blank" class="icon-link" title="GitHub"><i class="fab fa-github"></i></a>
-                                <a href="https://yucklys.github.io/TabIt/" target="_blank" class="icon-link" title="Documentation"><i class="fas fa-book"></i></a>
-                            </div>
-                        </div>
-                        <p class="project-desc">Smart browser extension using <strong>Local AI (TF-IDF & Leiden Clustering)</strong> for automatic tab management. Features real-time organization, hierarchical clustering for 100+ tabs, and strict privacy by running entirely on-device.
+                    <div class="project-info">
+                        <div class="project-badge font-mono"><i class="fas fa-robot"></i> Featured AI Agent</div>
+                        <h3 class="project-name">ApplyPilot AI</h3>
+                        <div class="project-meta font-mono">Manifest V3 Chrome Extension & FastAPI Agent</div>
+                        
+                        <p class="project-description">
+                            An advanced, privacy-first, browser-based AI job application agent. It instantly scrapes page DOM structures, maps fields via direct-rule heuristics, and leverages Gemini 2.5 Flash to draft tailored, job-specific short answers. Implements a secure local-first architecture by persisting profiles on-device, and resolves React DOM prototype state locks through synthetic event injection to enable seamless autofill.
                         </p>
-                        <div class="tech-stack">
-                            <span>React</span>
-                            <span>Vite</span>
-                            <span>TF-IDF</span>
-                            <span>Leiden Algorithm</span>
-                            <span>Web Workers</span>
+                        
+                        <div class="tech-stack-pills">
+                            <span class="tech-pill">React 18</span>
+                            <span class="tech-pill">TypeScript</span>
+                            <span class="tech-pill">Vite</span>
+                            <span class="tech-pill">FastAPI</span>
+                            <span class="tech-pill">Gemini AI</span>
+                            <span class="tech-pill">Manifest V3</span>
+                        </div>
+                        
+                        <div class="project-links">
+                            <a href="https://github.com/ypeng12" target="_blank" class="proj-btn accent-btn"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="screenshot_chat_1280x800.png" target="_blank" class="proj-btn"><i class="fas fa-image"></i> Chat Preview</a>
                         </div>
                     </div>
                 </article>
 
-                <!-- Project 1.5: Computer Vision -->
-                <article class="project-card">
-                    <div class="project-content">
-                        <div class="project-top">
-                            <h3>Computer Vision & Depth Prediction</h3>
-                            <div style="display: flex; gap: 0.5rem;">
-                                <a href="https://github.com/ypeng12/ComputerVision/blob/main/Gradient_Surfing.pdf"
-                                    target="_blank" class="icon-link"><i class="fas fa-file-pdf"></i></a>
-                                <a href="https://github.com/ypeng12/ComputerVision" target="_blank" class="icon-link"><i
-                                        class="fab fa-github"></i></a>
-                            </div>
+                <!-- TabIt Card -->
+                <article class="project-featured-card">
+                    <div class="project-img-container">
+                        <div class="img-overlay"></div>
+                        <img src="tabit_mockup.png" alt="TabIt AI Interface" class="project-showcase-img">
+                    </div>
+                    <div class="project-info">
+                        <div class="project-badge font-mono"><i class="fas fa-star"></i> Featured Systems Project</div>
+                        <h3 class="project-name">TabIt - AI Tab Manager</h3>
+                        <div class="project-meta font-mono">Google Chrome Extension Hackathon</div>
+                        
+                        <p class="project-description">
+                            An intelligent web browser workspace extension that implements local semantic grouping of open sessions. Uses custom client-side TF-IDF embeddings and the Leiden clustering algorithm running within multi-threaded Web Workers to resolve similarity mapping across 100+ active browser tabs inside sub-100ms. Runs entirely on-device to enforce user data privacy.
+                        </p>
+                        
+                        <div class="tech-stack-pills">
+                            <span class="tech-pill">React</span>
+                            <span class="tech-pill">Vite</span>
+                            <span class="tech-pill">Web Workers</span>
+                            <span class="tech-pill">TF-IDF</span>
+                            <span class="tech-pill">Leiden Clustering</span>
+                            <span class="tech-pill">Manifest V3</span>
                         </div>
-                        <p class="project-desc">Proposed a mathematical method for depth prediction from DIGIT tactile
-                            images. Implemented CNN classifiers, GMM color segmentation, and panorama stitching.</p>
-                        <div class="tech-stack">
-                            <span>Python</span>
-                            <span>Computer Vision</span>
-                            <span>Math</span>
+                        
+                        <div class="project-links">
+                            <a href="https://chromewebstore.google.com/detail/tabit/balfedbffogihlkfffhngojhmjpjfpcf" target="_blank" class="proj-btn accent-btn"><i class="fab fa-chrome"></i> Store</a>
+                            <a href="https://github.com/Yucklys/TabIt" target="_blank" class="proj-btn"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="https://yucklys.github.io/TabIt/" target="_blank" class="proj-btn"><i class="fas fa-book"></i> Documentation</a>
                         </div>
                     </div>
                 </article>
 
-                <!-- Project 2: Terpiez -->
-                <article class="project-card">
-                    <div class="project-content">
-                        <div class="project-top">
-                            <h3>Terpiez AR Game</h3>
-                            <a href="https://github.com/ypeng12/Terpiez-Go" target="_blank" class="icon-link"><i
-                                    class="fab fa-github"></i></a>
+                <!-- Project 1: Collaborative Routing -->
+                <article class="project-featured-card">
+                    <div class="project-img-container">
+                        <div class="img-overlay"></div>
+                        <img src="routing_promo.png" alt="Cloud-Edge Agent Routing" class="project-showcase-img">
+                    </div>
+                    <div class="project-info">
+                        <div class="project-badge font-mono" style="color: #f59e0b;"><i class="fas fa-trophy"></i> Google Hackathon Award</div>
+                        <h3 class="project-name">Cloud-Edge Agent Routing</h3>
+                        <div class="project-meta font-mono"><i class="fas fa-network-wired"></i> Orchestration & LLM Gateway</div>
+                        
+                        <p class="project-description">
+                            Built an orchestration system using intent-based classification to route requests between lightweight local edge models and cloud LLM APIs. Achieved >95% edge execution for standard workflows, saving bandwidth and API costs while reducing initial latency. Features custom mitigation layers for hallucinations.
+                        </p>
+                        
+                        <div class="tech-stack-pills">
+                            <span class="tech-pill">LLMs</span>
+                            <span class="tech-pill">Intent Routing</span>
+                            <span class="tech-pill">API Gateway</span>
+                            <span class="tech-pill">Edge Inference</span>
+                            <span class="tech-pill">Python</span>
                         </div>
-                        <p class="project-desc">AR mobile game for capturing virtual creatures. Features real-time
-                            location tracking, persistent player data with Redis, and interactive maps.</p>
-                        <div class="tech-stack">
-                            <span>Flutter</span>
-                            <span>Dart</span>
-                            <span>Redis</span>
-                            <span>Google Maps</span>
+                        
+                        <div class="project-links">
+                            <a href="https://github.com/ypeng12" target="_blank" class="proj-btn accent-btn"><i class="fab fa-github"></i> GitHub</a>
                         </div>
                     </div>
                 </article>
 
-                <!-- Project 3: AI Game -->
-                <article class="project-card">
-                    <div class="project-content">
-                        <div class="project-top">
-                            <h3>AI Game Agents</h3>
-                            <a href="https://github.com/ypeng12/AI_Game_python" target="_blank" class="icon-link"><i
-                                    class="fab fa-github"></i></a>
+                <!-- Project 2: Face Verification -->
+                <article class="project-featured-card">
+                    <div class="project-img-container">
+                        <div class="img-overlay"></div>
+                        <img src="face_promo.png" alt="Face Verification MLOps" class="project-showcase-img">
+                    </div>
+                    <div class="project-info">
+                        <div class="project-badge font-mono"><i class="fas fa-user-shield"></i> MLOps & Vision</div>
+                        <h3 class="project-name">Face Verification MLOps</h3>
+                        <div class="project-meta font-mono">CLI Inference Application & Load Testing</div>
+                        
+                        <p class="project-description">
+                            Designed and packaged an embedding-based face verification system evaluated on the LFW dataset. Implemented pairwise similarity scoring, confusion matrices, and ROC-based threshold calibration. Fully dockerized the CLI inference application with integrated profiling and automated load tests.
+                        </p>
+                        
+                        <div class="tech-stack-pills">
+                            <span class="tech-pill">PyTorch</span>
+                            <span class="tech-pill">Docker</span>
+                            <span class="tech-pill">ROC Calibration</span>
+                            <span class="tech-pill">MLOps</span>
+                            <span class="tech-pill">LFW Dataset</span>
                         </div>
-                        <p class="project-desc">Advanced AI algorithms for Pacman agents: A* Search, Minimax,
-                            Q-Learning, and Particle Filtering.</p>
-                        <div class="tech-stack">
-                            <span>Python</span>
-                            <span>Reinforcement Learning</span>
+                        
+                        <div class="project-links">
+                            <a href="https://github.com/ypeng12" target="_blank" class="proj-btn accent-btn"><i class="fab fa-github"></i> GitHub</a>
                         </div>
                     </div>
                 </article>
 
-                <!-- Project 4: Neural Network -->
-                <article class="project-card">
-                    <div class="project-content">
-                        <div class="project-top">
-                            <h3>Neural Network from Scratch</h3>
-                            <a href="https://github.com/ypeng12/Neural-Network-Implementation-from-Scratch"
-                                target="_blank" class="icon-link"><i class="fab fa-github"></i></a>
+                <!-- Project 3: CV Depth Prediction -->
+                <article class="project-featured-card">
+                    <div class="project-img-container">
+                        <div class="img-overlay"></div>
+                        <img src="tactile_promo.png" alt="CV & Tactile Depth Prediction" class="project-showcase-img">
+                    </div>
+                    <div class="project-info">
+                        <div class="project-badge font-mono"><i class="fas fa-eye"></i> Computer Vision Research</div>
+                        <h3 class="project-name">CV & Tactile Depth Prediction</h3>
+                        <div class="project-meta font-mono">DIGIT Sensor Surface Topology Reconstruction</div>
+                        
+                        <p class="project-description">
+                            Proposed a robust mathematical framework for sub-micron depth prediction from tactile sensor (DIGIT) images. Engineered CNN classifiers, Gaussian Mixture Models (GMM) for color segmentation, and high-coverage panorama stitching to reconstruct surface topology.
+                        </p>
+                        
+                        <div class="tech-stack-pills">
+                            <span class="tech-pill">Python</span>
+                            <span class="tech-pill">Computer Vision</span>
+                            <span class="tech-pill">CNN</span>
+                            <span class="tech-pill">GMM</span>
+                            <span class="tech-pill">Math</span>
                         </div>
-                        <p class="project-desc">Implementation of core deep learning algorithms (backprop, optimizers)
-                            without ML libraries to understand AI math.</p>
-                        <div class="tech-stack">
-                            <span>Python</span>
-                            <span>NumPy</span>
-                            <span>Math</span>
+                        
+                        <div class="project-links">
+                            <a href="https://github.com/ypeng12/ComputerVision" target="_blank" class="proj-btn accent-btn"><i class="fab fa-github"></i> GitHub</a>
                         </div>
                     </div>
                 </article>
 
-                <!-- Project 5: Product Matching -->
-                <article class="project-card">
-                    <div class="project-content">
-                        <div class="project-top">
-                            <h3>Product Matching Tool</h3>
-                            <a href="https://github.com/ypeng12/Image-Based-Product-Matching-Tool" target="_blank"
-                                class="icon-link"><i class="fab fa-github"></i></a>
+                <!-- Project 4: Distributed Product Matching -->
+                <article class="project-featured-card">
+                    <div class="project-img-container">
+                        <div class="img-overlay"></div>
+                        <img src="matcher_promo.png" alt="Semantic Product Matcher" class="project-showcase-img">
+                    </div>
+                    <div class="project-info">
+                        <div class="project-badge font-mono"><i class="fas fa-shopping-bag"></i> Distributed Web Crawler</div>
+                        <h3 class="project-name">Semantic Product Matcher</h3>
+                        <div class="project-meta font-mono">High-Concurrency Ingestion & Perceptual Hashing</div>
+                        
+                        <p class="project-description">
+                            Architected a high-concurrency ingestion crawler pipeline covering 30+ global retailers. Developed an image similarity comparison engine combining perceptual hashing (pHash) and SSIM inside a Selenium framework, cutting manual validation workloads by 80% while boosting match accuracy by 25%.
+                        </p>
+                        
+                        <div class="tech-stack-pills">
+                            <span class="tech-pill">Python</span>
+                            <span class="tech-pill">Selenium</span>
+                            <span class="tech-pill">Perceptual Hashing</span>
+                            <span class="tech-pill">SSIM</span>
+                            <span class="tech-pill">Web Crawlers</span>
                         </div>
-                        <p class="project-desc">Internal tool using perceptual hashing and SSIM to match product images
-                            across e-commerce platforms.</p>
-                        <div class="tech-stack">
-                            <span>Python</span>
-                            <span>CV</span>
-                            <span>Scikit-image</span>
+                        
+                        <div class="project-links">
+                            <a href="https://github.com/ypeng12" target="_blank" class="proj-btn accent-btn"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 5: Terpiez AR Game -->
+                <article class="project-featured-card">
+                    <div class="project-img-container">
+                        <div class="img-overlay"></div>
+                        <img src="terpiez_promo.png" alt="Terpiez AR Mobile Game" class="project-showcase-img">
+                    </div>
+                    <div class="project-info">
+                        <div class="project-badge font-mono"><i class="fas fa-map-marked-alt"></i> Mobile Development</div>
+                        <h3 class="project-name">Terpiez AR Mobile Game</h3>
+                        <div class="project-meta font-mono">Location-Based GPS Game System</div>
+                        
+                        <p class="project-description">
+                            Developed a location-based AR mobile game for capturing virtual creatures in real-time. Features GPS-based coordinate tracking, interactive dynamic maps, persistent player session state using Redis, and client-side reactive gameplay systems.
+                        </p>
+                        
+                        <div class="tech-stack-pills">
+                            <span class="tech-pill">Flutter</span>
+                            <span class="tech-pill">Dart</span>
+                            <span class="tech-pill">Redis</span>
+                            <span class="tech-pill">Google Maps API</span>
+                        </div>
+                        
+                        <div class="project-links">
+                            <a href="https://github.com/ypeng12/Terpiez-Go" target="_blank" class="proj-btn accent-btn"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 6: Aviation Resilience Pipeline -->
+                <article class="project-featured-card">
+                    <div class="project-img-container">
+                        <div class="img-overlay"></div>
+                        <img src="aviation_promo.png" alt="Aviation Resilience Pipeline" class="project-showcase-img">
+                    </div>
+                    <div class="project-info">
+                        <div class="project-badge font-mono"><i class="fas fa-plane"></i> Data Analytics Pipeline</div>
+                        <h3 class="project-name">Aviation Resilience Pipeline</h3>
+                        <div class="project-meta font-mono">Network Science & Sentiment Inference</div>
+                        
+                        <p class="project-description">
+                            Designed analytical pipelines evaluating network-level aviation resilience under systemic shocks (e.g. system outages). Applied NLP and sentiment analysis to TripAdvisor low-altitude reviews to extract passenger perception dimensions across high-dimensional reviews.
+                        </p>
+                        
+                        <div class="tech-stack-pills">
+                            <span class="tech-pill">Python</span>
+                            <span class="tech-pill">NLP</span>
+                            <span class="tech-pill">Network Science</span>
+                            <span class="tech-pill">Sentiment Analysis</span>
+                        </div>
+                        
+                        <div class="project-links">
+                            <a href="https://github.com/ypeng12" target="_blank" class="proj-btn accent-btn"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 7: Adversarial AI Game Agents -->
+                <article class="project-featured-card">
+                    <div class="project-img-container">
+                        <div class="img-overlay"></div>
+                        <img src="agents_promo.png" alt="Adversarial AI Game Agents" class="project-showcase-img">
+                    </div>
+                    <div class="project-info">
+                        <div class="project-badge font-mono"><i class="fas fa-gamepad"></i> Game Intelligence</div>
+                        <h3 class="project-name">Adversarial AI Game Agents</h3>
+                        <div class="project-meta font-mono">Minimax & Probabilistic State Estimation</div>
+                        
+                        <p class="project-description">
+                            Programmed decision-making agents for spatial gameplay. Implemented heuristic pathfinding (A* Search, DFS), adversarial multi-agent decisions (Minimax with Alpha-Beta Pruning), and probabilistic state estimation under uncertainty (Particle Filtering).
+                        </p>
+                        
+                        <div class="tech-stack-pills">
+                            <span class="tech-pill">Python</span>
+                            <span class="tech-pill">Reinforcement Learning</span>
+                            <span class="tech-pill">A* Search</span>
+                            <span class="tech-pill">Minimax</span>
+                        </div>
+                        
+                        <div class="project-links">
+                            <a href="https://github.com/ypeng12/AI_Game_python" target="_blank" class="proj-btn accent-btn"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 8: Neural Network from Scratch -->
+                <article class="project-featured-card">
+                    <div class="project-img-container">
+                        <div class="img-overlay"></div>
+                        <img src="nn_promo.png" alt="Neural Network from Scratch" class="project-showcase-img">
+                    </div>
+                    <div class="project-info">
+                        <div class="project-badge font-mono"><i class="fas fa-calculator"></i> Zero-Dependency Framework</div>
+                        <h3 class="project-name">Neural Network from Scratch</h3>
+                        <div class="project-meta font-mono">Mathematical Backpropagation & Optimization</div>
+                        
+                        <p class="project-description">
+                            Designed and built a zero-dependency deep learning framework from absolute mathematical foundations. Implemented forward and backward propagation, customizable network layers, activation functions, and standard optimizers (SGD, Adam) to understand the mathematics of AI.
+                        </p>
+                        
+                        <div class="tech-stack-pills">
+                            <span class="tech-pill">Python</span>
+                            <span class="tech-pill">NumPy</span>
+                            <span class="tech-pill">Linear Algebra</span>
+                            <span class="tech-pill">Math</span>
+                        </div>
+                        
+                        <div class="project-links">
+                            <a href="https://github.com/ypeng12/Neural-Network-Implementation-from-Scratch" target="_blank" class="proj-btn accent-btn"><i class="fab fa-github"></i> GitHub</a>
                         </div>
                     </div>
                 </article>
@@ -353,34 +488,187 @@
         </div>
     </section>
 
-    <!-- Skills Section -->
-    <section id="skills" class="section">
+    <!-- Research & Publications Section -->
+    <section id="research" class="section bg-alt fade-in-section">
         <div class="container">
-            <h2 class="section-title">Skills</h2>
-            <div class="skills-compact">
-                <div class="skill-row">
-                    <span class="skill-label">Languages:</span>
-                    <span class="skill-list">C++, Python, CUDA, C, Java, Dart, JavaScript, Unix Shell, SQL</span>
+            <div class="section-header">
+                <span class="section-tag font-mono">04. Scientific Inquiry</span>
+                <h2 class="section-title">Research &amp; Publications</h2>
+            </div>
+
+            <div class="research-grid">
+                <!-- Journal Publication -->
+                <div class="research-card featured-research">
+                    <div class="card-glow"></div>
+                    <div class="research-badge font-mono"><i class="fas fa-journal-whills"></i> Peer-Reviewed Journal</div>
+                    <h3 class="pub-title">International Cargo Charter Operations and Preighter Performances in the Context of COVID-19: A Case of China</h3>
+                    <div class="pub-authors">Chuntao Wu, Xiaohe He, <span class="highlight-author">Yuliang Peng</span></div>
+                    <div class="pub-venue">
+                        <span class="venue-journal">Transport Policy</span> &middot; Vol. 184, Article 104173 &middot; 2026
+                    </div>
+                    
+                    <div class="pub-meta">
+                        <span class="doi-pill font-mono">DOI: 10.1016/j.tranpol.2026.104173</span>
+                        <div class="pub-links">
+                            <a href="https://doi.org/10.1016/j.tranpol.2026.104173" target="_blank" class="pub-link-btn"><i class="fas fa-external-link-alt"></i> Article</a>
+                            <a href="1-s2.0-S0967070X26001836-main.pdf" target="_blank" class="pub-link-btn"><i class="fas fa-file-pdf"></i> Read PDF</a>
+                        </div>
+                    </div>
+
+                    <div class="pub-summary-block">
+                        <button class="abstract-toggle-btn font-mono" aria-expanded="false">
+                            <span class="btn-text">View Abstract &amp; Network Science Details</span>
+                            <i class="fas fa-chevron-down toggle-icon"></i>
+                        </button>
+                        <div class="abstract-wrapper">
+                            <div class="abstract-content">
+                                <p>
+                                    <strong>Abstract:</strong> This research presents the first comprehensive empirical study of international air cargo charter networks and passenger-to-cargo ("preighter") operations under external system shocks. Leveraging a proprietary dataset of CAAC flight permits, we constructed undirected networks at the city level, representing over 80,000 annual flights. 
+                                </p>
+                                <p>
+                                    <strong>Network Science Methodologies:</strong> 
+                                    We formulated the charter logistics system as an undirected graph and computed topological indicators across time-varying snapshots:
+                                </p>
+                                <ul class="methodology-list">
+                                    <li><strong>Average Degree &amp; Path Length:</strong> Quantified the densification of hub-and-spoke models, proving structural stability and small-world properties.</li>
+                                    <li><strong>Node &amp; Edge Betweenness Centrality:</strong> Isolated critical routing bridges and tracked dynamic adjustments under intense route volatility.</li>
+                                    <li><strong>Operational Flexibility:</strong> Identified the pivotal structural role of freight forwarders (charterers) who integrated truck-to-air transit to maintain supply-chain robustness.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="skill-row">
-                    <span class="skill-label">Frameworks & Tools:</span>
-                    <span class="skill-list">AWS, Docker, Redis, NumPy, Pandas, Flask, Spring Boot, Vue.js, Flutter,
-                        Git, Sentry</span>
+
+                <!-- Research Assistant Position -->
+                <div class="research-card">
+                    <div class="research-badge font-mono"><i class="fas fa-microscope"></i> UMD Research Project</div>
+                    <div class="research-header">
+                        <h3>Research Assistant</h3>
+                        <span class="institution">University of Maryland, College Park</span>
+                        <span class="date font-mono">Nov 2025 &mdash; Apr 2026</span>
+                    </div>
+                    <h4 class="research-area highlight">GPU-Accelerated Spatiotemporal Event Camera Embeddings</h4>
+                    <p class="research-desc">
+                        Designed, implemented, and benchmarked event-driven machine learning models. Built custom CUDA kernels to perform high-speed, parallelized feature mapping on sparse spatiotemporal data streams generated by event-based cameras. By merging spatial convolutions with time-decay indices into fused SIMD kernels, achieved microsecond-latency ML inference on continuous high-rate sensory streams.
+                    </p>
+                    <div class="tech-stack-pills">
+                        <span class="tech-pill">CUDA</span>
+                        <span class="tech-pill">C++</span>
+                        <span class="tech-pill">PyTorch</span>
+                        <span class="tech-pill">SIMD Parallelization</span>
+                        <span class="tech-pill">Event-based Vision</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section fade-in-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag font-mono">05. Academic Path</span>
+                <h2 class="section-title">Education</h2>
+            </div>
+            <div class="edu-compact-grid">
+                <div class="edu-compact-card">
+                    <div class="edu-compact-info">
+                        <h3>Master of Science in Applied Machine Learning</h3>
+                        <p class="school">University of Maryland, College Park</p>
+                        <p class="meta font-mono">Sep 2025 &mdash; Expected May 2027 &middot; GPA: 3.7 / 4.0</p>
+                    </div>
+                </div>
+                <div class="edu-compact-card">
+                    <div class="edu-compact-info">
+                        <h3>Bachelor of Science in Computer Science</h3>
+                        <p class="school">University of Maryland, College Park</p>
+                        <p class="meta font-mono">Sep 2020 &mdash; May 2024 &middot; GPA: 3.6 / 4.0 &middot; Dean's List</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section bg-alt fade-in-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag font-mono">06. Core Strengths</span>
+                <h2 class="section-title">Technical Skills</h2>
+            </div>
+            
+            <div class="skills-matrix">
+                <div class="skills-category-card">
+                    <div class="skills-icon-badge"><i class="fas fa-brain"></i></div>
+                    <h3>Machine Learning &amp; AI</h3>
+                    <ul class="skills-pills-list">
+                        <li>PyTorch</li>
+                        <li>TensorFlow</li>
+                        <li>CUDA</li>
+                        <li>Hugging Face</li>
+                        <li>QLoRA</li>
+                        <li>PEFT</li>
+                        <li>NumPy</li>
+                        <li>Pandas</li>
+                    </ul>
+                </div>
+
+                <div class="skills-category-card">
+                    <div class="skills-icon-badge"><i class="fas fa-server"></i></div>
+                    <h3>Systems &amp; MLOps</h3>
+                    <ul class="skills-pills-list">
+                        <li>Kubernetes</li>
+                        <li>Docker</li>
+                        <li>AWS</li>
+                        <li>GCP</li>
+                        <li>Azure</li>
+                        <li>Kafka</li>
+                        <li>Prometheus</li>
+                        <li>Spark</li>
+                        <li>PostgreSQL</li>
+                        <li>Redis</li>
+                        <li>Elasticsearch</li>
+                    </ul>
+                </div>
+
+                <div class="skills-category-card">
+                    <div class="skills-icon-badge"><i class="fas fa-code"></i></div>
+                    <h3>Languages &amp; Comms</h3>
+                    <ul class="skills-pills-list">
+                        <li>Python</li>
+                        <li>C++</li>
+                        <li>C</li>
+                        <li>Rust</li>
+                        <li>Java</li>
+                        <li>JavaScript</li>
+                        <li>English (Fluent)</li>
+                        <li>Chinese (Native)</li>
+                        <li>Japanese (Native, N1)</li>
+                    </ul>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer id="contact" class="footer">
+    <footer id="contact" class="footer fade-in-section">
         <div class="container center-text">
+            <span class="footer-badge font-mono">07. Next Steps</span>
             <h2>Get In Touch</h2>
-            <p>Always open to interesting conversations.</p>
+            <p class="contact-sub">Always open to discussions about Applied ML, MLOps, or Systems Engineering roles.</p>
+            
             <div class="footer-links">
-                <a href="mailto:pengyuliang31@gmail.com" class="footer-btn">pengyuliang31@gmail.com</a>
-                <a href="tel:240-886-9716" class="footer-btn">240-886-9716</a>
+                <a href="mailto:ypeng12@umd.edu" class="footer-btn mail-btn"><i class="fas fa-envelope"></i> ypeng12@umd.edu</a>
+                <a href="tel:240-886-9716" class="footer-btn phone-btn"><i class="fas fa-phone-alt"></i> 240-886-9716</a>
             </div>
-            <p class="copyright">&copy; 2026 Yuliang Peng</p>
+            
+            <div class="footer-socials">
+                <a href="https://github.com/ypeng12" target="_blank" class="social-icon-btn"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/ypeng12" target="_blank" class="social-icon-btn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="Yuliang Resume 2026.pdf" target="_blank" class="social-icon-btn" title="Download Resume"><i class="fas fa-file-pdf"></i></a>
+            </div>
+            
+            <p class="copyright">&copy; 2026 Yuliang Peng &middot; Designed for Visual &amp; Technical Impact</p>
         </div>
     </footer>
 

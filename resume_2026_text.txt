@@ -1,0 +1,77 @@
+--- Page 1 ---
+Yuliang  Peng  ypeng12@umd.edu |  ypeng12.github.io/Mypage/ |  linkedin.com/in/ypeng12 |240-886-9716    EDUCATION  
+ 
+ University  of  Maryland,  College  Park                                                                                                   ●  Master  of  Science  in  Applied  Machine  Learning                                                                          GPA:  3.7/4.0  |  May  2027    ●  Bachelor  of  Science  in  Computer  Science                                                         GPA:  3.6/4.0  |  May  2024                     ●  Relevant  Courses:  LLM  Methods  &  Applications,  LLM  Systems,  Cloud  Computing,  Computer  Vision,  Deep  Learning   WORK  EXPERIENCE  
+ 
+ ModeSens   -  Software  Engineer  |  Remote,  USA   |   Apr  2025  -  Sep  2025                                              ●  Built  backend  services  for  product  ingestion  across  30+  global  retailers  using  automated  pipelines  and  serverless  workflows.  ●  Engineered  production  data  pipelines  with  CI/CD  automation ,  reducing  failures  by  20%  and  improving  reliability.  ●  Designed  scalable  Python  and  AWS  S3  workflows  for  feature  extraction  and  data  standardization  across  retailer  feeds.  ●  Built  an  internal  image-matching  pipeline  with  perceptual  hashing,  SSIM,  and  Selenium,  reducing  manual  effort  by  80%  and  
+improving
+ 
+recommendation
+ 
+accuracy
+ 
+by
+ 
+25%
+.
+  Bank  of  China   -  Software  Engineer  |   Los  Angeles   |   July  2024  -  Apr  2025  ●  Built  backend  services  for  financial  transaction  monitoring  systems ,  supporting  large-scale  risk  and  compliance  workflows.  ●  Engineered  data  pipelines  for  transaction  processing  and  feature  extraction,  enabling  analytics  and  fraud  detection.  ●  Resolved  70+  production  issues,  reducing  blocking  incidents  by  20%  and  improving  system  stability.    Air  China   -  Software  Engineer   Intern  |  Chengdu,  China   |  July  2023  -  Apr  2024     ●  Automated  system  backups  across  Linux  environments  using  Unix  shell  scripts,  reducing  manual  workload  by  25%.  ●  Revamped  the  secure  login  system  with  mobile  QR  code  scanning,  streamlining  user  identification.  (adopted  in  2024)   PUBLICATION  /  RESEARCH  
+ 
+ International  Cargo  Charter  Operations  and  Preighter  Performance  |  Transport  Policy,  Vol.  184,  Article  104173,  2026   ●  Co-authored  an  in-press  Transport  Policy  paper  and  built  Python  workflows  to  process  CAAC  flight  approval  records,  compute  route-network  metrics,  and  visualize  cargo  charter/preighter  evolution  during  COVID-19.  DOI:  10.1016/j.tranpol.2026.104173.     University  of  Maryland,  College  Park   -  Research  Assistant  |  Nov  2025  -  Apr  2026  ●  Designed  and  optimized  GPU-accelerated  spatiotemporal  embeddings  for  high-rate  Event  Camera  streams,  enabling  efficient  
+ML
+ 
+inference
+ 
+via
+ 
+fused
+ 
+CUDA
+ 
+kernels
+ 
+and
+ 
+SIMD-optimized
+ 
+pipelines.
+   PROJECT    TabIt  -  AI-Powered  Chrome  Extension   |   Google  Chrome  Extension   ●  Built  an  intelligent  browser  tab  management  system  that  automatically  groups  tabs  using  semantic  similarity  on  tab  embeddings.  ●  Engineered  a  real-time  clustering  pipeline  with  Web  Worker  parallelization,  supporting  100+  tabs  with  sub- 100ms  latency .  ●  Designed  incremental  clustering  and  persistent  client-side  state  for  efficient  updates  and  seamless  session  restoration.   Face  Verification  System  |   Machine  Learning  |  GitHub  Code  ●  Built  an  embedding-based  face  verification  system  on  LFW,  integrating  pairwise  identity  matching,  similarity  scoring,  calibrated  
+confidence
+ 
+estimation,
+ 
+and
+ 
+threshold-based
+ 
+decisions.
+ 
+ ●  Developed  a  reproducible  evaluation  pipeline  with  deterministic  pair  generation,  ROC-based  threshold  calibration,  
+confusion-matrix
+ 
+analysis,
+ 
+tracked
+ 
+runs,
+ 
+and
+ 
+error-slice
+ 
+diagnostics.
+ 
+ ●  Packaged  the  verifier  as  a  Dockerized  CLI  inference  system  with  automated  tests,  latency  profiling,  and  concurrent  load  testing  
+for
+ 
+deployment-oriented
+ 
+evaluation.
+ 
+  Cloud-Edge  Collaborative  Intelligent  Agent  Routing  System   |   Google  Hackathon     ●  Built  a  multi-level  routing  system  for  edge  and  cloud  LLM  inference ,  reducing  latency  and  improving  time-to-first-token .  ●  Developed  intent-based  routing  to  select  between  local  models  and  external  APIs,  achieving  >95%  local  processing.  ●  Implemented  a  post-processing  framework  to  mitigate  hallucination  across  multi-step  tool  calls,  improving  response  consistency  
+and
+ 
+system
+ 
+robustness.
+  SKILLS  ML  /  AI:  PyTorch,  TensorFlow,  CUDA,  Hugging  Face,   QLoRA,  PEFT,  NumPy,  Pandas   Systems  &  MLOps:  Kubernetes,  Kafka,  Prometheus,  Spark,  AWS,  GCP,  Azure,  Docker,  PostgreSQL,  Redis,  Elasticsearch  Languages  :  Python,  C++,  C,  Rust,  Java,  JavaScript,   English  (Fluent),  Chinese  (Native),  Japanese  (Native,  N1)  
+
