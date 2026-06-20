@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yuliang Peng | Applied ML Researcher & Software Engineer</title>
+    <title>Yuliang Peng | Backend & AI Systems</title>
     <meta name="description"
-        content="Official portfolio of Yuliang Peng, Applied ML Researcher & Software Engineer. Discover projects in GPU embeddings, LLM routing, and high-coverage crawlers.">
+        content="Official portfolio of Yuliang Peng, Applied ML & Software Engineer. Discover projects in LLM inference gateways, quantitative strategy backtesting, and Chrome extensions.">
     <meta name="keywords"
-        content="Yuliang Peng, Software Engineer, Applied Machine Learning, CUDA, Event Camera, UMD, Air China, ModeSens, Bank of China">
+        content="Yuliang Peng, Software Engineer, Applied Machine Learning, CUDA, UMD, ICBC USA, ModeSens, Bank of China, InferRoute, Quant.ai, Web Workers">
     <meta name="author" content="Yuliang Peng">
     <link rel="canonical" href="https://ypeng12.github.io/Mypage/">
 
@@ -50,7 +50,7 @@
             "name": "University of Maryland"
           }
         ],
-        "description": "M.S. Applied Machine Learning student and Software Engineer specializing in CUDA acceleration, serverless pipelines, and LLM orchestration."
+        "description": "M.S. Applied Machine Learning student and Software Engineer specializing in LLM gateways, quantitative strategy simulation, and browser workspace optimization."
       }
     }
     </script>
@@ -79,7 +79,7 @@
                 <a href="#education" class="nav-link">Education</a>
                 <a href="#skills" class="nav-link">Skills</a>
                 <a href="#contact" class="nav-link">Contact</a>
-                <a href="Yuliang Resume 2026.pdf" target="_blank" class="nav-btn">Resume</a>
+                <a href="Yuliang_Peng_Resume_Backend_AI_Systems.pdf" target="_blank" class="nav-btn">Resume</a>
                 <button class="theme-toggle" aria-label="Toggle Dark Mode">
                     <i class="fas fa-moon"></i>
                 </button>
@@ -113,7 +113,7 @@
             </p>
 
             <div class="social-links">
-                <a href="Yuliang Resume 2026.pdf" target="_blank" class="social-btn primary-btn"><i class="fas fa-file-pdf"></i> Resume (2026)</a>
+                <a href="Yuliang_Peng_Resume_Backend_AI_Systems.pdf" target="_blank" class="social-btn primary-btn"><i class="fas fa-file-pdf"></i> Resume</a>
                 <a href="https://github.com/ypeng12" target="_blank" class="social-btn"><i class="fab fa-github"></i> GitHub</a>
                 <a href="https://linkedin.com/in/ypeng12" target="_blank" class="social-btn"><i class="fab fa-linkedin"></i> LinkedIn</a>
                 <a href="mailto:ypeng12@umd.edu" class="social-btn"><i class="fas fa-envelope"></i> Email</a>
@@ -131,6 +131,23 @@
             </div>
             
             <div class="work-timeline">
+                <!-- ICBC USA -->
+                <div class="work-item">
+                    <div class="timeline-marker"></div>
+                    <div class="work-content">
+                        <div class="work-header">
+                            <h3>Software Engineer Intern</h3>
+                            <span class="company">ICBC USA</span>
+                            <span class="date font-mono">Jun 2026 &mdash; Aug 2026 | Los Angeles, CA</span>
+                        </div>
+                        <ul class="work-list">
+                            <li>Built a payment reconciliation validation workflow that cross-checks posting records, settlement files, and exception reports to detect missing transactions, duplicate entries, amount mismatches, and failed payment states.</li>
+                            <li>Automated exception reporting and root-cause tracking for reconciliation breaks, improving payment-operation traceability and accelerating downstream investigation for reporting teams.</li>
+                            <li>Translated manual review steps, compliance constraints, and anomaly-detection use cases into technical requirements for AI-assisted internal workflow tooling.</li>
+                        </ul>
+                    </div>
+                </div>
+
                 <!-- ModeSens -->
                 <div class="work-item">
                     <div class="timeline-marker"></div>
@@ -138,13 +155,12 @@
                         <div class="work-header">
                             <h3>Software Engineer</h3>
                             <span class="company"><a href="https://modesens.com" target="_blank">ModeSens</a></span>
-                            <span class="date font-mono">Apr 2025 &mdash; Sep 2025 | Remote</span>
+                            <span class="date font-mono">Apr 2025 &mdash; Sep 2025 | Remote, USA</span>
                         </div>
                         <ul class="work-list">
-                            <li>Built backend ingestion services across <strong>30+ global retailers</strong> employing automated pipelines and serverless workflows.</li>
-                            <li>Engineered highly optimized production data pipelines with automated CI/CD releases, <strong>reducing failure rates by 20%</strong>.</li>
-                            <li>Designed scalable Python and AWS S3 workflows for rapid feature extraction and data standardization across real-time retail feeds.</li>
-                            <li>Developed an image-matching pipeline with perceptual hashing, SSIM, and Selenium, <strong>cutting manual inspection effort by 80%</strong> and boosting recommendation precision by 25%.</li>
+                            <li>Built backend ingestion services for product feeds across <strong>30+ global retailers</strong>, standardizing product metadata, images, pricing, and retailer-specific schemas into Python and AWS-based data workflows.</li>
+                            <li>Engineered production data pipelines with CI/CD automation, validation checks, and failure-handling logic, <strong>reducing feed-processing failures by 20%</strong> and improving data reliability for analytics and recommendations.</li>
+                            <li>Developed an image-matching system using perceptual hashing, SSIM, and Selenium to detect duplicate and variant products, <strong>reducing manual review effort by 80%</strong> and improving recommendation accuracy by 25%.</li>
                         </ul>
                     </div>
                 </div>
@@ -155,13 +171,12 @@
                     <div class="work-content">
                         <div class="work-header">
                             <h3>Software Engineer</h3>
-                            <span class="company">Bank of China, USA</span>
-                            <span class="date font-mono">Jul 2024 &mdash; Apr 2025 | Los Angeles</span>
+                            <span class="company">Bank of China</span>
+                            <span class="date font-mono">Jul 2024 &mdash; Apr 2025 | Los Angeles, CA</span>
                         </div>
                         <ul class="work-list">
-                            <li>Built secure, scalable backend services for critical financial transaction monitoring, backing large-scale audit, risk, and compliance operations.</li>
-                            <li>Designed high-capacity data ingestion pipelines for real-time transaction processing, enabling advanced fraud detection features.</li>
-                            <li>Addressed and resolved **70+ production-blocking issues**, strengthening system reliability and **slashing enterprise downtime by 20%**.</li>
+                            <li>Built backend services for transaction monitoring systems, supporting risk review, compliance workflows, exception handling, and operational reporting across financial records.</li>
+                            <li>Resolved **70+ production incidents** across services, reports, and data pipelines through log analysis, root-cause isolation, and pipeline fixes, **reducing blocking incidents by 20%**.</li>
                         </ul>
                     </div>
                 </div>
@@ -194,33 +209,62 @@
             </div>
 
             <div class="projects-container">
-                <!-- ApplyPilot AI Card -->
+                <!-- InferRoute Card -->
                 <article class="project-featured-card">
                     <div class="project-img-container">
                         <div class="img-overlay"></div>
-                        <img src="applypilot_promo.png" alt="ApplyPilot AI" class="project-showcase-img">
+                        <img src="routing_promo.png" alt="InferRoute - LLM Inference Gateway" class="project-showcase-img">
                     </div>
                     <div class="project-info">
-                        <div class="project-badge font-mono"><i class="fas fa-robot"></i> Featured AI Agent</div>
-                        <h3 class="project-name">ApplyPilot AI</h3>
-                        <div class="project-meta font-mono">Manifest V3 Chrome Extension & FastAPI Agent</div>
+                        <div class="project-badge font-mono" style="color: #f59e0b;"><i class="fas fa-trophy"></i> Google Hackathon Award</div>
+                        <h3 class="project-name">InferRoute</h3>
+                        <div class="project-meta font-mono">FastAPI &middot; Redis &middot; PostgreSQL &middot; Docker</div>
                         
                         <p class="project-description">
-                            An advanced, privacy-first, browser-based AI job application agent. It instantly scrapes page DOM structures, maps fields via direct-rule heuristics, and leverages Gemini 2.5 Flash to draft tailored, job-specific short answers. Implements a secure local-first architecture by persisting profiles on-device, and resolves React DOM prototype state locks through synthetic event injection to enable seamless autofill.
+                            A policy-driven LLM inference gateway and control plane. Routes requests dynamically across OpenAI, Gemini, and local model backends based on task type, context length, provider health, latency history, token-cost estimates, and SLO-aware rules. Engineered for high reliability with Redis caching, request deduplication, circuit breakers, timeout budgets, retry/backoff, and degraded-provider recovery.
                         </p>
                         
                         <div class="tech-stack-pills">
-                            <span class="tech-pill">React 18</span>
-                            <span class="tech-pill">TypeScript</span>
-                            <span class="tech-pill">Vite</span>
                             <span class="tech-pill">FastAPI</span>
-                            <span class="tech-pill">Gemini AI</span>
-                            <span class="tech-pill">Manifest V3</span>
+                            <span class="tech-pill">Redis</span>
+                            <span class="tech-pill">PostgreSQL</span>
+                            <span class="tech-pill">Docker</span>
+                            <span class="tech-pill">SLO Routing</span>
+                            <span class="tech-pill">Inference Gateway</span>
                         </div>
                         
                         <div class="project-links">
                             <a href="https://github.com/ypeng12" target="_blank" class="proj-btn accent-btn"><i class="fab fa-github"></i> GitHub</a>
-                            <a href="screenshot_chat_1280x800.png" target="_blank" class="proj-btn"><i class="fas fa-image"></i> Chat Preview</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Quant.ai Card -->
+                <article class="project-featured-card">
+                    <div class="project-img-container">
+                        <div class="img-overlay"></div>
+                        <img src="quant_promo.png" alt="Quant.ai - Quant Strategy Backtesting" class="project-showcase-img">
+                    </div>
+                    <div class="project-info">
+                        <div class="project-badge font-mono"><i class="fas fa-chart-line"></i> Featured ML & Quant Platform</div>
+                        <h3 class="project-name">Quant.ai</h3>
+                        <div class="project-meta font-mono">FastAPI &middot; React &middot; TypeScript &middot; Pandas &middot; NumPy</div>
+                        
+                        <p class="project-description">
+                            A full-stack quant research and backtesting agent platform. Features a FastAPI backtesting engine and React dashboard enabling natural-language strategy definition, walk-forward validation, experiment comparison, and drawdown/risk analysis. Integrates an LLM tool-calling workflow with a vectorized simulation engine for real-time market data ingestion and ATR position sizing.
+                        </p>
+                        
+                        <div class="tech-stack-pills">
+                            <span class="tech-pill">FastAPI</span>
+                            <span class="tech-pill">React</span>
+                            <span class="tech-pill">TypeScript</span>
+                            <span class="tech-pill">Pandas</span>
+                            <span class="tech-pill">NumPy</span>
+                            <span class="tech-pill">Agentic LLM</span>
+                        </div>
+                        
+                        <div class="project-links">
+                            <a href="https://github.com/ypeng12" target="_blank" class="proj-btn accent-btn"><i class="fab fa-github"></i> GitHub</a>
                         </div>
                     </div>
                 </article>
@@ -234,7 +278,7 @@
                     <div class="project-info">
                         <div class="project-badge font-mono"><i class="fas fa-star"></i> Featured Systems Project</div>
                         <h3 class="project-name">TabIt - AI Tab Manager</h3>
-                        <div class="project-meta font-mono">Google Chrome Extension Hackathon</div>
+                        <div class="project-meta font-mono">React &middot; TypeScript &middot; Chrome Extension MV3</div>
                         
                         <p class="project-description">
                             An intelligent web browser workspace extension that implements local semantic grouping of open sessions. Uses custom client-side TF-IDF embeddings and the Leiden clustering algorithm running within multi-threaded Web Workers to resolve similarity mapping across 100+ active browser tabs inside sub-100ms. Runs entirely on-device to enforce user data privacy.
@@ -242,7 +286,7 @@
                         
                         <div class="tech-stack-pills">
                             <span class="tech-pill">React</span>
-                            <span class="tech-pill">Vite</span>
+                            <span class="tech-pill">TypeScript</span>
                             <span class="tech-pill">Web Workers</span>
                             <span class="tech-pill">TF-IDF</span>
                             <span class="tech-pill">Leiden Clustering</span>
@@ -256,232 +300,200 @@
                         </div>
                     </div>
                 </article>
+            </div>
 
-                <!-- Project 1: Collaborative Routing -->
-                <article class="project-featured-card">
-                    <div class="project-img-container">
-                        <div class="img-overlay"></div>
-                        <img src="routing_promo.png" alt="Cloud-Edge Agent Routing" class="project-showcase-img">
+            <!-- More Projects Header -->
+            <div class="section-header" style="margin-top: 6rem; margin-bottom: 2.5rem;">
+                <span class="section-tag font-mono">03b. More Systems &amp; ML Work</span>
+                <h3 style="font-size: 1.6rem; font-weight: 800; display: flex; align-items: center; gap: 1rem; color: var(--text-primary);">
+                    Other Engineering Projects
+                </h3>
+            </div>
+
+            <!-- More Projects Subgrid -->
+            <div class="projects-subgrid">
+                <!-- ApplyPilot AI -->
+                <article class="project-card-mini">
+                    <div class="mini-img-container">
+                        <img src="applypilot_promo.png" alt="ApplyPilot AI" class="mini-project-img">
                     </div>
-                    <div class="project-info">
-                        <div class="project-badge font-mono" style="color: #f59e0b;"><i class="fas fa-trophy"></i> Google Hackathon Award</div>
-                        <h3 class="project-name">Cloud-Edge Agent Routing</h3>
-                        <div class="project-meta font-mono"><i class="fas fa-network-wired"></i> Orchestration & LLM Gateway</div>
-                        
-                        <p class="project-description">
-                            Built an orchestration system using intent-based classification to route requests between lightweight local edge models and cloud LLM APIs. Achieved >95% edge execution for standard workflows, saving bandwidth and API costs while reducing initial latency. Features custom mitigation layers for hallucinations.
-                        </p>
-                        
-                        <div class="tech-stack-pills">
-                            <span class="tech-pill">LLMs</span>
-                            <span class="tech-pill">Intent Routing</span>
-                            <span class="tech-pill">API Gateway</span>
-                            <span class="tech-pill">Edge Inference</span>
-                            <span class="tech-pill">Python</span>
+                    <div class="mini-card-header">
+                        <div class="mini-icon"><i class="fas fa-robot"></i></div>
+                        <div class="mini-links">
+                            <a href="https://github.com/ypeng12" target="_blank" class="mini-link-btn" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                            <a href="screenshot_chat_1280x800.png" target="_blank" class="mini-link-btn" aria-label="Chat Preview"><i class="fas fa-image"></i></a>
                         </div>
-                        
-                        <div class="project-links">
-                            <a href="https://github.com/ypeng12" target="_blank" class="proj-btn accent-btn"><i class="fab fa-github"></i> GitHub</a>
-                        </div>
+                    </div>
+                    <h4 class="mini-project-name">ApplyPilot AI</h4>
+                    <p class="mini-project-desc">
+                        An advanced browser-based AI job application agent. Scrapes page DOM structures, maps fields via heuristics, and leverages Gemini to draft short answers. Persists profiles locally.
+                    </p>
+                    <div class="tech-stack-pills">
+                        <span class="tech-pill">React 18</span>
+                        <span class="tech-pill">FastAPI</span>
+                        <span class="tech-pill">Gemini AI</span>
+                        <span class="tech-pill">Manifest V3</span>
                     </div>
                 </article>
 
-                <!-- Project 2: Face Verification -->
-                <article class="project-featured-card">
-                    <div class="project-img-container">
-                        <div class="img-overlay"></div>
-                        <img src="face_promo.png" alt="Face Verification MLOps" class="project-showcase-img">
+                <!-- Face Verification MLOps -->
+                <article class="project-card-mini">
+                    <div class="mini-img-container">
+                        <img src="face_promo.png" alt="Face Verification MLOps" class="mini-project-img">
                     </div>
-                    <div class="project-info">
-                        <div class="project-badge font-mono"><i class="fas fa-user-shield"></i> MLOps & Vision</div>
-                        <h3 class="project-name">Face Verification MLOps</h3>
-                        <div class="project-meta font-mono">CLI Inference Application & Load Testing</div>
-                        
-                        <p class="project-description">
-                            Designed and packaged an embedding-based face verification system evaluated on the LFW dataset. Implemented pairwise similarity scoring, confusion matrices, and ROC-based threshold calibration. Fully dockerized the CLI inference application with integrated profiling and automated load tests.
-                        </p>
-                        
-                        <div class="tech-stack-pills">
-                            <span class="tech-pill">PyTorch</span>
-                            <span class="tech-pill">Docker</span>
-                            <span class="tech-pill">ROC Calibration</span>
-                            <span class="tech-pill">MLOps</span>
-                            <span class="tech-pill">LFW Dataset</span>
+                    <div class="mini-card-header">
+                        <div class="mini-icon"><i class="fas fa-user-shield"></i></div>
+                        <div class="mini-links">
+                            <a href="https://github.com/ypeng12" target="_blank" class="mini-link-btn" aria-label="GitHub"><i class="fab fa-github"></i></a>
                         </div>
-                        
-                        <div class="project-links">
-                            <a href="https://github.com/ypeng12" target="_blank" class="proj-btn accent-btn"><i class="fab fa-github"></i> GitHub</a>
-                        </div>
+                    </div>
+                    <h4 class="mini-project-name">Face Verification MLOps</h4>
+                    <p class="mini-project-desc">
+                        Embedding-based face verification evaluated on the LFW dataset. Implements similarity scoring, confusion matrices, and ROC-based threshold calibration. Fully Dockerized CLI verifier.
+                    </p>
+                    <div class="tech-stack-pills">
+                        <span class="tech-pill">PyTorch</span>
+                        <span class="tech-pill">Docker</span>
+                        <span class="tech-pill">ROC Calibration</span>
+                        <span class="tech-pill">MLOps</span>
                     </div>
                 </article>
 
-                <!-- Project 3: CV Depth Prediction -->
-                <article class="project-featured-card">
-                    <div class="project-img-container">
-                        <div class="img-overlay"></div>
-                        <img src="tactile_promo.png" alt="CV & Tactile Depth Prediction" class="project-showcase-img">
+                <!-- CV & Tactile Depth Prediction -->
+                <article class="project-card-mini">
+                    <div class="mini-img-container">
+                        <img src="tactile_promo.png" alt="CV & Tactile Depth Prediction" class="mini-project-img">
                     </div>
-                    <div class="project-info">
-                        <div class="project-badge font-mono"><i class="fas fa-eye"></i> Computer Vision Research</div>
-                        <h3 class="project-name">CV & Tactile Depth Prediction</h3>
-                        <div class="project-meta font-mono">DIGIT Sensor Surface Topology Reconstruction</div>
-                        
-                        <p class="project-description">
-                            Proposed a robust mathematical framework for sub-micron depth prediction from tactile sensor (DIGIT) images. Engineered CNN classifiers, Gaussian Mixture Models (GMM) for color segmentation, and high-coverage panorama stitching to reconstruct surface topology.
-                        </p>
-                        
-                        <div class="tech-stack-pills">
-                            <span class="tech-pill">Python</span>
-                            <span class="tech-pill">Computer Vision</span>
-                            <span class="tech-pill">CNN</span>
-                            <span class="tech-pill">GMM</span>
-                            <span class="tech-pill">Math</span>
+                    <div class="mini-card-header">
+                        <div class="mini-icon"><i class="fas fa-eye"></i></div>
+                        <div class="mini-links">
+                            <a href="https://github.com/ypeng12/ComputerVision" target="_blank" class="mini-link-btn" aria-label="GitHub"><i class="fab fa-github"></i></a>
                         </div>
-                        
-                        <div class="project-links">
-                            <a href="https://github.com/ypeng12/ComputerVision" target="_blank" class="proj-btn accent-btn"><i class="fab fa-github"></i> GitHub</a>
-                        </div>
+                    </div>
+                    <h4 class="mini-project-name">CV &amp; Tactile Depth</h4>
+                    <p class="mini-project-desc">
+                        Proposed a mathematical framework for sub-micron depth prediction from tactile sensor (DIGIT) images. Reconstructs surface topology using GMM color segmentation and panorama stitching.
+                    </p>
+                    <div class="tech-stack-pills">
+                        <span class="tech-pill">Python</span>
+                        <span class="tech-pill">Computer Vision</span>
+                        <span class="tech-pill">CNN</span>
+                        <span class="tech-pill">GMMs</span>
                     </div>
                 </article>
 
-                <!-- Project 4: Distributed Product Matching -->
-                <article class="project-featured-card">
-                    <div class="project-img-container">
-                        <div class="img-overlay"></div>
-                        <img src="matcher_promo.png" alt="Semantic Product Matcher" class="project-showcase-img">
+                <!-- Semantic Product Matcher -->
+                <article class="project-card-mini">
+                    <div class="mini-img-container">
+                        <img src="matcher_promo.png" alt="Semantic Product Matcher" class="mini-project-img">
                     </div>
-                    <div class="project-info">
-                        <div class="project-badge font-mono"><i class="fas fa-shopping-bag"></i> Distributed Web Crawler</div>
-                        <h3 class="project-name">Semantic Product Matcher</h3>
-                        <div class="project-meta font-mono">High-Concurrency Ingestion & Perceptual Hashing</div>
-                        
-                        <p class="project-description">
-                            Architected a high-concurrency ingestion crawler pipeline covering 30+ global retailers. Developed an image similarity comparison engine combining perceptual hashing (pHash) and SSIM inside a Selenium framework, cutting manual validation workloads by 80% while boosting match accuracy by 25%.
-                        </p>
-                        
-                        <div class="tech-stack-pills">
-                            <span class="tech-pill">Python</span>
-                            <span class="tech-pill">Selenium</span>
-                            <span class="tech-pill">Perceptual Hashing</span>
-                            <span class="tech-pill">SSIM</span>
-                            <span class="tech-pill">Web Crawlers</span>
+                    <div class="mini-card-header">
+                        <div class="mini-icon"><i class="fas fa-shopping-bag"></i></div>
+                        <div class="mini-links">
+                            <a href="https://github.com/ypeng12" target="_blank" class="mini-link-btn" aria-label="GitHub"><i class="fab fa-github"></i></a>
                         </div>
-                        
-                        <div class="project-links">
-                            <a href="https://github.com/ypeng12" target="_blank" class="proj-btn accent-btn"><i class="fab fa-github"></i> GitHub</a>
-                        </div>
+                    </div>
+                    <h4 class="mini-project-name">Semantic Product Matcher</h4>
+                    <p class="mini-project-desc">
+                        Architected a high-concurrency ingestion crawler pipeline covering 30+ retailers. Built a similarity engine combining pHash and SSIM to reduce manual validation effort by 80%.
+                    </p>
+                    <div class="tech-stack-pills">
+                        <span class="tech-pill">Python</span>
+                        <span class="tech-pill">Selenium</span>
+                        <span class="tech-pill">pHash</span>
+                        <span class="tech-pill">SSIM</span>
                     </div>
                 </article>
 
-                <!-- Project 5: Terpiez AR Game -->
-                <article class="project-featured-card">
-                    <div class="project-img-container">
-                        <div class="img-overlay"></div>
-                        <img src="terpiez_promo.png" alt="Terpiez AR Mobile Game" class="project-showcase-img">
+                <!-- Terpiez AR Game -->
+                <article class="project-card-mini">
+                    <div class="mini-img-container">
+                        <img src="terpiez_promo.png" alt="Terpiez AR Mobile Game" class="mini-project-img">
                     </div>
-                    <div class="project-info">
-                        <div class="project-badge font-mono"><i class="fas fa-map-marked-alt"></i> Mobile Development</div>
-                        <h3 class="project-name">Terpiez AR Mobile Game</h3>
-                        <div class="project-meta font-mono">Location-Based GPS Game System</div>
-                        
-                        <p class="project-description">
-                            Developed a location-based AR mobile game for capturing virtual creatures in real-time. Features GPS-based coordinate tracking, interactive dynamic maps, persistent player session state using Redis, and client-side reactive gameplay systems.
-                        </p>
-                        
-                        <div class="tech-stack-pills">
-                            <span class="tech-pill">Flutter</span>
-                            <span class="tech-pill">Dart</span>
-                            <span class="tech-pill">Redis</span>
-                            <span class="tech-pill">Google Maps API</span>
+                    <div class="mini-card-header">
+                        <div class="mini-icon"><i class="fas fa-map-marked-alt"></i></div>
+                        <div class="mini-links">
+                            <a href="https://github.com/ypeng12/Terpiez-Go" target="_blank" class="mini-link-btn" aria-label="GitHub"><i class="fab fa-github"></i></a>
                         </div>
-                        
-                        <div class="project-links">
-                            <a href="https://github.com/ypeng12/Terpiez-Go" target="_blank" class="proj-btn accent-btn"><i class="fab fa-github"></i> GitHub</a>
-                        </div>
+                    </div>
+                    <h4 class="mini-project-name">Terpiez AR Mobile Game</h4>
+                    <p class="mini-project-desc">
+                        Location-based AR game captured virtual creatures in real-time. Features GPS coordinate tracking, interactive dynamic maps, and player session states using Redis.
+                    </p>
+                    <div class="tech-stack-pills">
+                        <span class="tech-pill">Flutter</span>
+                        <span class="tech-pill">Dart</span>
+                        <span class="tech-pill">Redis</span>
+                        <span class="tech-pill">Google Maps</span>
                     </div>
                 </article>
 
-                <!-- Project 6: Aviation Resilience Pipeline -->
-                <article class="project-featured-card">
-                    <div class="project-img-container">
-                        <div class="img-overlay"></div>
-                        <img src="aviation_promo.png" alt="Aviation Resilience Pipeline" class="project-showcase-img">
+                <!-- Aviation Resilience Pipeline -->
+                <article class="project-card-mini">
+                    <div class="mini-img-container">
+                        <img src="aviation_promo.png" alt="Aviation Resilience Pipeline" class="mini-project-img">
                     </div>
-                    <div class="project-info">
-                        <div class="project-badge font-mono"><i class="fas fa-plane"></i> Data Analytics Pipeline</div>
-                        <h3 class="project-name">Aviation Resilience Pipeline</h3>
-                        <div class="project-meta font-mono">Network Science & Sentiment Inference</div>
-                        
-                        <p class="project-description">
-                            Designed analytical pipelines evaluating network-level aviation resilience under systemic shocks (e.g. system outages). Applied NLP and sentiment analysis to TripAdvisor low-altitude reviews to extract passenger perception dimensions across high-dimensional reviews.
-                        </p>
-                        
-                        <div class="tech-stack-pills">
-                            <span class="tech-pill">Python</span>
-                            <span class="tech-pill">NLP</span>
-                            <span class="tech-pill">Network Science</span>
-                            <span class="tech-pill">Sentiment Analysis</span>
+                    <div class="mini-card-header">
+                        <div class="mini-icon"><i class="fas fa-plane"></i></div>
+                        <div class="mini-links">
+                            <a href="https://github.com/ypeng12" target="_blank" class="mini-link-btn" aria-label="GitHub"><i class="fab fa-github"></i></a>
                         </div>
-                        
-                        <div class="project-links">
-                            <a href="https://github.com/ypeng12" target="_blank" class="proj-btn accent-btn"><i class="fab fa-github"></i> GitHub</a>
-                        </div>
+                    </div>
+                    <h4 class="mini-project-name">Aviation Resilience</h4>
+                    <p class="mini-project-desc">
+                        Designed analytical pipelines evaluating network-level aviation resilience under systemic shocks. Applied NLP and sentiment analysis to Tripoli and low-altitude review streams.
+                    </p>
+                    <div class="tech-stack-pills">
+                        <span class="tech-pill">Python</span>
+                        <span class="tech-pill">NLP</span>
+                        <span class="tech-pill">Network Science</span>
+                        <span class="tech-pill">Sentiment Analysis</span>
                     </div>
                 </article>
 
-                <!-- Project 7: Adversarial AI Game Agents -->
-                <article class="project-featured-card">
-                    <div class="project-img-container">
-                        <div class="img-overlay"></div>
-                        <img src="agents_promo.png" alt="Adversarial AI Game Agents" class="project-showcase-img">
+                <!-- Adversarial AI Game Agents -->
+                <article class="project-card-mini">
+                    <div class="mini-img-container">
+                        <img src="agents_promo.png" alt="Adversarial AI Game Agents" class="mini-project-img">
                     </div>
-                    <div class="project-info">
-                        <div class="project-badge font-mono"><i class="fas fa-gamepad"></i> Game Intelligence</div>
-                        <h3 class="project-name">Adversarial AI Game Agents</h3>
-                        <div class="project-meta font-mono">Minimax & Probabilistic State Estimation</div>
-                        
-                        <p class="project-description">
-                            Programmed decision-making agents for spatial gameplay. Implemented heuristic pathfinding (A* Search, DFS), adversarial multi-agent decisions (Minimax with Alpha-Beta Pruning), and probabilistic state estimation under uncertainty (Particle Filtering).
-                        </p>
-                        
-                        <div class="tech-stack-pills">
-                            <span class="tech-pill">Python</span>
-                            <span class="tech-pill">Reinforcement Learning</span>
-                            <span class="tech-pill">A* Search</span>
-                            <span class="tech-pill">Minimax</span>
+                    <div class="mini-card-header">
+                        <div class="mini-icon"><i class="fas fa-gamepad"></i></div>
+                        <div class="mini-links">
+                            <a href="https://github.com/ypeng12/AI_Game_python" target="_blank" class="mini-link-btn" aria-label="GitHub"><i class="fab fa-github"></i></a>
                         </div>
-                        
-                        <div class="project-links">
-                            <a href="https://github.com/ypeng12/AI_Game_python" target="_blank" class="proj-btn accent-btn"><i class="fab fa-github"></i> GitHub</a>
-                        </div>
+                    </div>
+                    <h4 class="mini-project-name">Adversarial AI Agents</h4>
+                    <p class="mini-project-desc">
+                        Programmed spatial gameplay agents. Implemented pathfinding (A*, DFS), adversarial decisions (Minimax with Alpha-Beta Pruning), and particle filters for state estimation.
+                    </p>
+                    <div class="tech-stack-pills">
+                        <span class="tech-pill">Python</span>
+                        <span class="tech-pill">A* Search</span>
+                        <span class="tech-pill">Minimax</span>
+                        <span class="tech-pill">Particle Filter</span>
                     </div>
                 </article>
 
-                <!-- Project 8: Neural Network from Scratch -->
-                <article class="project-featured-card">
-                    <div class="project-img-container">
-                        <div class="img-overlay"></div>
-                        <img src="nn_promo.png" alt="Neural Network from Scratch" class="project-showcase-img">
+                <!-- Neural Network from Scratch -->
+                <article class="project-card-mini">
+                    <div class="mini-img-container">
+                        <img src="nn_promo.png" alt="Neural Network from Scratch" class="mini-project-img">
                     </div>
-                    <div class="project-info">
-                        <div class="project-badge font-mono"><i class="fas fa-calculator"></i> Zero-Dependency Framework</div>
-                        <h3 class="project-name">Neural Network from Scratch</h3>
-                        <div class="project-meta font-mono">Mathematical Backpropagation & Optimization</div>
-                        
-                        <p class="project-description">
-                            Designed and built a zero-dependency deep learning framework from absolute mathematical foundations. Implemented forward and backward propagation, customizable network layers, activation functions, and standard optimizers (SGD, Adam) to understand the mathematics of AI.
-                        </p>
-                        
-                        <div class="tech-stack-pills">
-                            <span class="tech-pill">Python</span>
-                            <span class="tech-pill">NumPy</span>
-                            <span class="tech-pill">Linear Algebra</span>
-                            <span class="tech-pill">Math</span>
+                    <div class="mini-card-header">
+                        <div class="mini-icon"><i class="fas fa-calculator"></i></div>
+                        <div class="mini-links">
+                            <a href="https://github.com/ypeng12/Neural-Network-Implementation-from-Scratch" target="_blank" class="mini-link-btn" aria-label="GitHub"><i class="fab fa-github"></i></a>
                         </div>
-                        
-                        <div class="project-links">
-                            <a href="https://github.com/ypeng12/Neural-Network-Implementation-from-Scratch" target="_blank" class="proj-btn accent-btn"><i class="fab fa-github"></i> GitHub</a>
-                        </div>
+                    </div>
+                    <h4 class="mini-project-name">NN from Scratch</h4>
+                    <p class="mini-project-desc">
+                        Designed and built a zero-dependency deep learning framework from mathematical foundations. Implemented forward/backpropagation, activation layers, and optimizers (SGD, Adam).
+                    </p>
+                    <div class="tech-stack-pills">
+                        <span class="tech-pill">Python</span>
+                        <span class="tech-pill">NumPy</span>
+                        <span class="tech-pill">Linear Algebra</span>
+                        <span class="tech-pill">Optimization</span>
                     </div>
                 </article>
             </div>
@@ -575,7 +587,7 @@
                     <div class="edu-compact-info">
                         <h3>Master of Science in Applied Machine Learning</h3>
                         <p class="school">University of Maryland, College Park</p>
-                        <p class="meta font-mono">Sep 2025 &mdash; Expected May 2027 &middot; GPA: 3.7 / 4.0</p>
+                        <p class="meta font-mono">Sep 2025 &mdash; Expected May 2027 &middot; GPA: 3.8 / 4.0</p>
                     </div>
                 </div>
                 <div class="edu-compact-card">
@@ -665,7 +677,7 @@
             <div class="footer-socials">
                 <a href="https://github.com/ypeng12" target="_blank" class="social-icon-btn"><i class="fab fa-github"></i></a>
                 <a href="https://linkedin.com/in/ypeng12" target="_blank" class="social-icon-btn"><i class="fab fa-linkedin-in"></i></a>
-                <a href="Yuliang Resume 2026.pdf" target="_blank" class="social-icon-btn" title="Download Resume"><i class="fas fa-file-pdf"></i></a>
+                <a href="Yuliang_Peng_Resume_Backend_AI_Systems.pdf" target="_blank" class="social-icon-btn" title="Download Resume"><i class="fas fa-file-pdf"></i></a>
             </div>
             
             <p class="copyright">&copy; 2026 Yuliang Peng &middot; Designed for Visual &amp; Technical Impact</p>
