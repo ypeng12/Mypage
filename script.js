@@ -24,8 +24,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const icon = themeToggle ? themeToggle.querySelector('i') : null;
     
     if (themeToggle && icon) {
-        // Default to dark mode if no saved preference exists
-        const savedTheme = localStorage.getItem('theme') || 'dark';
+        // Default to light mode if no saved preference exists
+        const savedTheme = localStorage.getItem('theme') || 'light';
         document.documentElement.setAttribute('data-theme', savedTheme);
         
         if (savedTheme === 'light') {
@@ -128,4 +128,58 @@ document.addEventListener('DOMContentLoaded', () => {
     fadeSections.forEach(section => {
         observer.observe(section);
     });
+
+    // 7. Toggle show more/less minor engineering projects
+    const toggleBtn = document.getElementById('toggle-more-projects');
+    const toggleText = toggleBtn ? toggleBtn.querySelector('.toggle-btn-text') : null;
+    
+    if (toggleBtn && toggleText) {
+        // Collect all mini project cards in the subgrid
+        const allCards = Array.from(document.querySelectorAll('.project-card-mini'));
+        
+        toggleBtn.addEventListener('click', () => {
+            const isExpanded = toggleBtn.classList.contains('expanded');
+            
+            if (!isExpanded) {
+                // Expand: show cards 4 to 8 (index 3 and above)
+                let visibleCount = 0;
+                allCards.forEach((card, index) => {
+                    if (index >= 3) {
+                        card.classList.remove('hidden-card');
+                        card.classList.add('fade-in-card');
+                        // Staggered premium animation delay
+                        card.style.animationDelay = `${visibleCount * 70}ms`;
+                        visibleCount++;
+                    }
+                });
+                toggleText.textContent = 'View Less Projects';
+                toggleBtn.classList.add('expanded');
+            } else {
+                // Collapse: hide cards 4 to 8
+                allCards.forEach((card, index) => {
+                    if (index >= 3) {
+                        card.classList.add('hidden-card');
+                        card.classList.remove('fade-in-card');
+                        card.style.animationDelay = '';
+                    }
+                });
+                toggleText.textContent = 'View More Projects';
+                toggleBtn.classList.remove('expanded');
+                
+                // Smooth scroll back to the header of the other engineering projects section
+                const sectionHeader = document.querySelector('.projects-scroll-wrapper');
+                if (sectionHeader) {
+                    const headerOffset = 90; // account for fixed nav
+                    const elementPosition = sectionHeader.getBoundingClientRect().top;
+                    const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+                    
+                    window.scrollTo({
+                        top: offsetPosition,
+                        behavior: 'smooth'
+                    });
+                }
+            }
+        });
+    }
+
 });

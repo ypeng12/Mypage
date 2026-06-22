@@ -4,45 +4,7 @@
 
 /* Custom Typography & Palette Setup */
 :root {
-    /* Color Variables - Dark Theme First (Default) */
-    --bg-color: #030712;
-    --bg-alt: #0b0f19;
-    --card-bg: rgba(17, 24, 39, 0.75);
-    --card-bg-solid: #111827;
-    --border-color: rgba(243, 244, 246, 0.08);
-    --border-color-hover: rgba(99, 102, 241, 0.25);
-    
-    --text-primary: #f9fafb;
-    --text-secondary: #9ca3af;
-    --text-muted: #6b7280;
-    
-    /* Accents & Gradients */
-    --accent-primary: #6366f1; /* Indigo */
-    --accent-secondary: #8b5cf6; /* Violet */
-    --accent-tertiary: #3b82f6; /* Blue */
-    --accent-gradient: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
-    --text-gradient: linear-gradient(135deg, #c7d2fe, #e9d5ff);
-    --glow-color: rgba(99, 102, 241, 0.12);
-    
-    /* System Configs */
-    --font-main: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-    --font-mono: 'JetBrains Mono', monospace;
-    --container-width: 1250px;
-    --nav-height: 76px;
-    --radius-sm: 6px;
-    --radius-md: 12px;
-    --radius-lg: 20px;
-    
-    --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.4);
-    --shadow-md: 0 10px 30px rgba(0, 0, 0, 0.6);
-    --shadow-glow: 0 0 25px var(--glow-color);
-    
-    --transition-fast: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-    --transition-smooth: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-/* Light Theme Overrides */
-[data-theme="light"] {
+    /* Color Variables - Light Theme First (Default) */
     --bg-color: #f9fafb;
     --bg-alt: #f3f4f6;
     --card-bg: rgba(255, 255, 255, 0.85);
@@ -54,6 +16,7 @@
     --text-secondary: #4b5563;
     --text-muted: #9ca3af;
     
+    /* Accents & Gradients */
     --accent-primary: #4f46e5;
     --accent-secondary: #7c3aed;
     --accent-tertiary: #2563eb;
@@ -61,9 +24,46 @@
     --text-gradient: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
     --glow-color: rgba(79, 70, 229, 0.06);
     
+    /* System Configs */
+    --font-main: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+    --container-width: 1250px;
+    --nav-height: 76px;
+    --radius-sm: 6px;
+    --radius-md: 12px;
+    --radius-lg: 20px;
+    
     --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.05);
     --shadow-md: 0 12px 30px rgba(0, 0, 0, 0.05);
     --shadow-glow: 0 0 20px var(--glow-color);
+    
+    --transition-fast: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-smooth: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Dark Theme Overrides */
+[data-theme="dark"] {
+    --bg-color: #030712;
+    --bg-alt: #0b0f19;
+    --card-bg: rgba(17, 24, 39, 0.75);
+    --card-bg-solid: #111827;
+    --border-color: rgba(243, 244, 246, 0.08);
+    --border-color-hover: rgba(99, 102, 241, 0.25);
+    
+    --text-primary: #f9fafb;
+    --text-secondary: #9ca3af;
+    --text-muted: #6b7280;
+    
+    --accent-primary: #6366f1; /* Indigo */
+    --accent-secondary: #8b5cf6; /* Violet */
+    --accent-tertiary: #3b82f6; /* Blue */
+    --accent-gradient: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+    --text-gradient: linear-gradient(135deg, #c7d2fe, #e9d5ff);
+    --glow-color: rgba(99, 102, 241, 0.12);
+    
+    --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.4);
+    --shadow-md: 0 10px 30px rgba(0, 0, 0, 0.6);
+    --shadow-glow: 0 0 25px var(--glow-color);
 }
 
 /* General Resets & Defaults */
@@ -131,7 +131,7 @@ ul {
 /* Header & Navigation */
 .navbar {
     height: var(--nav-height);
-    background-color: rgba(3, 7, 18, 0.75);
+    background-color: rgba(255, 255, 255, 0.75);
     backdrop-filter: blur(16px) saturate(180%);
     position: fixed;
     width: 100%;
@@ -141,8 +141,8 @@ ul {
     transition: background-color var(--transition-smooth), border-color var(--transition-smooth);
 }
 
-[data-theme="light"] .navbar {
-    background-color: rgba(255, 255, 255, 0.75);
+[data-theme="dark"] .navbar {
+    background-color: rgba(3, 7, 18, 0.75);
 }
 
 .navbar-container {
@@ -231,11 +231,11 @@ ul {
 
 .theme-toggle:hover {
     color: var(--text-primary);
-    background-color: rgba(255, 255, 255, 0.05);
+    background-color: rgba(0, 0, 0, 0.05);
 }
 
-[data-theme="light"] .theme-toggle:hover {
-    background-color: rgba(0, 0, 0, 0.05);
+[data-theme="dark"] .theme-toggle:hover {
+    background-color: rgba(255, 255, 255, 0.05);
 }
 
 /* Section Header Styles */
@@ -515,14 +515,14 @@ ul {
 .edu-header .date {
     font-size: 0.8rem;
     color: var(--text-muted);
-    background-color: rgba(255, 255, 255, 0.03);
+    background-color: rgba(0, 0, 0, 0.03);
     padding: 0.1rem 0.6rem;
     border-radius: var(--radius-sm);
     border: 1px solid var(--border-color);
 }
 
-[data-theme="light"] .edu-header .date {
-    background-color: rgba(0, 0, 0, 0.03);
+[data-theme="dark"] .edu-header .date {
+    background-color: rgba(255, 255, 255, 0.03);
 }
 
 .degree {
@@ -562,7 +562,7 @@ ul {
 
 .course-tag {
     font-size: 0.75rem;
-    background-color: rgba(255, 255, 255, 0.03);
+    background-color: rgba(0, 0, 0, 0.03);
     border: 1px solid var(--border-color);
     color: var(--text-secondary);
     padding: 0.25rem 0.65rem;
@@ -570,8 +570,8 @@ ul {
     font-weight: 500;
 }
 
-[data-theme="light"] .course-tag {
-    background-color: rgba(0, 0, 0, 0.03);
+[data-theme="dark"] .course-tag {
+    background-color: rgba(255, 255, 255, 0.03);
 }
 
 /* Industrial Timeline / Work Experience Section */
@@ -791,14 +791,14 @@ ul {
 .doi-pill {
     font-size: 0.8rem;
     color: var(--text-secondary);
-    background-color: rgba(255, 255, 255, 0.03);
+    background-color: rgba(0, 0, 0, 0.03);
     border: 1px solid var(--border-color);
     padding: 0.25rem 0.75rem;
     border-radius: var(--radius-sm);
 }
 
-[data-theme="light"] .doi-pill {
-    background-color: rgba(0, 0, 0, 0.03);
+[data-theme="dark"] .doi-pill {
+    background-color: rgba(255, 255, 255, 0.03);
 }
 
 .pub-links {
@@ -1057,13 +1057,23 @@ ul {
     overflow: hidden;
     box-shadow: var(--shadow-sm);
     transition: var(--transition-smooth);
-    height: 380px;
+    height: 400px; /* Uniform height for professional look */
 }
 
-.project-featured-card:hover {
-    border-color: var(--border-color-hover);
-    transform: translateY(-3px);
-    box-shadow: var(--shadow-md), var(--shadow-glow);
+/* Themed card glow overrides */
+.project-featured-card.project-inferroute:hover {
+    border-color: rgba(245, 158, 11, 0.4);
+    box-shadow: var(--shadow-md), 0 10px 30px -10px rgba(245, 158, 11, 0.25);
+}
+
+.project-featured-card.project-quant:hover {
+    border-color: rgba(20, 184, 166, 0.4);
+    box-shadow: var(--shadow-md), 0 10px 30px -10px rgba(20, 184, 166, 0.25);
+}
+
+.project-featured-card.project-tabit:hover {
+    border-color: rgba(99, 102, 241, 0.4);
+    box-shadow: var(--shadow-md), 0 10px 30px -10px rgba(99, 102, 241, 0.25);
 }
 
 .project-img-container {
@@ -1096,12 +1106,31 @@ ul {
     transform: scale(1.04);
 }
 
-/* Spacing for project info */
+/* Spacing for project info - With custom scroll for long contents */
 .project-info {
     padding: 1.8rem 2rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start; /* Changed from center to allow top alignment of scrollable items */
+    overflow-y: auto; /* Enable scroll down inside the card */
+    max-height: 100%;
+    min-height: 0; /* Enforce flex/grid child constraint to allow scroll */
+    height: 100%;  /* Fill the card height */
+}
+
+/* Sleek webkit scrollbar for project-info */
+.project-info::-webkit-scrollbar {
+    width: 5px;
+}
+.project-info::-webkit-scrollbar-track {
+    background: transparent;
+}
+.project-info::-webkit-scrollbar-thumb {
+    background: var(--border-color);
+    border-radius: var(--radius-sm);
+}
+.project-info::-webkit-scrollbar-thumb:hover {
+    background: var(--accent-primary);
 }
 
 .project-badge {
@@ -1143,6 +1172,8 @@ ul {
 .project-links {
     display: flex;
     gap: 0.8rem;
+    margin-top: auto; /* Push links to bottom of scrollable area */
+    padding-bottom: 0.2rem;
 }
 
 .proj-btn {
@@ -1173,6 +1204,26 @@ ul {
 
 .accent-btn:hover {
     box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3);
+}
+
+/* Scrollable container for minor projects grid */
+.projects-scroll-wrapper {
+    position: relative;
+    margin-top: 2rem;
+}
+
+.projects-scroll-container {
+    padding-bottom: 1.5rem;
+    transition: all var(--transition-smooth);
+}
+
+/* Bottom fade overlay for scroll list indicator disabled */
+.projects-scroll-wrapper::after {
+    display: none;
+}
+
+.projects-scroll-wrapper.scrolled-bottom::after {
+    display: none;
 }
 
 /* Projects Subgrid for Minor Cards */
@@ -1222,9 +1273,9 @@ ul {
 }
 
 .project-card-mini:hover {
-    border-color: var(--border-color-hover);
-    transform: translateY(-3px);
-    box-shadow: var(--shadow-md), var(--shadow-glow);
+    border-color: var(--accent-primary);
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-md), 0 8px 24px -8px rgba(99, 102, 241, 0.25);
 }
 
 .mini-card-header {
@@ -1237,6 +1288,12 @@ ul {
 .mini-icon {
     font-size: 1.5rem;
     color: var(--accent-primary);
+    transition: transform var(--transition-fast) ease, color var(--transition-fast) ease;
+}
+
+.project-card-mini:hover .mini-icon {
+    transform: translateY(-2px) scale(1.1);
+    color: var(--accent-secondary);
 }
 
 .mini-links {
@@ -1601,4 +1658,68 @@ ul {
     .project-info {
         padding: 1.8rem;
     }
+}
+
+/* Minor Projects Expand/Collapse Styles */
+.project-card-mini.hidden-card {
+    display: none !important;
+}
+
+@keyframes fadeInCard {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.project-card-mini.fade-in-card {
+    animation: fadeInCard 0.45s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+.more-projects-toggle-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.more-projects-toggle-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.75rem 1.8rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    background-color: var(--card-bg);
+    color: var(--text-primary);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+    transition: var(--transition-smooth);
+    box-shadow: var(--shadow-sm);
+}
+
+.more-projects-toggle-btn:hover {
+    border-color: var(--accent-primary);
+    color: var(--accent-primary);
+    background-color: rgba(99, 102, 241, 0.04);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-glow);
+}
+
+[data-theme="dark"] .more-projects-toggle-btn:hover {
+    background-color: rgba(99, 102, 241, 0.08);
+}
+
+.toggle-btn-icon {
+    transition: transform var(--transition-fast) ease;
+}
+
+.more-projects-toggle-btn.expanded .toggle-btn-icon {
+    transform: rotate(180deg);
 }
