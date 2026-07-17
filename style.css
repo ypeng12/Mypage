@@ -1172,7 +1172,8 @@ ul {
 .project-links {
     display: flex;
     gap: 0.8rem;
-    margin-top: auto; /* Push links to bottom of scrollable area */
+    margin-top: 0.2rem;
+    margin-bottom: 1.2rem;
     padding-bottom: 0.2rem;
 }
 
