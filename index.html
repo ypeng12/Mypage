@@ -61,7 +61,7 @@
     }
     </script>
 
-    <link rel="stylesheet" href="style.css?v=4">
+    <link rel="stylesheet" href="style.css?v=5">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap"
@@ -227,7 +227,7 @@
                         <div class="project-meta font-mono">FastAPI &middot; Redis &middot; PostgreSQL &middot; Docker</div>
                         
                         <p class="project-description">
-                            A policy-driven LLM inference gateway and control plane. Routes requests dynamically across OpenAI, Gemini, and local model backends based on task type, context length, provider health, latency history, token-cost estimates, and SLO-aware rules. Engineered for high reliability with Redis caching, request deduplication, circuit breakers, timeout budgets, retry/backoff, and degraded-provider recovery.
+                            A policy-driven LLM inference gateway and control plane. Routes requests dynamically across OpenAI, Gemini, and local model backends using a sequential LLM cascade (FrugalGPT) and cost-quality mathematical optimizations (RouterBench). Implements exact/prefix Redis caching, Vegas concurrency limiting, and self-healing circuit breakers to achieve 98% API cost savings and an 80% TTFT reduction.
                         </p>
                         
                         <div class="tech-stack-pills">
@@ -235,12 +235,15 @@
                             <span class="tech-pill">Redis</span>
                             <span class="tech-pill">PostgreSQL</span>
                             <span class="tech-pill">Docker</span>
-                            <span class="tech-pill">SLO Routing</span>
-                            <span class="tech-pill">Inference Gateway</span>
+                            <span class="tech-pill">FrugalGPT Cascades</span>
+                            <span class="tech-pill">RouterBench SLOs</span>
+                            <span class="tech-pill">Vegas Concurrency Control</span>
+                            <span class="tech-pill">LLM Gateway</span>
                         </div>
                         
                         <div class="project-links">
-                            <a href="https://github.com/ypeng12" target="_blank" class="proj-btn accent-btn"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="https://github.com/ypeng12/InferRoute" target="_blank" class="proj-btn"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="https://ypeng12.github.io/InferRoute/" target="_blank" class="proj-btn accent-btn"><i class="fas fa-book"></i> Documentation Hub</a>
                         </div>
                     </div>
                 </article>
@@ -606,6 +609,16 @@
                         <h3>Master of Science in Applied Machine Learning</h3>
                         <p class="school">University of Maryland, College Park</p>
                         <p class="meta font-mono">Sep 2025 &mdash; Expected May 2027 &middot; GPA: 3.8 / 4.0</p>
+                        <div class="courses-wrapper" style="margin-top: 0.8rem;">
+                            <span class="course-title">Relevant Coursework</span>
+                            <div class="course-tags">
+                                <span class="course-tag">LLM Systems</span>
+                                <span class="course-tag">LLM Methods &amp; Applications</span>
+                                <span class="course-tag">Cloud Computing</span>
+                                <span class="course-tag">Computer Vision</span>
+                                <span class="course-tag">Deep Learning</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="edu-compact-card">
@@ -613,6 +626,16 @@
                         <h3>Bachelor of Science in Computer Science</h3>
                         <p class="school">University of Maryland, College Park</p>
                         <p class="meta font-mono">Sep 2020 &mdash; May 2024 &middot; GPA: 3.6 / 4.0 &middot; Dean's List</p>
+                        <div class="courses-wrapper" style="margin-top: 0.8rem;">
+                            <span class="course-title">Relevant Coursework</span>
+                            <div class="course-tags">
+                                <span class="course-tag">Machine Learning</span>
+                                <span class="course-tag">Computer Vision</span>
+                                <span class="course-tag">Robotics</span>
+                                <span class="course-tag">Deep Learning</span>
+                                <span class="course-tag">Data Structures &amp; Algorithms</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -702,7 +725,7 @@
         </div>
     </footer>
 
-    <script src="script.js?v=4"></script>
+    <script src="script.js?v=5"></script>
 </body>
 
 </html>
