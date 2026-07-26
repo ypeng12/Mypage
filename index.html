@@ -143,13 +143,13 @@
                     <div class="work-content">
                         <div class="work-header">
                             <h3>Software Engineer Intern</h3>
-                            <span class="company">ICBC USA</span>
+                            <span class="company">ICBC USA &middot; Financial Operations Systems</span>
                             <span class="date font-mono">Jun 2026 &mdash; Aug 2026 | Los Angeles, CA</span>
                         </div>
                         <ul class="work-list">
-                            <li>Integrated a vendor AI-agent platform into digital-banking workflows with Python/SQL mappings and prompt logic for deposit exceptions, card-payment issues, client-document review, and financing triage.</li>
-                            <li>Built SQL-backed pipelines to normalize <strong>200+ client, deposit, payment, and compliance records</strong>, tracking failed states, retry attempts, audit notes, review outcomes, and escalations.</li>
-                            <li>Developed validation dashboards for recurring mobile-deposit and card-not-present payment failures, <strong>reducing manual review time by 20%</strong> and improving compliance follow-up visibility.</li>
+                            <li>Built Python/SQL services for exception-processing workflows across four digital-banking operations, validating transaction and document inputs and routing cases through retry, review, escalation, and resolution states.</li>
+                            <li>Designed SQL-backed case-state and audit models for <strong>200+ financial exceptions</strong>, capturing lifecycle transitions, failure reasons, reviewer actions, and compliance outcomes for end-to-end traceability.</li>
+                            <li>Developed reconciliation and monitoring workflows for deposit and card-payment failures, <strong>reducing repeated case lookup and follow-up effort by 20%</strong> while improving operational visibility and auditability.</li>
                         </ul>
                     </div>
                 </div>
@@ -159,14 +159,14 @@
                     <div class="timeline-marker"></div>
                     <div class="work-content">
                         <div class="work-header">
-                            <h3>Software Engineer</h3>
-                            <span class="company"><a href="https://modesens.com" target="_blank">ModeSens</a></span>
+                            <h3>Software Engineer (Full-time)</h3>
+                            <span class="company"><a href="https://modesens.com" target="_blank">ModeSens</a> &middot; Data Infrastructure</span>
                             <span class="date font-mono">Apr 2025 &mdash; Sep 2025 | Remote, USA</span>
                         </div>
                         <ul class="work-list">
-                            <li>Engineered AWS/Python ingestion pipelines for <strong>30+ retailer feeds</strong>, normalizing metadata, images, pricing, and retailer-specific schemas into reliable workflows for analytics and recommendations.</li>
-                            <li>Implemented CI/CD and validation checks in data workflows, <strong>reducing processing failures by 20%</strong> and improving reliability for analytics.</li>
-                            <li>Built image-duplicate detection with perceptual hashing, SSIM, and Selenium, <strong>eliminating 80% of reviews</strong> and improving recommendation accuracy by 25%.</li>
+                            <li>Built Python/AWS data-ingestion pipelines for <strong>30+ external retailer feeds</strong>, normalizing heterogeneous product, pricing, availability, image, and purchase-link schemas into unified catalog records.</li>
+                            <li>Productionized ingestion and matching workflows with SQL-backed audit, reconciliation, validation, and CI/CD checks, <strong>reducing processing failures by 20%</strong> and <strong>manual duplicate review by 80%</strong>.</li>
+                            <li>Developed a multi-stage matching pipeline combining depth-derived shape embeddings, perceptual hashing, and SSIM, <strong>improving match accuracy by 25%</strong> across noisy external data sources.</li>
                         </ul>
                     </div>
                 </div>
@@ -176,14 +176,14 @@
                     <div class="timeline-marker"></div>
                     <div class="work-content">
                         <div class="work-header">
-                            <h3>Software Engineer</h3>
-                            <span class="company">Bank of China</span>
+                            <h3>Software Engineer (Full-time)</h3>
+                            <span class="company">Bank of China &middot; Transaction Processing & Reconciliation</span>
                             <span class="date font-mono">Jul 2024 &mdash; Apr 2025 | Los Angeles, CA</span>
                         </div>
                         <ul class="work-list">
-                            <li>Built a transaction-monitoring backend for risk and compliance workflows, integrating SQL pipelines, exception handling, and reporting.</li>
-                            <li>Added data-quality and anomaly checks to flag inconsistent records, failed processing states, and downstream reporting gaps.</li>
-                            <li><strong>Resolved 70+ production incidents</strong> through log analysis, root-cause isolation, and pipeline fixes, <strong>reducing blocking incidents by 20%</strong>.</li>
+                            <li>Built Java/Spring Boot transaction-processing and reconciliation services exposing APIs for transaction status, retry history, failure reason, settlement state, and downstream reporting.</li>
+                            <li>Implemented PostgreSQL transaction models with idempotency keys, lifecycle checks, and audit trails to detect duplicate requests, invalid state transitions, and missing settlements.</li>
+                            <li><strong>Resolved 70+ production incidents</strong> through log analysis, root-cause isolation, and pipeline fixes; added Grafana monitoring for p95 latency, reconciliation gaps, retries, and failed jobs, <strong>reducing incident-triage time by 30%</strong>.</li>
                         </ul>
                     </div>
                 </div>
@@ -240,7 +240,7 @@
                     <div class="project-info">
                         <div class="project-badge font-mono" style="color: #f59e0b;"><i class="fas fa-trophy"></i> Google Hackathon Award</div>
                         <h3 class="project-name">InferRoute</h3>
-                        <div class="project-meta font-mono">FastAPI &middot; Redis &middot; PostgreSQL &middot; Docker</div>
+                        <div class="project-meta font-mono">Python &middot; FastAPI &middot; Redis &middot; PostgreSQL &middot; Docker</div>
                         
                         <div class="project-links">
                             <a href="https://github.com/ypeng12/InferRoute" target="_blank" class="proj-btn"><i class="fab fa-github"></i> GitHub</a>
@@ -248,17 +248,17 @@
                         </div>
 
                         <p class="project-description">
-                            A policy-driven LLM inference gateway and control plane. Routes requests dynamically across OpenAI, Gemini, and local model backends using a sequential LLM cascade (FrugalGPT) and cost-quality mathematical optimizations (RouterBench). Implements exact/prefix Redis caching, Vegas concurrency limiting, and self-healing circuit breakers to achieve 98% API cost savings and an 80% TTFT reduction.
+                            A multi-provider LLM inference gateway integrating OpenAI, Gemini, vLLM, and Ollama with request validation, streaming responses, timeout enforcement, credential isolation, and containerized deployment. Implements TCP Vegas-inspired adaptive concurrency control and sliding-window circuit breakers; sustained 45.2 RPS at 100 concurrent clients with 99.4% success and 120 ms p95 gateway overhead under provider failures. Evaluated on 3.2M WildChat conversations, reducing estimated API cost by 54.2% while retaining 98.8% of baseline quality.
                         </p>
                         
                         <div class="tech-stack-pills">
+                            <span class="tech-pill">Python</span>
                             <span class="tech-pill">FastAPI</span>
                             <span class="tech-pill">Redis</span>
                             <span class="tech-pill">PostgreSQL</span>
                             <span class="tech-pill">Docker</span>
-                            <span class="tech-pill">FrugalGPT Cascades</span>
-                            <span class="tech-pill">RouterBench SLOs</span>
-                            <span class="tech-pill">Vegas Concurrency Control</span>
+                            <span class="tech-pill">Adaptive Concurrency</span>
+                            <span class="tech-pill">Circuit Breakers</span>
                             <span class="tech-pill">LLM Gateway</span>
                         </div>
                     </div>
@@ -268,28 +268,30 @@
                 <article class="project-featured-card project-quant">
                     <div class="project-img-container">
                         <div class="img-overlay"></div>
-                        <img src="quant_promo.png" alt="Quant.ai - Quant Strategy Backtesting" class="project-showcase-img">
+                        <img src="quant_promo.png" alt="Quant.ai - Low-Latency Market Replay" class="project-showcase-img">
                     </div>
                     <div class="project-info">
-                        <div class="project-badge font-mono"><i class="fas fa-chart-line"></i> Featured ML & Quant Platform</div>
+                        <div class="project-badge font-mono"><i class="fas fa-microchip"></i> High-Performance Quant & Systems</div>
                         <h3 class="project-name">Quant.ai</h3>
-                        <div class="project-meta font-mono">FastAPI &middot; React &middot; TypeScript &middot; Pandas &middot; NumPy</div>
+                        <div class="project-meta font-mono">C++17 &middot; Linux &middot; POSIX Sockets &middot; TCP/UDP &middot; pybind11 &middot; Python</div>
                         
                         <div class="project-links">
                             <a href="https://github.com/ypeng12" target="_blank" class="proj-btn accent-btn"><i class="fab fa-github"></i> GitHub</a>
                         </div>
 
                         <p class="project-description">
-                            A full-stack quant research and backtesting agent platform. Features a FastAPI backtesting engine and React dashboard enabling natural-language strategy definition, walk-forward validation, experiment comparison, and drawdown/risk analysis. Integrates an LLM tool-calling workflow with a vectorized simulation engine for real-time market data ingestion and ATR position sizing.
+                            A deterministic event-driven market replay and backtesting system featuring a C++17 price-time-priority limit order book supporting amendments, cancellations, partial fills, risk checks, and sequence validation. Implements UDP market-data ingestion and TCP order-entry over POSIX sockets with binary message framing, packet sequencing, gap detection, acknowledgments, timeouts, and reconnect recovery. Profiled with perf/gdb and ASan/UBSan; processed 2.50M events at 507,405 events/sec and 3.8 &mu;s p99 latency with full invariant determinism.
                         </p>
                         
                         <div class="tech-stack-pills">
-                            <span class="tech-pill">FastAPI</span>
-                            <span class="tech-pill">React</span>
-                            <span class="tech-pill">TypeScript</span>
-                            <span class="tech-pill">Pandas</span>
-                            <span class="tech-pill">NumPy</span>
-                            <span class="tech-pill">Agentic LLM</span>
+                            <span class="tech-pill">C++17</span>
+                            <span class="tech-pill">POSIX Sockets</span>
+                            <span class="tech-pill">TCP/UDP</span>
+                            <span class="tech-pill">Limit Order Book</span>
+                            <span class="tech-pill">pybind11</span>
+                            <span class="tech-pill">Python</span>
+                            <span class="tech-pill">perf &amp; ASan</span>
+                            <span class="tech-pill">Market Replay</span>
                         </div>
                     </div>
                 </article>
@@ -628,11 +630,10 @@
                         <div class="courses-wrapper" style="margin-top: 0.8rem;">
                             <span class="course-title">Relevant Coursework</span>
                             <div class="course-tags">
-                                <span class="course-tag">LLM Systems</span>
-                                <span class="course-tag">LLM Methods &amp; Applications</span>
+                                <span class="course-tag">Data Structures &amp; Algorithms</span>
+                                <span class="course-tag">Operating Systems</span>
+                                <span class="course-tag">Systems for ML</span>
                                 <span class="course-tag">Cloud Computing</span>
-                                <span class="course-tag">Computer Vision</span>
-                                <span class="course-tag">Deep Learning</span>
                             </div>
                         </div>
                     </div>
