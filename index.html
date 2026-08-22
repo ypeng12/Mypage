@@ -85,7 +85,7 @@
                 <a href="#education" class="nav-link">Education</a>
                 <a href="#skills" class="nav-link">Skills</a>
                 <a href="#contact" class="nav-link">Contact</a>
-                <a href="Yuliang%20Peng%20Software%202027%20%EF%BC%88Systems%20SWE%EF%BC%89.pdf" target="_blank" class="nav-btn">Resume</a>
+                <a href="YuliangPeng.pdf" target="_blank" class="nav-btn">Resume</a>
                 <button class="theme-toggle" aria-label="Toggle Dark Mode">
                     <i class="fas fa-moon"></i>
                 </button>
@@ -119,7 +119,7 @@
             </p>
 
             <div class="social-links">
-                <a href="Yuliang%20Peng%20Software%202027%20%EF%BC%88Systems%20SWE%EF%BC%89.pdf" target="_blank" class="social-btn primary-btn"><i class="fas fa-file-pdf"></i> Resume</a>
+                <a href="YuliangPeng.pdf" target="_blank" class="social-btn primary-btn"><i class="fas fa-file-pdf"></i> Resume</a>
                 <a href="https://github.com/ypeng12" target="_blank" class="social-btn"><i class="fab fa-github"></i> GitHub</a>
                 <a href="https://linkedin.com/in/ypeng12" target="_blank" class="social-btn"><i class="fab fa-linkedin"></i> LinkedIn</a>
                 <a href="mailto:ypeng12@umd.edu" class="social-btn"><i class="fas fa-envelope"></i> Email</a>
@@ -143,11 +143,12 @@
                     <div class="work-content">
                         <div class="work-header">
                             <h3>Software Engineer Intern</h3>
-                            <span class="company">ICBC USA &middot; Financial Operations Systems</span>
+                            <span class="company">ICBC USA &middot; Financial AI &amp; Operations</span>
                             <span class="date font-mono">Jun 2026 &mdash; Aug 2026 | Los Angeles, CA</span>
                         </div>
                         <ul class="work-list">
-                            <li>Built Python/SQL services for exception-processing workflows across four digital-banking operations, validating transaction and document inputs and routing cases through retry, review, escalation, and resolution states.</li>
+                            <li>Integrated an enterprise AI/LLM platform into banking workflows, developing Python/SQL adapters, prompts, and validation logic for document processing, information extraction, analytics, and financial applications.</li>
+                            <li>Developed AI-assisted workflows for document understanding and financial analysis, transforming unstructured inputs into summaries, extracted fields, and decision-support outputs.</li>
                             <li>Designed SQL-backed case-state and audit models for <strong>200+ financial exceptions</strong>, capturing lifecycle transitions, failure reasons, reviewer actions, and compliance outcomes for end-to-end traceability.</li>
                             <li>Developed reconciliation and monitoring workflows for deposit and card-payment failures, <strong>reducing repeated case lookup and follow-up effort by 20%</strong> while improving operational visibility and auditability.</li>
                         </ul>
@@ -160,13 +161,14 @@
                     <div class="work-content">
                         <div class="work-header">
                             <h3>Software Engineer (Full-time)</h3>
-                            <span class="company"><a href="https://modesens.com" target="_blank">ModeSens</a> &middot; Data Infrastructure</span>
+                            <span class="company"><a href="https://modesens.com" target="_blank">ModeSens</a> &middot; Data &amp; Vision Engineering</span>
                             <span class="date font-mono">Apr 2025 &mdash; Sep 2025 | Remote, USA</span>
                         </div>
                         <ul class="work-list">
-                            <li>Built Python/AWS data-ingestion pipelines for <strong>30+ external retailer feeds</strong>, normalizing heterogeneous product, pricing, availability, image, and purchase-link schemas into unified catalog records.</li>
-                            <li>Productionized ingestion and matching workflows with SQL-backed audit, reconciliation, validation, and CI/CD checks, <strong>reducing processing failures by 20%</strong> and <strong>manual duplicate review by 80%</strong>.</li>
-                            <li>Developed a multi-stage matching pipeline combining depth-derived shape embeddings, perceptual hashing, and SSIM, <strong>improving match accuracy by 25%</strong> across noisy external data sources.</li>
+                            <li>Engineered components of a serverless, event-driven ingestion platform using AWS Lambda, SAM, SQS, Redis, and Asyncio/HTTPX, implementing asynchronous processing, retries, deduplication, and failure recovery.</li>
+                            <li>Implemented modular JSON-LD / DOM / API parsers covering <strong>360+ merchant schemas</strong>, normalizing heterogeneous product, pricing, inventory, sizing, brand, and image data into catalog records.</li>
+                            <li>Implemented a coarse-to-fine vision-matching stack using perceptual hashing, SIFT/FLANN, CIELAB/HSV features, and SSIM, <strong>improving match accuracy by 25%</strong> and <strong>reducing manual duplicate review by 80%</strong>.</li>
+                            <li>Implemented Redshift-to-S3 archival and ETL components using Python, SQL UNLOAD, partitioned storage, and Redshift Spectrum, validating row counts and timestamps before warehouse cleanup.</li>
                         </ul>
                     </div>
                 </div>
@@ -181,9 +183,9 @@
                             <span class="date font-mono">Jul 2024 &mdash; Apr 2025 | Los Angeles, CA</span>
                         </div>
                         <ul class="work-list">
-                            <li>Built Java/Spring Boot transaction-processing and reconciliation services exposing APIs for transaction status, retry history, failure reason, settlement state, and downstream reporting.</li>
-                            <li>Implemented PostgreSQL transaction models with idempotency keys, lifecycle checks, and audit trails to detect duplicate requests, invalid state transitions, and missing settlements.</li>
-                            <li><strong>Resolved 70+ production incidents</strong> through log analysis, root-cause isolation, and pipeline fixes; added Grafana monitoring for p95 latency, reconciliation gaps, retries, and failed jobs, <strong>reducing incident-triage time by 30%</strong>.</li>
+                            <li>Developed Java/Spring Boot transaction-processing and reconciliation services for financial workflows, supporting status, retries, failures, settlement states, and downstream reporting.</li>
+                            <li>Implemented PostgreSQL-backed lifecycle controls including idempotency keys and automated reconciliation, identifying duplicates, invalid transitions, and missing settlements.</li>
+                            <li>Investigated production failures through logs and root-cause debugging; enhanced Grafana monitoring for latency, retries, reconciliation gaps, and failures, <strong>reducing incident-triage time by 30%</strong>.</li>
                         </ul>
                     </div>
                 </div>
@@ -268,30 +270,33 @@
                 <article class="project-featured-card project-quant">
                     <div class="project-img-container">
                         <div class="img-overlay"></div>
-                        <img src="quant_promo.png" alt="Quant.ai - Low-Latency Market Replay" class="project-showcase-img">
+                        <img src="quant_promo.png" alt="Quant.ai - Low-Latency Market Replay &amp; AI Platform" class="project-showcase-img">
                     </div>
                     <div class="project-info">
-                        <div class="project-badge font-mono"><i class="fas fa-microchip"></i> High-Performance Quant & Systems</div>
+                        <div class="project-badge font-mono"><i class="fas fa-microchip"></i> High-Performance Quant &amp; Agentic AI</div>
                         <h3 class="project-name">Quant.ai</h3>
-                        <div class="project-meta font-mono">C++17 &middot; Linux &middot; POSIX Sockets &middot; TCP/UDP &middot; pybind11 &middot; Python</div>
+                        <div class="project-meta font-mono">C++17 &middot; Python &middot; LightGBM &middot; LambdaMART &middot; Gaussian HMM &middot; Frontier LLM Agents</div>
                         
                         <div class="project-links">
-                            <a href="https://github.com/ypeng12" target="_blank" class="proj-btn accent-btn"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="https://huggingface.co/spaces/Ypeng12/quant-ai" target="_blank" class="proj-btn hf-btn"><i class="fas fa-rocket"></i> Hugging Face Live Demo</a>
+                            <a href="https://github.com/ypeng12/Quant.ai" target="_blank" class="proj-btn accent-btn"><i class="fab fa-github"></i> GitHub</a>
                         </div>
 
                         <p class="project-description">
-                            A deterministic event-driven market replay and backtesting system featuring a C++17 price-time-priority limit order book supporting amendments, cancellations, partial fills, risk checks, and sequence validation. Implements UDP market-data ingestion and TCP order-entry over POSIX sockets with binary message framing, packet sequencing, gap detection, acknowledgments, timeouts, and reconnect recovery. Profiled with perf/gdb and ASan/UBSan; processed 2.50M events at 507,405 events/sec and 3.8 &mu;s p99 latency with full invariant determinism.
+                            ML-driven market simulation &amp; decision platform. Built a C++17 price-time-priority limit-order-book engine with amend/cancel/partial-fill handling, processing 2.50M events at 507K events/sec with 3.8 &mu;s p99 latency. Trained LightGBM and LambdaMART models for return prediction and cross-sectional ranking, implemented a 3-state Gaussian HMM for market-regime detection, and built an agentic LLM layer to transform unstructured market events into quantitative trading hypotheses.
                         </p>
                         
                         <div class="tech-stack-pills">
                             <span class="tech-pill">C++17</span>
-                            <span class="tech-pill">POSIX Sockets</span>
-                            <span class="tech-pill">TCP/UDP</span>
-                            <span class="tech-pill">Limit Order Book</span>
-                            <span class="tech-pill">pybind11</span>
                             <span class="tech-pill">Python</span>
-                            <span class="tech-pill">perf &amp; ASan</span>
-                            <span class="tech-pill">Market Replay</span>
+                            <span class="tech-pill">LightGBM</span>
+                            <span class="tech-pill">LambdaMART</span>
+                            <span class="tech-pill">Gaussian HMM</span>
+                            <span class="tech-pill">LLM Agents</span>
+                            <span class="tech-pill">Limit Order Book</span>
+                            <span class="tech-pill">Hugging Face</span>
+                            <span class="tech-pill">pybind11</span>
+                            <span class="tech-pill">POSIX Sockets</span>
                         </div>
                     </div>
                 </article>
@@ -457,26 +462,28 @@
                     </div>
                 </article>
 
-                <!-- Aviation Resilience Pipeline -->
+                <!-- Aviation & Low-Altitude Tourism Intelligence -->
                 <article class="project-card-mini hidden-card">
                     <div class="mini-img-container">
-                        <img src="aviation_promo.png" alt="Aviation Resilience Pipeline" class="mini-project-img">
+                        <img src="aviation_promo.png" alt="Aviation &amp; Low-Altitude Tourism Intelligence" class="mini-project-img">
                     </div>
                     <div class="mini-card-header">
-                        <div class="mini-icon"><i class="fas fa-plane"></i></div>
+                        <div class="mini-icon"><i class="fas fa-plane font-mono"></i></div>
                         <div class="mini-links">
                             <a href="https://github.com/ypeng12" target="_blank" class="mini-link-btn" aria-label="GitHub"><i class="fab fa-github"></i></a>
                         </div>
                     </div>
-                    <h4 class="mini-project-name">Aviation Resilience</h4>
+                    <h4 class="mini-project-name">Aviation &amp; Low-Altitude Intelligence</h4>
                     <p class="mini-project-desc">
-                        Designed analytical pipelines evaluating network-level aviation resilience under systemic shocks. Applied NLP and sentiment analysis to Tripoli and low-altitude review streams.
+                        Generative ABSA pipeline over 27K+ reviews using Llama-3-8B (0.82 F1). Built coarse-to-fine multimodal validation with CLIP &amp; Qwen2.5-VL (0.84 consistency F1) and LLM-as-a-Judge guardrails (vLLM/FastAPI) reducing structural hallucinations by 92%.
                     </p>
                     <div class="tech-stack-pills">
-                        <span class="tech-pill">Python</span>
-                        <span class="tech-pill">NLP</span>
-                        <span class="tech-pill">Network Science</span>
-                        <span class="tech-pill">Sentiment Analysis</span>
+                        <span class="tech-pill">PyTorch</span>
+                        <span class="tech-pill">Llama-3</span>
+                        <span class="tech-pill">Qwen2.5-VL</span>
+                        <span class="tech-pill">CLIP</span>
+                        <span class="tech-pill">vLLM</span>
+                        <span class="tech-pill">FastAPI</span>
                     </div>
                 </article>
 
@@ -674,43 +681,48 @@
                     <ul class="skills-pills-list">
                         <li>PyTorch</li>
                         <li>TensorFlow</li>
+                        <li>LightGBM</li>
+                        <li>LambdaMART</li>
+                        <li>Gaussian HMM</li>
+                        <li>Llama-3 &amp; Qwen2.5-VL</li>
+                        <li>CLIP</li>
+                        <li>vLLM</li>
                         <li>CUDA</li>
                         <li>Hugging Face</li>
-                        <li>QLoRA</li>
-                        <li>PEFT</li>
-                        <li>NumPy</li>
-                        <li>Pandas</li>
+                        <li>QLoRA / PEFT</li>
+                        <li>NumPy &amp; Pandas</li>
                     </ul>
                 </div>
 
                 <div class="skills-category-card">
                     <div class="skills-icon-badge"><i class="fas fa-server"></i></div>
-                    <h3>Systems &amp; MLOps</h3>
+                    <h3>Backend, Infrastructure &amp; MLOps</h3>
                     <ul class="skills-pills-list">
-                        <li>Kubernetes</li>
-                        <li>Docker</li>
-                        <li>AWS</li>
-                        <li>GCP</li>
-                        <li>Azure</li>
-                        <li>Kafka</li>
-                        <li>Prometheus</li>
-                        <li>Spark</li>
+                        <li>Spring Boot</li>
+                        <li>FastAPI</li>
                         <li>PostgreSQL</li>
                         <li>Redis</li>
-                        <li>Elasticsearch</li>
+                        <li>Docker</li>
+                        <li>AWS</li>
+                        <li>Grafana</li>
+                        <li>Kubernetes</li>
+                        <li>POSIX Sockets</li>
+                        <li>gdb &amp; Linux perf</li>
+                        <li>ASan / UBSan</li>
+                        <li>CI/CD &amp; Git</li>
                     </ul>
                 </div>
 
                 <div class="skills-category-card">
                     <div class="skills-icon-badge"><i class="fas fa-code"></i></div>
-                    <h3>Languages &amp; Comms</h3>
+                    <h3>Languages &amp; Spoken</h3>
                     <ul class="skills-pills-list">
                         <li>Python</li>
                         <li>C++</li>
-                        <li>C</li>
-                        <li>Rust</li>
                         <li>Java</li>
-                        <li>JavaScript</li>
+                        <li>JavaScript / TypeScript</li>
+                        <li>SQL</li>
+                        <li>C &amp; Rust</li>
                         <li>English (Fluent)</li>
                         <li>Chinese (Native)</li>
                         <li>Japanese (Native, N1)</li>
@@ -735,7 +747,7 @@
             <div class="footer-socials">
                 <a href="https://github.com/ypeng12" target="_blank" class="social-icon-btn"><i class="fab fa-github"></i></a>
                 <a href="https://linkedin.com/in/ypeng12" target="_blank" class="social-icon-btn"><i class="fab fa-linkedin-in"></i></a>
-                <a href="Yuliang%20Peng%20Software%202027%20%EF%BC%88Systems%20SWE%EF%BC%89.pdf" target="_blank" class="social-icon-btn" title="Download Resume"><i class="fas fa-file-pdf"></i></a>
+                <a href="YuliangPeng.pdf" target="_blank" class="social-icon-btn" title="Download Resume"><i class="fas fa-file-pdf"></i></a>
             </div>
             
             <p class="copyright">&copy; 2026 Yuliang Peng &middot; Designed for Visual &amp; Technical Impact</p>
