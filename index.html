@@ -106,9 +106,17 @@
                 <img src="WechatIMG279.jpg" alt="Yuliang Peng" class="hero-img">
             </div>
             
-            <a href="#research" class="featured-badge pulse">
-                <i class="fas fa-file-invoice"></i> Transport Policy (2026) Paper Published
-            </a>
+            <div class="hero-badges-row" style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin-bottom: 20px;">
+                <a href="#research" class="featured-badge pulse" style="margin: 0;">
+                    <i class="fas fa-file-invoice"></i> Transport Policy (2026) Paper Published
+                </a>
+                <a href="https://huggingface.co/spaces/Ypeng12/quant-ai" target="_blank" class="featured-badge pulse" style="margin: 0; background: rgba(255, 157, 0, 0.12); border-color: rgba(255, 157, 0, 0.4); color: #ff9d00;">
+                    <i class="fas fa-cubes"></i> Quant.ai HF Live Space
+                </a>
+                <a href="https://huggingface.co/spaces/Ypeng12/E-commerce-platform" target="_blank" class="featured-badge pulse" style="margin: 0; background: rgba(99, 102, 241, 0.12); border-color: rgba(99, 102, 241, 0.4); color: #6366f1;">
+                    <i class="fas fa-eye"></i> E-Commerce Vision Engine HF Space
+                </a>
+            </div>
             
             <h1 class="hero-title">Hi, I'm <span class="highlight">Yuliang Peng.</span></h1>
             <p class="hero-subtitle">Actively Seeking Software Engineer & Machine Learning Engineer Roles</p>
@@ -233,15 +241,50 @@
             </div>
 
             <div class="projects-container">
-                <!-- Multi-Modal Vision Engine Card -->
+                <!-- Quant.ai Card -->
+                <article class="project-featured-card project-quant">
+                    <div class="project-img-container">
+                        <div class="img-overlay"></div>
+                        <img src="quant_promo.png" alt="Quant.ai - Low-Latency Market Replay &amp; AI Platform" class="project-showcase-img">
+                    </div>
+                    <div class="project-info">
+                        <div class="project-badge font-mono" style="color: #ff9d00; border-color: rgba(255, 157, 0, 0.4); background: rgba(255, 157, 0, 0.1);"><i class="fas fa-cubes"></i> Hugging Face Space &amp; Quant AI Platform</div>
+                        <h3 class="project-name">Quant.ai</h3>
+                        <div class="project-meta font-mono">C++17 &middot; Python &middot; LightGBM &middot; LambdaMART &middot; Gaussian HMM &middot; Frontier LLM Agents</div>
+                        
+                        <div class="project-links">
+                            <a href="https://huggingface.co/spaces/Ypeng12/quant-ai" target="_blank" class="proj-btn hf-btn pulse"><i class="fas fa-external-link-alt"></i> 🤗 Hugging Face Live Space</a>
+                            <a href="https://github.com/ypeng12/Quant.ai" target="_blank" class="proj-btn accent-btn"><i class="fab fa-github"></i> GitHub Repo</a>
+                        </div>
+
+                        <p class="project-description">
+                            ML-driven market simulation &amp; decision platform. Built a signal pipeline over high-frequency market &amp; limit-order-book data, engineering Order Flow Imbalance (OFI), microprice, depth imbalance, spread, and volatility features for short-horizon prediction. Trained LightGBM and LambdaMART models for return prediction and cross-sectional ranking, implemented a 3-state Gaussian HMM for market-regime detection, and built an agentic LLM layer to transform unstructured market events into quantitative trading hypotheses.
+                        </p>
+                        
+                        <div class="tech-stack-pills">
+                            <span class="tech-pill hf-pill">🤗 HF Space</span>
+                            <span class="tech-pill">C++17</span>
+                            <span class="tech-pill">Python</span>
+                            <span class="tech-pill">LightGBM</span>
+                            <span class="tech-pill">LambdaMART</span>
+                            <span class="tech-pill">Gaussian HMM</span>
+                            <span class="tech-pill">LLM Agents</span>
+                            <span class="tech-pill">OFI &amp; Microprice</span>
+                            <span class="tech-pill">Limit Order Book</span>
+                            <span class="tech-pill">pybind11</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- OmniVision: E-Commerce Multi-Modal Platform Card -->
                 <article class="project-featured-card project-vision-engine">
                     <div class="project-img-container">
                         <div class="img-overlay"></div>
-                        <img src="matcher_promo.png" alt="Multi-Modal Vision Matcher & Data Engine" class="project-showcase-img">
+                        <img src="matcher_promo.png" alt="OmniVision: E-Commerce Multi-Modal Platform" class="project-showcase-img">
                     </div>
                     <div class="project-info">
                         <div class="project-badge font-mono" style="color: #6366f1; border-color: rgba(99, 102, 241, 0.4); background: rgba(99, 102, 241, 0.1);"><i class="fas fa-eye"></i> Hugging Face Space &amp; C++ SIMD Vision Core</div>
-                        <h3 class="project-name">Multi-Modal Vision Engine</h3>
+                        <h3 class="project-name">OmniVision: E-Commerce Multi-Modal Platform</h3>
                         <div class="project-meta font-mono">C++17 SIMD &middot; Python &middot; OpenCV &middot; pHash / dHash &middot; SIFT &middot; SSIM &middot; AWS Redshift &middot; 362+ Parsers</div>
                         
                         <div class="project-links">
@@ -296,41 +339,6 @@
                             <span class="tech-pill">Adaptive Concurrency</span>
                             <span class="tech-pill">Circuit Breakers</span>
                             <span class="tech-pill">LLM Gateway</span>
-                        </div>
-                    </div>
-                </article>
-
-                <!-- Quant.ai Card -->
-                <article class="project-featured-card project-quant">
-                    <div class="project-img-container">
-                        <div class="img-overlay"></div>
-                        <img src="quant_promo.png" alt="Quant.ai - Low-Latency Market Replay &amp; AI Platform" class="project-showcase-img">
-                    </div>
-                    <div class="project-info">
-                        <div class="project-badge font-mono" style="color: #ff9d00; border-color: rgba(255, 157, 0, 0.4); background: rgba(255, 157, 0, 0.1);"><i class="fas fa-cubes"></i> Hugging Face Space &amp; Quant AI Platform</div>
-                        <h3 class="project-name">Quant.ai</h3>
-                        <div class="project-meta font-mono">C++17 &middot; Python &middot; LightGBM &middot; LambdaMART &middot; Gaussian HMM &middot; Frontier LLM Agents</div>
-                        
-                        <div class="project-links">
-                            <a href="https://huggingface.co/spaces/Ypeng12/quant-ai" target="_blank" class="proj-btn hf-btn pulse"><i class="fas fa-external-link-alt"></i> 🤗 Hugging Face Live Space</a>
-                            <a href="https://github.com/ypeng12/Quant.ai" target="_blank" class="proj-btn accent-btn"><i class="fab fa-github"></i> GitHub Repo</a>
-                        </div>
-
-                        <p class="project-description">
-                            ML-driven market simulation &amp; decision platform. Built a signal pipeline over high-frequency market &amp; limit-order-book data, engineering Order Flow Imbalance (OFI), microprice, depth imbalance, spread, and volatility features for short-horizon prediction. Trained LightGBM and LambdaMART models for return prediction and cross-sectional ranking, implemented a 3-state Gaussian HMM for market-regime detection, and built an agentic LLM layer to transform unstructured market events into quantitative trading hypotheses.
-                        </p>
-                        
-                        <div class="tech-stack-pills">
-                            <span class="tech-pill hf-pill">🤗 HF Space</span>
-                            <span class="tech-pill">C++17</span>
-                            <span class="tech-pill">Python</span>
-                            <span class="tech-pill">LightGBM</span>
-                            <span class="tech-pill">LambdaMART</span>
-                            <span class="tech-pill">Gaussian HMM</span>
-                            <span class="tech-pill">LLM Agents</span>
-                            <span class="tech-pill">OFI &amp; Microprice</span>
-                            <span class="tech-pill">Limit Order Book</span>
-                            <span class="tech-pill">pybind11</span>
                         </div>
                     </div>
                 </article>
