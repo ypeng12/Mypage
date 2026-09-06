@@ -1061,6 +1061,12 @@ ul {
 }
 
 /* Themed card glow overrides */
+.project-featured-card.project-ecommercial:hover,
+.project-featured-card.project-vision-engine:hover {
+    border-color: rgba(99, 102, 241, 0.5);
+    box-shadow: var(--shadow-md), 0 12px 35px -10px rgba(99, 102, 241, 0.35);
+}
+
 .project-featured-card.project-inferroute:hover {
     border-color: rgba(245, 158, 11, 0.4);
     box-shadow: var(--shadow-md), 0 10px 30px -10px rgba(245, 158, 11, 0.25);
@@ -1746,4 +1752,29 @@ ul {
 
 .more-projects-toggle-btn.expanded .toggle-btn-icon {
     transform: rotate(180deg);
+}
+.project-metric-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+    margin-bottom: 0.9rem;
+}
+
+.metric-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    font-size: 0.72rem;
+    font-weight: 600;
+    padding: 0.2rem 0.6rem;
+    border-radius: var(--radius-sm);
+    background: rgba(99, 102, 241, 0.08);
+    border: 1px solid rgba(99, 102, 241, 0.25);
+    color: #4f46e5;
+}
+
+[data-theme="dark"] .metric-pill {
+    background: rgba(99, 102, 241, 0.15);
+    border-color: rgba(99, 102, 241, 0.35);
+    color: #818cf8;
 }
